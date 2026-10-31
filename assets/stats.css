@@ -1,0 +1,256 @@
+/* 국가 정보 탭 */
+
+.stats-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.stats-head h2 {
+  margin-bottom: 8px;
+}
+
+.stats-updated {
+  margin: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.stats-dept {
+  max-width: 260px;
+  margin-bottom: 14px;
+}
+
+.chip-group + .chip-group {
+  margin-top: 12px;
+}
+
+.chip-group-title {
+  margin: 0 0 6px;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.country-chip {
+  min-height: 34px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+}
+
+.country-chip[aria-pressed="true"] {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: white;
+  font-weight: 700;
+}
+
+.stats-detail-head {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 16px;
+}
+
+.stats-detail-head h2 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.stats-detail-head .muted {
+  margin: 0;
+  font-size: 13px;
+}
+
+.stat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+  gap: 12px;
+}
+
+.stat-card {
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 14px 16px;
+  background: #fafcfd;
+}
+
+.stat-card--wide {
+  grid-column: 1 / -1;
+}
+
+.stat-card h3 {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+.stat-card h3 small {
+  font-weight: 400;
+  margin-left: 6px;
+}
+
+.stat-value {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.3;
+  letter-spacing: -0.5px;
+}
+
+.stat-meta {
+  margin: 6px 0 0;
+  font-size: 12px;
+  line-height: 1.5;
+  color: var(--muted);
+}
+
+.stat-meta a,
+.stats-sources a,
+.stat-note a {
+  color: var(--accent);
+}
+
+.stat-note {
+  margin: 10px 0 0;
+  padding: 8px 10px;
+  border-radius: 6px;
+  background: #fff8e6;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.is-missing {
+  color: #98a4b0;
+}
+
+.trade-block + .trade-block {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px dashed var(--line);
+}
+
+.trade-block h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.trade-block h4 span {
+  margin-left: 6px;
+  font-weight: 400;
+  color: var(--muted);
+}
+
+.trade-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+  margin: 0;
+}
+
+.trade-grid dt {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.trade-grid dd {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.is-surplus {
+  color: #17663a;
+}
+
+.is-deficit {
+  color: #b3261e;
+}
+
+.stats-table-card h2 small {
+  font-size: 13px;
+  font-weight: 400;
+  color: var(--muted);
+  margin-left: 6px;
+}
+
+.table-scroll {
+  overflow-x: auto;
+}
+
+.stats-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.stats-table th,
+.stats-table td {
+  padding: 7px 10px;
+  border-bottom: 1px solid var(--line);
+  text-align: right;
+}
+
+.stats-table th:first-child {
+  text-align: left;
+}
+
+.stats-table thead th {
+  font-size: 12px;
+  color: var(--muted);
+}
+
+.stats-table tr.is-selected {
+  background: #edf4f7;
+}
+
+.link-button {
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.stats-sources ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 13px;
+}
+
+@media (max-width: 600px) {
+  .stat-cards {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stat-value {
+    font-size: 19px;
+  }
+
+  .trade-grid dd {
+    font-size: 15px;
+  }
+
+  .stats-dept {
+    max-width: none;
+  }
+}
+
+@media (max-width: 380px) {
+  .stat-cards {
+    grid-template-columns: 1fr;
+  }
+}

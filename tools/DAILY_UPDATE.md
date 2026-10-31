@@ -3,6 +3,7 @@
 작업 디렉터리: `/workspace/trade-brief` (원격 `main`, GitHub Pages가 `main /`에서 배포). `gh`는 `trade-brief-kr`로 로그인되어 있음.
 
 ## 원칙 (반드시 지킬 것)
+- 조사는 Codex(ChatGPT)가 한다(2단계). 아래 원칙은 러너가 Codex 프롬프트와 후처리로 적용한다.
 - **절대 지어내지 않는다.** 웹 검색으로 실제 기사 페이지를 열어 날짜와 매체를 확인한 내용만 쓴다.
 - 출처(매체)나 게시 날짜를 확인할 수 없는 항목은 **삭제**한다. 기억이나 추측으로 채우지 않는다.
 - 기간: 일반 기사는 **최근 24시간**, 러시아 Kommersant·RBC의 한국 통상 관련 기사는 **48시간**, 경제단체·연구기관 보고서는 **최근 3~4일 내 발간된 PDF**만 쓴다.
@@ -15,16 +16,15 @@
    cd /workspace/trade-brief && git checkout main && git pull --ff-only
    TZ=Asia/Seoul date +%F   # 오늘 날짜(KST) = 보고 날짜
    ```
-2. `tools/research_prompt.md`를 끝까지 읽고 그 기준을 그대로 따른다 (매체 우선순위, 필수 이슈, 소관과·국가 분류, 카테고리 6종, 명사형 종결, 기사 워딩 인용).
-3. 웹 검색으로 조사한다. 항목마다 기사 URL·매체·게시 시각을 확인하고, 기간 밖이거나 확인이 안 되면 버린다. 같은 사안은 하나의 이슈로 통합한다.
-4. `data/report.json`을 새로 쓴다 (형식은 `README.md`의 "report.json 전체 형식").
-   - `date`: 오늘 KST `YYYY-MM-DD`
-   - `generatedAt`: 실제 작성 시각, 예 `2026-11-01T08:05:00+09:00`
-   - `coverage`: 예 `2026-10-31 08:00 ~ 2026-11-01 08:00 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)`
-   - `topIssues` 정확히 5개, 모든 bullet에 `source`, 가능하면 `url`
-   - `departments`: `cis`, `neasia`, `india`, `asean`, `mea` 순서. 이슈가 없는 과는 `issues: []`
-   - `reports`: 조건(3~4일 내 PDF)을 만족하는 것만, 없으면 `[]`
-   - `notes`: 확인 못 한 부분 등 투명성 안내 (선택)
+2. 조사·`data/report.json` 작성 = **ChatGPT(Codex)** 로 수행한다. 에이전트는 직접 웹 조사·기사 작성·report.json 편집을 하지 않는다 (사용자 지시).
+   ```sh
+   bash tools/run_codex_research.sh; echo "rc=$?"
+   ```
+   - 러너가 `tools/research_prompt.md` 원문 + README 스키마 + 위 원칙을 Codex(웹검색)에 넘기고, 결과를 `tools/verify_report.py`로 후처리(게시일 기간·출처 URL curl 재확인, 실패 항목 제거, 검증된 Top Issues 5개 미만이면 중단)한 뒤 통과본만 `data/report.json`에 쓴다. 최대 약 40분.
+   - 종료 코드: `0` 성공 · `2` 환경 오류 · `10` Codex 실패 · `11` 타임아웃 · `12` 결과 없음/JSON 오류 · `13` 검증 실패(날짜, 스키마, Top Issues 5개 미만) · `14` 사전검증 실패.
+   - **0이 아니면 여기서 멈춘다.** `data/report.json`은 변경되지 않은 상태다. 대신 조사해서 채우지 말고, 커밋·푸시 없이 실패 단계·종료 코드·사유(로그 `/tmp/trade-brief-runs/codex-run-*/`의 `codex.log`, `verify-log.json`)를 보고한다. `10`·`11`이면 1회까지 재실행 가능.
+3. (참고) 드라이런: `bash tools/run_codex_research.sh --out /workspace/trade-brief-dryrun/report.json` (data/ 변경 없음)
+4. 보고 시 `verify-log.json`의 `unverifiable`(유료·봇 차단으로 접속 확인 불가 링크 수)도 함께 적는다.
 5. 검증·게시 (한 번에 처리, 같은 날 재실행 시 그 날짜를 덮어씀)
    ```sh
    python3 tools/publish_daily.py

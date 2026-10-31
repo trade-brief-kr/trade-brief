@@ -1,2 +1,8 @@
 preview*.png
 __pycache__/
+*.tmp
+*.rejected.json
+data/customs-kr.json
+.env
+*.key
+codex-run-*/

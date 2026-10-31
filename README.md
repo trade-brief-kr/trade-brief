@@ -14,7 +14,11 @@
 - `tools/publish_daily.py`: 일일 게시 명령. 검증 → `data/archive/<날짜>.json/.js` 저장 → `data/archive/index.json/.js` 재생성 → `data/report.js` 재생성
 - `data/archive/`: 날짜별 보고서 보관함. `index.json`은 최신순 `{date, topIssueHeadline, keywords}` 목록
 - `tools/DAILY_UPDATE.md`: 매일 08:00 KST 예약 실행 절차
+- `tools/run_codex_research.sh`: ChatGPT(Codex CLI, 웹검색)로 오늘자 `data/report.json`을 작성하는 조사 러너 (게시 안 함, 종료 코드 0일 때만 `publish_daily.py` 진행)
+- `tools/verify_report.py`: 러너 후처리. 게시일 기간·출처 URL(curl) 재확인, 실패 항목 제거, 검증된 Top Issues 5개 미만이면 중단
 - `tools/research_prompt.md`: 사용자 조사 프롬프트 원문 (수정 금지)
+- `tools/fetch_customs.ps1`: 국내 Windows PC용 관세청 수집 스크립트(파이썬 불필요) → `data/customs-kr.json`
+- `tools/merge_customs.py`: `customs-kr.json`을 `data/country-stats.json/js`에 병합
 
 ## 로컬에서 열기
 
@@ -122,3 +126,59 @@ GitHub Actions 예약 실행을 사용한다면 cron `0 23 * * *` UTC가 다음 
 ## 국가 정보 계획
 
 현재는 GDP, 1인당 GDP, 인플레이션, 금리, 한국과의 교역현황 항목과 `—`만 표시합니다. 수치나 가상 통계는 제공하지 않습니다. 향후 World Bank/IMF 공개 API를 통한 경제 지표, K-stat/관세청을 통한 한국과의 교역현황 연계를 검토합니다. K-stat/관세청 연계에는 계정이 필요하며 아직 구현하지 않았습니다.
+
+## 국가 정보 탭 (통계)
+
+`국가 정보` 탭은 `data/country-stats.json`(파일 직접 열기 시 `data/country-stats.js`)을 읽어 담당국 54개국의 지표 5개를 표시합니다. 값마다 기준연도·기준일과 출처 링크를 붙이고, 출처에 값이 없으면 추정하지 않고 `—`와 `데이터 없음(출처 링크)`로 표시합니다. 바로가기 링크: `index.html?tab=country&country=SA` (ISO 2자리 코드).
+
+| 지표 | 출처 | 비고 |
+| --- | --- | --- |
+| GDP, 1인당 GDP, 인플레이션 | World Bank API (`NY.GDP.MKTP.CD`, `NY.GDP.PCAP.CD`, `FP.CPI.TOTL.ZG`), CC BY 4.0 | 연간, 최신 유효 연도. 대만은 미수록 |
+| 정책금리 | BIS `WS_CBPOL` 일별 정책금리 | BIS 미수록국은 각국 중앙은행 링크 |
+| 한국과의 교역 | 1순위 관세청 국가별 수출입실적(GW), 대체 UN Comtrade 무료 미리보기 API(한국 보고 기준) | Comtrade는 공개 시차가 커서 최근 월이 수개월 전일 수 있음. 대만은 Comtrade `Other Asia, nes`(490) 값 |
+
+### 갱신
+
+```sh
+python3 tools/fetch_country_stats.py                 # 전체 (약 30~60초)
+python3 tools/fetch_country_stats.py --skip-customs  # 관세청 제외
+python3 tools/fetch_country_stats.py --only-customs  # 관세청 값만 갱신, 나머지는 기존 파일 유지
+```
+
+- 표준 라이브러리만 사용합니다. 출처 호출이 실패한 항목은 직전 파일의 값(원래 기준시점 포함)을 유지합니다.
+- 관세청 인증키는 환경변수 `DATA_GO_KR_SERVICE_KEY`로만 전달합니다. 스크립트는 키를 출력·로그·파일에 남기지 않습니다. 키를 파일이나 저장소에 커밋하지 마세요.
+- 지표는 월·연 단위로 바뀌므로 매일 1회 실행이면 충분합니다.
+
+### 관세청 API 접속 제한 → 국내 PC에서 수집 후 박스에서 병합
+
+`apis.data.go.kr`은 해외 네트워크에서 TLS 연결이 끊겨 수집되지 않습니다(박스 egress가 미국 IP). 관세청 값은 국내 Windows PC에서 **파이썬 없이** PowerShell 스크립트로 수집합니다.
+
+**1) PC에서 실행 (Windows PowerShell 5.1 이상, 추가 설치 없음)**
+
+1. `tools\fetch_customs.ps1` 파일을 PC의 아무 폴더(예: `바탕화면\trade-brief`)에 둡니다.
+2. 시작 메뉴에서 **PowerShell**을 열고 그 폴더로 이동합니다. 예: `cd $HOME\Desktop\trade-brief`
+3. 다음을 실행합니다.
+
+   ```powershell
+   powershell -ExecutionPolicy Bypass -File .\fetch_customs.ps1
+   ```
+
+4. `인증키:` 프롬프트에 공공데이터포털 **일반 인증키**(Encoding/Decoding 어느 쪽이든 가능)를 붙여넣고 Enter. 입력값은 화면에 표시되지 않습니다. 아무것도 입력하지 않고 Enter 를 누르면 환경변수 `DATA_GO_KR_SERVICE_KEY`를 사용합니다.
+5. 첫 호출 직후 `인증키 확인: 정상` 또는 실패 사유(미등록 키, 승인 미반영, 호출 한도 초과, 네트워크 차단 등)가 한국어로 표시됩니다. 인증키 오류면 바로 중단하고 파일을 만들지 않습니다. 발급 직후 키는 반영까지 1~2시간 걸릴 수 있습니다.
+6. 54개국 × 2회(전년 1~12월, 올해 1월~이번 달) 호출 후 `data\customs-kr.json`(스크립트가 저장소의 `tools` 폴더에 있으면 `..\data\customs-kr.json`)이 생깁니다. 약 1~2분. 이 파일 하나만 박스로 전달합니다. 인증키는 파일·로그·화면에 남지 않습니다.
+
+`customs-kr.json` 형식(`schema: customs-kr/1`, UTF-8 BOM 없음, 단위 USD): 국가별 `monthly`(최근 월), `last12`(최근 연속 12개월 합계, `YYYY-MM~YYYY-MM`), `annual`(전년 1~12월 합계, 12개월이 모두 있을 때만), `months`(조회된 월별 값), 그리고 `generatedAt`, `latestPeriod`, `errors`(국가별 실패 사유).
+
+**2) 박스에서 병합**
+
+```sh
+python3 tools/merge_customs.py --customs-file data/customs-kr.json            # country-stats.json/js 갱신
+python3 tools/merge_customs.py --customs-file data/customs-kr.json --dry-run  # 검증만
+python3 tools/fetch_country_stats.py --customs-file data/customs-kr.json      # 전체 수집 + 같은 병합
+```
+
+- 국가별 `trade.customs`에 관세청 값과 출처(`관세청 수출입무역통계`), 기준월(`monthly.period`, `last12.period`, `annual.period`), PC 수집 시각(`fetchedAt`)을 기록합니다. 화면은 관세청 값을 UN Comtrade보다 먼저 표시하고, Comtrade 값은 지우지 않고 빈 칸 대체용으로만 씁니다.
+- 파일에 없거나 수집에 실패한 국가는 기존 값을 유지합니다. 인증키로 보이는 필드나 형식 오류가 있으면 병합을 거부합니다.
+- 이후 박스에서 키 없이 `fetch_country_stats.py`를 돌려도 PC 파일로 반영한 관세청 상태와 값은 유지됩니다. 관세청 값은 PC에서 다시 수집해야 갱신됩니다(월 1회 정도면 충분).
+
+파이썬이 있는 국내 PC라면 기존 방식(`set DATA_GO_KR_SERVICE_KEY=...` 후 `python tools\fetch_country_stats.py --only-customs`)도 그대로 쓸 수 있습니다.

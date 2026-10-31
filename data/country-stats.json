@@ -1,0 +1,3105 @@
+{
+  "generatedAt": "2026-10-31T13:38:24+09:00",
+  "departments": [
+    {
+      "id": "cis",
+      "name": "통상협력총괄과"
+    },
+    {
+      "id": "neasia",
+      "name": "동북아통상과"
+    },
+    {
+      "id": "india",
+      "name": "인도통상협력과"
+    },
+    {
+      "id": "asean",
+      "name": "아주통상과"
+    },
+    {
+      "id": "mea",
+      "name": "중동아프리카통상과"
+    }
+  ],
+  "status": {
+    "worldBank": {
+      "status": "ok",
+      "failures": 0
+    },
+    "bis": {
+      "status": "ok",
+      "countries": 48
+    },
+    "comtrade": {
+      "status": "ok",
+      "annual": "2025",
+      "monthly": "2025-12"
+    },
+    "customs": {
+      "status": "unreachable",
+      "message": "apis.data.go.kr 연결 실패(URLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029))",
+      "checkedAt": "2026-10-31T13:38:24+09:00"
+    }
+  },
+  "sources": {
+    "worldBank": {
+      "name": "World Bank Open Data",
+      "license": "CC BY 4.0",
+      "url": "https://data.worldbank.org/"
+    },
+    "bis": {
+      "name": "BIS Central bank policy rates",
+      "url": "https://data.bis.org/topics/CBPOL",
+      "terms": "https://www.bis.org/terms_conditions.htm"
+    },
+    "customs": {
+      "name": "관세청 국가별 수출입실적(GW)",
+      "url": "https://www.data.go.kr/data/15101612/openapi.do",
+      "license": "이용허락범위 제한 없음"
+    },
+    "comtrade": {
+      "name": "UN Comtrade Database",
+      "url": "https://comtradeplus.un.org/",
+      "terms": "https://uncomtrade.org/docs/terms-and-conditions/"
+    }
+  },
+  "countries": [
+    {
+      "id": "RU",
+      "iso3": "RUS",
+      "name": "러시아",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "러시아 중앙은행",
+        "url": "https://www.cbr.ru/eng/"
+      },
+      "gdp": {
+        "value": 2561310169358.74,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=RU"
+      },
+      "gdpPerCapita": {
+        "value": 17546.609375,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=RU"
+      },
+      "inflation": {
+        "value": 8.71986939402666,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=RU"
+      },
+      "policyRate": {
+        "value": 14.0,
+        "date": "2026-10-27",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 4041357580.0,
+            "imports": 6895668457.0,
+            "balance": -2854310877.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 299959878.0,
+            "imports": 556688389.0,
+            "balance": -256728511.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "UA",
+      "iso3": "UKR",
+      "name": "우크라이나",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "우크라이나 국립은행",
+        "url": "https://bank.gov.ua/en/"
+      },
+      "gdp": {
+        "value": 214233312784.397,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=UA"
+      },
+      "gdpPerCapita": {
+        "value": 5865.884765625,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UA"
+      },
+      "inflation": {
+        "value": 12.7303341026902,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UA"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 520594344.0,
+            "imports": 287301762.0,
+            "balance": 233292582.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 51046924.0,
+            "imports": 37350924.0,
+            "balance": 13696000.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "KZ",
+      "iso3": "KAZ",
+      "name": "카자흐스탄",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "카자흐스탄 국립은행",
+        "url": "https://nationalbank.kz/en"
+      },
+      "gdp": {
+        "value": 306239209650.024,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=KZ"
+      },
+      "gdpPerCapita": {
+        "value": 14692.1331757237,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=KZ"
+      },
+      "inflation": {
+        "value": 11.3789456104214,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KZ"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 2991502053.0,
+            "imports": 1365220962.0,
+            "balance": 1626281091.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 163857400.0,
+            "imports": 230182277.0,
+            "balance": -66324877.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "TM",
+      "iso3": "TKM",
+      "name": "투르크메니스탄",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "투르크메니스탄 중앙은행",
+        "url": "https://www.cbt.tm/"
+      },
+      "gdp": {
+        "value": 49828621355.6516,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=TM"
+      },
+      "gdpPerCapita": {
+        "value": 6540.17876401136,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=TM"
+      },
+      "inflation": {
+        "value": null,
+        "source": "World Bank",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TM",
+        "note": "World Bank 미수록"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 45198725.0,
+            "imports": 33850.0,
+            "balance": 45164875.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 1168023.0,
+            "imports": 27521.0,
+            "balance": 1140502.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "UZ",
+      "iso3": "UZB",
+      "name": "우즈베키스탄",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "우즈베키스탄 중앙은행",
+        "url": "https://cbu.uz/en/"
+      },
+      "gdp": {
+        "value": 147038081129.405,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=UZ"
+      },
+      "gdpPerCapita": {
+        "value": 3968.2720079072,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=UZ"
+      },
+      "inflation": {
+        "value": 8.79630890491107,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=UZ"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 1786877218.0,
+            "imports": 22196236.0,
+            "balance": 1764680982.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 195680649.0,
+            "imports": 2710169.0,
+            "balance": 192970480.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "AZ",
+      "iso3": "AZE",
+      "name": "아제르바이잔",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "아제르바이잔 중앙은행",
+        "url": "https://www.cbar.az/"
+      },
+      "gdp": {
+        "value": 75937647058.8235,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=AZ"
+      },
+      "gdpPerCapita": {
+        "value": 7410.72281660142,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=AZ"
+      },
+      "inflation": {
+        "value": 5.62208788068338,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AZ"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 145361035.0,
+            "imports": 5377385.0,
+            "balance": 139983650.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 11001110.0,
+            "imports": 1760782.0,
+            "balance": 9240328.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "AM",
+      "iso3": "ARM",
+      "name": "아르메니아",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "아르메니아 중앙은행",
+        "url": "https://www.cba.am/en"
+      },
+      "gdp": {
+        "value": 29243452882.3545,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=AM"
+      },
+      "gdpPerCapita": {
+        "value": 9474.01849300368,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=AM"
+      },
+      "inflation": {
+        "value": 3.30693341072903,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AM"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 30395297.0,
+            "imports": 61012362.0,
+            "balance": -30617065.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 3569689.0,
+            "imports": 6473844.0,
+            "balance": -2904155.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "MN",
+      "iso3": "MNG",
+      "name": "몽골",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "몽골 중앙은행",
+        "url": "https://www.mongolbank.mn/en"
+      },
+      "gdp": {
+        "value": 25369107325.4549,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MN"
+      },
+      "gdpPerCapita": {
+        "value": 7108.22743246244,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=MN"
+      },
+      "inflation": {
+        "value": 8.60536487369694,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MN"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 660462196.0,
+            "imports": 32420826.0,
+            "balance": 628041370.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 41498388.0,
+            "imports": 3135726.0,
+            "balance": 38362662.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "KG",
+      "iso3": "KGZ",
+      "name": "키르기스스탄",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "키르기스스탄 국립은행",
+        "url": "https://www.nbkr.kg/"
+      },
+      "gdp": {
+        "value": 22623752095.4613,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=KG"
+      },
+      "gdpPerCapita": {
+        "value": 3080.96893823359,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=KG"
+      },
+      "inflation": {
+        "value": 8.21496013406325,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KG"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 3476727310.0,
+            "imports": 3219800.0,
+            "balance": 3473507510.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 164194980.0,
+            "imports": 241838.0,
+            "balance": 163953142.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "TJ",
+      "iso3": "TJK",
+      "name": "타지키스탄",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "타지키스탄 국립은행",
+        "url": "https://nbt.tj/en/"
+      },
+      "gdp": {
+        "value": 17660626562.4832,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=TJ"
+      },
+      "gdpPerCapita": {
+        "value": 1637.2542942547,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=TJ"
+      },
+      "inflation": {
+        "value": 3.38875846243549,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TJ"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 353637897.0,
+            "imports": 84002.0,
+            "balance": 353553895.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 24681316.0,
+            "imports": 2835.0,
+            "balance": 24678481.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "GE",
+      "iso3": "GEO",
+      "name": "조지아",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "조지아 국립은행",
+        "url": "https://nbg.gov.ge/en"
+      },
+      "gdp": {
+        "value": 38143612855.1367,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=GE"
+      },
+      "gdpPerCapita": {
+        "value": 9691.53472415196,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=GE"
+      },
+      "inflation": {
+        "value": 3.86921321939689,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=GE"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 133394869.0,
+            "imports": 12425806.0,
+            "balance": 120969063.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 12605962.0,
+            "imports": 1110305.0,
+            "balance": 11495657.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "MD",
+      "iso3": "MDA",
+      "name": "몰도바",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "몰도바 국립은행",
+        "url": "https://www.bnm.md/en"
+      },
+      "gdp": {
+        "value": 20351796275.2943,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MD"
+      },
+      "gdpPerCapita": {
+        "value": 8621.71721623786,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=MD"
+      },
+      "inflation": {
+        "value": 7.75904124001158,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MD"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 67767688.0,
+            "imports": 50811021.0,
+            "balance": 16956667.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 4404892.0,
+            "imports": 4263689.0,
+            "balance": 141203.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "BY",
+      "iso3": "BLR",
+      "name": "벨라루스",
+      "dept": "cis",
+      "group": "",
+      "centralBank": {
+        "name": "벨라루스 국립은행",
+        "url": "https://www.nbrb.by/engl"
+      },
+      "gdp": {
+        "value": 93397215864.198,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=BY"
+      },
+      "gdpPerCapita": {
+        "value": 10279.2547190723,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=BY"
+      },
+      "inflation": {
+        "value": 6.59877945951182,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BY"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 70845978.0,
+            "imports": 24692917.0,
+            "balance": 46153061.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 6237234.0,
+            "imports": 1552115.0,
+            "balance": 4685119.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "CN",
+      "iso3": "CHN",
+      "name": "중국",
+      "dept": "neasia",
+      "group": "",
+      "centralBank": {
+        "name": "중국인민은행",
+        "url": "http://www.pbc.gov.cn/en/"
+      },
+      "gdp": {
+        "value": 19498039388042.6,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=CN"
+      },
+      "gdpPerCapita": {
+        "value": 13861.970224368,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=CN"
+      },
+      "inflation": {
+        "value": 0.0595646916565402,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=CN"
+      },
+      "policyRate": {
+        "value": 3.0,
+        "date": "2026-10-19",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 130646977538.0,
+            "imports": 141887335178.0,
+            "balance": -11240357640.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 12950412987.0,
+            "imports": 13718857284.0,
+            "balance": -768444297.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "JP",
+      "iso3": "JPN",
+      "name": "일본",
+      "dept": "neasia",
+      "group": "",
+      "centralBank": {
+        "name": "일본은행",
+        "url": "https://www.boj.or.jp/en/"
+      },
+      "gdp": {
+        "value": 4435162999976.94,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=JP"
+      },
+      "gdpPerCapita": {
+        "value": 35951.0449549304,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=JP"
+      },
+      "inflation": {
+        "value": 3.17253034260247,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JP"
+      },
+      "policyRate": {
+        "value": 1.25,
+        "date": "2026-10-27",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 28292821900.0,
+            "imports": 48820176533.0,
+            "balance": -20527354633.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 2456401705.0,
+            "imports": 4648837453.0,
+            "balance": -2192435748.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "HK",
+      "iso3": "HKG",
+      "name": "홍콩",
+      "dept": "neasia",
+      "group": "",
+      "centralBank": {
+        "name": "홍콩금융관리국",
+        "url": "https://www.hkma.gov.hk/eng/"
+      },
+      "gdp": {
+        "value": 427310315921.993,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=HK"
+      },
+      "gdpPerCapita": {
+        "value": 56983.0663059906,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=HK"
+      },
+      "inflation": {
+        "value": 1.43633540372673,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=HK"
+      },
+      "policyRate": {
+        "value": 4.25,
+        "date": "2026-10-21",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 34812619625.0,
+            "imports": 4021592156.0,
+            "balance": 30791027469.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 4616824722.0,
+            "imports": 343321261.0,
+            "balance": 4273503461.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "TW",
+      "iso3": "TWN",
+      "name": "대만",
+      "dept": "neasia",
+      "group": "",
+      "centralBank": {
+        "name": "대만 중앙은행",
+        "url": "https://www.cbc.gov.tw/en/"
+      },
+      "gdp": {
+        "value": null,
+        "source": "World Bank",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=TW",
+        "note": "World Bank 미수록"
+      },
+      "gdpPerCapita": {
+        "value": null,
+        "source": "World Bank",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=TW",
+        "note": "World Bank 미수록"
+      },
+      "inflation": {
+        "value": null,
+        "source": "World Bank",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TW",
+        "note": "World Bank 미수록"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 49068855376.0,
+            "imports": 32324435698.0,
+            "balance": 16744419678.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 5131129645.0,
+            "imports": 2874432697.0,
+            "balance": 2256696948.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/",
+          "note": "UN Comtrade 'Other Asia, nes'(코드 490) 기준. 대만으로 집계되는 항목"
+        }
+      }
+    },
+    {
+      "id": "IN",
+      "iso3": "IND",
+      "name": "인도",
+      "dept": "india",
+      "group": "",
+      "centralBank": {
+        "name": "인도 중앙은행(RBI)",
+        "url": "https://www.rbi.org.in/"
+      },
+      "gdp": {
+        "value": 3956067115771.63,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IN"
+      },
+      "gdpPerCapita": {
+        "value": 2702.47987141553,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IN"
+      },
+      "inflation": {
+        "value": 2.39884954182294,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IN"
+      },
+      "policyRate": {
+        "value": 5.5,
+        "date": "2026-10-19",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 19213200316.0,
+            "imports": 6421528388.0,
+            "balance": 12791671928.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 1718369957.0,
+            "imports": 518728014.0,
+            "balance": 1199641943.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "PK",
+      "iso3": "PAK",
+      "name": "파키스탄",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "파키스탄 중앙은행",
+        "url": "https://www.sbp.org.pk/"
+      },
+      "gdp": {
+        "value": 407307214476.222,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=PK"
+      },
+      "gdpPerCapita": {
+        "value": 1595.90912252837,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=PK"
+      },
+      "inflation": {
+        "value": 3.54555214890892,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PK"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 1317273927.0,
+            "imports": 255038187.0,
+            "balance": 1062235740.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 106618035.0,
+            "imports": 29299996.0,
+            "balance": 77318039.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "BD",
+      "iso3": "BGD",
+      "name": "방글라데시",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "방글라데시 중앙은행",
+        "url": "https://www.bb.org.bd/en/"
+      },
+      "gdp": {
+        "value": 456319229255.578,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=BD"
+      },
+      "gdpPerCapita": {
+        "value": 2597.34352335275,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=BD"
+      },
+      "inflation": {
+        "value": 8.7687628116114,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BD"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 1758021778.0,
+            "imports": 613232508.0,
+            "balance": 1144789270.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 158302529.0,
+            "imports": 49802838.0,
+            "balance": 108499691.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "LK",
+      "iso3": "LKA",
+      "name": "스리랑카",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "스리랑카 중앙은행",
+        "url": "https://www.cbsl.gov.lk/en"
+      },
+      "gdp": {
+        "value": 108825231671.196,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=LK"
+      },
+      "gdpPerCapita": {
+        "value": 5002.07904353724,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=LK"
+      },
+      "inflation": {
+        "value": -4.76386036960982,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LK"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 233989409.0,
+            "imports": 109355567.0,
+            "balance": 124633842.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 15485578.0,
+            "imports": 9003846.0,
+            "balance": 6481732.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "NP",
+      "iso3": "NPL",
+      "name": "네팔",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "네팔 중앙은행",
+        "url": "https://www.nrb.org.np/"
+      },
+      "gdp": {
+        "value": 45489810283.1132,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=NP"
+      },
+      "gdpPerCapita": {
+        "value": 1535.87781246307,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=NP"
+      },
+      "inflation": {
+        "value": 2.65334269811436,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NP"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 32530193.0,
+            "imports": 7384064.0,
+            "balance": 25146129.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 2839222.0,
+            "imports": 736904.0,
+            "balance": 2102318.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "BT",
+      "iso3": "BTN",
+      "name": "부탄",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "부탄 왕립통화청",
+        "url": "https://www.rma.org.bt/"
+      },
+      "gdp": {
+        "value": 3579320145.13077,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=BT"
+      },
+      "gdpPerCapita": {
+        "value": 4492.78400306618,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=BT"
+      },
+      "inflation": {
+        "value": 3.55513663074987,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BT"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 7579772.0,
+            "imports": 10511491.0,
+            "balance": -2931719.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 842934.0,
+            "imports": 614194.0,
+            "balance": 228740.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "MV",
+      "iso3": "MDV",
+      "name": "몰디브",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "몰디브 통화청",
+        "url": "https://www.mma.gov.mv/"
+      },
+      "gdp": {
+        "value": 7741066860.6337,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MV"
+      },
+      "gdpPerCapita": {
+        "value": 14614.7208116541,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=MV"
+      },
+      "inflation": {
+        "value": 4.00578494118751,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MV"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 9690977.0,
+            "imports": 35634.0,
+            "balance": 9655343.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 829298.0,
+            "imports": 311.0,
+            "balance": 828987.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "AF",
+      "iso3": "AFG",
+      "name": "아프가니스탄",
+      "dept": "india",
+      "group": "서남아",
+      "centralBank": {
+        "name": "아프가니스탄 중앙은행",
+        "url": "https://dab.gov.af/"
+      },
+      "gdp": {
+        "value": 17778508875.7396,
+        "year": "2024",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=AF"
+      },
+      "gdpPerCapita": {
+        "value": 416.871146273728,
+        "year": "2024",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=AF"
+      },
+      "inflation": {
+        "value": -6.60118564073725,
+        "year": "2024",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AF"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 42635848.0,
+            "imports": 1415210.0,
+            "balance": 41220638.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 3261479.0,
+            "imports": 268045.0,
+            "balance": 2993434.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "PH",
+      "iso3": "PHL",
+      "name": "필리핀",
+      "dept": "asean",
+      "group": "",
+      "centralBank": {
+        "name": "필리핀 중앙은행",
+        "url": "https://www.bsp.gov.ph/"
+      },
+      "gdp": {
+        "value": 487086123720.417,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=PH"
+      },
+      "gdpPerCapita": {
+        "value": 4170.72347271451,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=PH"
+      },
+      "inflation": {
+        "value": 1.6587364525509,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=PH"
+      },
+      "policyRate": {
+        "value": 5.5,
+        "date": "2026-10-23",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 11616343765.0,
+            "imports": 3500718734.0,
+            "balance": 8115625031.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 1203925892.0,
+            "imports": 306933036.0,
+            "balance": 896992856.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "SG",
+      "iso3": "SGP",
+      "name": "싱가포르",
+      "dept": "asean",
+      "group": "",
+      "centralBank": {
+        "name": "싱가포르 통화청(MAS)",
+        "url": "https://www.mas.gov.sg/"
+      },
+      "gdp": {
+        "value": 603869516998.738,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SG"
+      },
+      "gdpPerCapita": {
+        "value": 98813.9788172877,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SG"
+      },
+      "inflation": {
+        "value": 0.902998495002676,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SG"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 19552198723.0,
+            "imports": 11374807810.0,
+            "balance": 8177390913.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 2069183232.0,
+            "imports": 1036217155.0,
+            "balance": 1032966077.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "ID",
+      "iso3": "IDN",
+      "name": "인도네시아",
+      "dept": "asean",
+      "group": "",
+      "centralBank": {
+        "name": "인도네시아 중앙은행",
+        "url": "https://www.bi.go.id/en/"
+      },
+      "gdp": {
+        "value": 1445642584163.81,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=ID"
+      },
+      "gdpPerCapita": {
+        "value": 5059.62596411213,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=ID"
+      },
+      "inflation": {
+        "value": 1.91333443295079,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ID"
+      },
+      "policyRate": {
+        "value": 5.75,
+        "date": "2026-10-19",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 6993527648.0,
+            "imports": 11303929643.0,
+            "balance": -4310401995.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 586364355.0,
+            "imports": 1191101548.0,
+            "balance": -604737193.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "MY",
+      "iso3": "MYS",
+      "name": "말레이시아",
+      "dept": "asean",
+      "group": "",
+      "centralBank": {
+        "name": "말레이시아 중앙은행",
+        "url": "https://www.bnm.gov.my/"
+      },
+      "gdp": {
+        "value": 472193128644.597,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MY"
+      },
+      "gdpPerCapita": {
+        "value": 13124.5554178269,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=MY"
+      },
+      "inflation": {
+        "value": 1.38060872293691,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MY"
+      },
+      "policyRate": {
+        "value": 2.75,
+        "date": "2026-10-26",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 12362646751.0,
+            "imports": 15512722381.0,
+            "balance": -3150075630.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 1405984503.0,
+            "imports": 1531142499.0,
+            "balance": -125157996.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "VN",
+      "iso3": "VNM",
+      "name": "베트남",
+      "dept": "asean",
+      "group": "",
+      "centralBank": {
+        "name": "베트남 국가은행",
+        "url": "https://www.sbv.gov.vn/"
+      },
+      "gdp": {
+        "value": 514697215165.065,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=VN"
+      },
+      "gdpPerCapita": {
+        "value": 5065.99091899299,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=VN"
+      },
+      "inflation": {
+        "value": 3.30999314219739,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=VN"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 62773670778.0,
+            "imports": 31774234906.0,
+            "balance": 30999435872.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 6281426363.0,
+            "imports": 2948980420.0,
+            "balance": 3332445943.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "LA",
+      "iso3": "LAO",
+      "name": "라오스",
+      "dept": "asean",
+      "group": "",
+      "centralBank": {
+        "name": "라오스 중앙은행",
+        "url": "https://www.bol.gov.la/"
+      },
+      "gdp": {
+        "value": 18302970218.5902,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=LA"
+      },
+      "gdpPerCapita": {
+        "value": 2324.76353098791,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=LA"
+      },
+      "inflation": {
+        "value": 7.74226936553694,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=LA"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 127149297.0,
+            "imports": 95386320.0,
+            "balance": 31762977.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 7340996.0,
+            "imports": 7124011.0,
+            "balance": 216985.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "TH",
+      "iso3": "THA",
+      "name": "태국",
+      "dept": "asean",
+      "group": "기타 아세안",
+      "centralBank": {
+        "name": "태국 중앙은행",
+        "url": "https://www.bot.or.th/en/"
+      },
+      "gdp": {
+        "value": 577009981112.015,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=TH"
+      },
+      "gdpPerCapita": {
+        "value": 8056.56359761558,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=TH"
+      },
+      "inflation": {
+        "value": -0.133634356480206,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TH"
+      },
+      "policyRate": {
+        "value": 1.0,
+        "date": "2026-10-21",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 8006612259.0,
+            "imports": 6969186388.0,
+            "balance": 1037425871.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 674844616.0,
+            "imports": 549419667.0,
+            "balance": 125424949.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "KH",
+      "iso3": "KHM",
+      "name": "캄보디아",
+      "dept": "asean",
+      "group": "기타 아세안",
+      "centralBank": {
+        "name": "캄보디아 국립은행",
+        "url": "https://www.nbc.gov.kh/"
+      },
+      "gdp": {
+        "value": 51267065842.9641,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=KH"
+      },
+      "gdpPerCapita": {
+        "value": 2872.42926639909,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=KH"
+      },
+      "inflation": {
+        "value": 2.35127105896507,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KH"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 678905796.0,
+            "imports": 518740341.0,
+            "balance": 160165455.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 59905846.0,
+            "imports": 52712907.0,
+            "balance": 7192939.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "MM",
+      "iso3": "MMR",
+      "name": "미얀마",
+      "dept": "asean",
+      "group": "기타 아세안",
+      "centralBank": {
+        "name": "미얀마 중앙은행",
+        "url": "https://www.cbm.gov.mm/"
+      },
+      "gdp": {
+        "value": 81665773809.5238,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MM"
+      },
+      "gdpPerCapita": {
+        "value": 1488.87527836542,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=MM"
+      },
+      "inflation": {
+        "value": 8.82506696804558,
+        "year": "2019",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MM"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 307514817.0,
+            "imports": 576682941.0,
+            "balance": -269168124.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 30610908.0,
+            "imports": 37613444.0,
+            "balance": -7002536.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "BN",
+      "iso3": "BRN",
+      "name": "브루나이",
+      "dept": "asean",
+      "group": "기타 아세안",
+      "centralBank": {
+        "name": "브루나이 중앙은행",
+        "url": "https://www.bdcb.gov.bn/"
+      },
+      "gdp": {
+        "value": 15031980994.1121,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=BN"
+      },
+      "gdpPerCapita": {
+        "value": 32234.6428368582,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=BN"
+      },
+      "inflation": {
+        "value": -0.302994414446814,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BN"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 59640770.0,
+            "imports": 556537415.0,
+            "balance": -496896645.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 2580102.0,
+            "imports": 57356725.0,
+            "balance": -54776623.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "TL",
+      "iso3": "TLS",
+      "name": "동티모르",
+      "dept": "asean",
+      "group": "기타 아세안",
+      "centralBank": {
+        "name": "동티모르 중앙은행",
+        "url": "https://www.bancocentral.tl/"
+      },
+      "gdp": {
+        "value": 1902180257.82737,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=TL"
+      },
+      "gdpPerCapita": {
+        "value": 1340.9640193437,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=TL"
+      },
+      "inflation": {
+        "value": 0.428322848346937,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TL"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 3603535.0,
+            "imports": 327560.0,
+            "balance": 3275975.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 266800.0,
+            "imports": 117619.0,
+            "balance": 149181.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "AE",
+      "iso3": "ARE",
+      "name": "UAE",
+      "dept": "mea",
+      "group": "",
+      "centralBank": {
+        "name": "UAE 중앙은행",
+        "url": "https://www.centralbank.ae/en/"
+      },
+      "gdp": {
+        "value": 552324919095.872,
+        "year": "2024",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=AE"
+      },
+      "gdpPerCapita": {
+        "value": 50273.5126243239,
+        "year": "2024",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=AE"
+      },
+      "inflation": {
+        "value": 1.250865245598,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=AE"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 5660523239.0,
+            "imports": 14116578365.0,
+            "balance": -8456055126.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 639531900.0,
+            "imports": 649530772.0,
+            "balance": -9998872.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "KW",
+      "iso3": "KWT",
+      "name": "쿠웨이트",
+      "dept": "mea",
+      "group": "",
+      "centralBank": {
+        "name": "쿠웨이트 중앙은행",
+        "url": "https://www.cbk.gov.kw/en"
+      },
+      "gdp": {
+        "value": 157209026926.418,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=KW"
+      },
+      "gdpPerCapita": {
+        "value": 32312.3119953634,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=KW"
+      },
+      "inflation": {
+        "value": 2.36195936682045,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KW"
+      },
+      "policyRate": {
+        "value": 3.5,
+        "date": "2026-10-27",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 660716428.0,
+            "imports": 7924069784.0,
+            "balance": -7263353356.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 126664824.0,
+            "imports": 794390425.0,
+            "balance": -667725601.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "EG",
+      "iso3": "EGY",
+      "name": "이집트",
+      "dept": "mea",
+      "group": "",
+      "centralBank": {
+        "name": "이집트 중앙은행",
+        "url": "https://www.cbe.org.eg/en"
+      },
+      "gdp": {
+        "value": 365254630179.737,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=EG"
+      },
+      "gdpPerCapita": {
+        "value": 3085.80712036204,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=EG"
+      },
+      "inflation": {
+        "value": 14.0735136645933,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=EG"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 1668147268.0,
+            "imports": 71688429.0,
+            "balance": 1596458839.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 125314529.0,
+            "imports": 5365472.0,
+            "balance": 119949057.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "SA",
+      "iso3": "SAU",
+      "name": "사우디",
+      "dept": "mea",
+      "group": "",
+      "centralBank": {
+        "name": "사우디 중앙은행(SAMA)",
+        "url": "https://www.sama.gov.sa/en-US/"
+      },
+      "gdp": {
+        "value": 1276942933333.33,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=SA"
+      },
+      "gdpPerCapita": {
+        "value": 34536.6555456551,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=SA"
+      },
+      "inflation": {
+        "value": 2.03559944812264,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=SA"
+      },
+      "policyRate": {
+        "value": 4.5,
+        "date": "2026-10-13",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 4856346241.0,
+            "imports": 27431751145.0,
+            "balance": -22575404904.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 617127913.0,
+            "imports": 1915633725.0,
+            "balance": -1298505812.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "IR",
+      "iso3": "IRN",
+      "name": "이란",
+      "dept": "mea",
+      "group": "",
+      "centralBank": {
+        "name": "이란 중앙은행",
+        "url": "https://www.cbi.ir/default_en.aspx"
+      },
+      "gdp": {
+        "value": 362682115433.364,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IR"
+      },
+      "gdpPerCapita": {
+        "value": 3924.38017821898,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IR"
+      },
+      "inflation": {
+        "value": 42.1712244965444,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IR"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 148841403.0,
+            "imports": 1691523.0,
+            "balance": 147149880.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 20343591.0,
+            "imports": 86495.0,
+            "balance": 20257096.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "IL",
+      "iso3": "ISR",
+      "name": "이스라엘",
+      "dept": "mea",
+      "group": "",
+      "centralBank": {
+        "name": "이스라엘 중앙은행",
+        "url": "https://www.boi.org.il/en/"
+      },
+      "gdp": {
+        "value": 610777842873.595,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IL"
+      },
+      "gdpPerCapita": {
+        "value": 60336.8477964194,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IL"
+      },
+      "inflation": {
+        "value": 3.04141321556539,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IL"
+      },
+      "policyRate": {
+        "value": 3.25,
+        "date": "2026-09-30",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 1931473397.0,
+            "imports": 1528695299.0,
+            "balance": 402778098.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 153889092.0,
+            "imports": 178435195.0,
+            "balance": -24546103.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "QA",
+      "iso3": "QAT",
+      "name": "카타르",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "카타르 중앙은행",
+        "url": "https://www.qcb.gov.qa/en/"
+      },
+      "gdp": {
+        "value": 215559615384.615,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=QA"
+      },
+      "gdpPerCapita": {
+        "value": 72524.9066385222,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=QA"
+      },
+      "inflation": {
+        "value": 1.26734310292375,
+        "year": "2024",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=QA"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 832683361.0,
+            "imports": 9923474037.0,
+            "balance": -9090790676.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 69180610.0,
+            "imports": 609639500.0,
+            "balance": -540458890.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "OM",
+      "iso3": "OMN",
+      "name": "오만",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "오만 중앙은행",
+        "url": "https://cbo.gov.om/"
+      },
+      "gdp": {
+        "value": 109604780696.23,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=OM"
+      },
+      "gdpPerCapita": {
+        "value": 19947.3966227092,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=OM"
+      },
+      "inflation": {
+        "value": 0.967741935483927,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=OM"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 657898328.0,
+            "imports": 2788978132.0,
+            "balance": -2131079804.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 58641920.0,
+            "imports": 233144022.0,
+            "balance": -174502102.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "BH",
+      "iso3": "BHR",
+      "name": "바레인",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "바레인 중앙은행",
+        "url": "https://www.cbb.gov.bh/"
+      },
+      "gdp": {
+        "value": 48965725531.9149,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=BH"
+      },
+      "gdpPerCapita": {
+        "value": 30596.5794898885,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=BH"
+      },
+      "inflation": {
+        "value": -0.137708855447901,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=BH"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 140820491.0,
+            "imports": 669641310.0,
+            "balance": -528820819.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 37805251.0,
+            "imports": 26822309.0,
+            "balance": 10982942.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "IQ",
+      "iso3": "IRQ",
+      "name": "이라크",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "이라크 중앙은행",
+        "url": "https://cbi.iq/"
+      },
+      "gdp": {
+        "value": 254367293538.462,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=IQ"
+      },
+      "gdpPerCapita": {
+        "value": 5409.67899716967,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=IQ"
+      },
+      "inflation": {
+        "value": 0.303454715219381,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=IQ"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 1378772997.0,
+            "imports": 9107218177.0,
+            "balance": -7728445180.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 129106493.0,
+            "imports": 718772624.0,
+            "balance": -589666131.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "JO",
+      "iso3": "JOR",
+      "name": "요르단",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "요르단 중앙은행",
+        "url": "https://www.cbj.gov.jo/"
+      },
+      "gdp": {
+        "value": 61610052535.2113,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=JO"
+      },
+      "gdpPerCapita": {
+        "value": 5347.77731384797,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=JO"
+      },
+      "inflation": {
+        "value": 1.76646490894205,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=JO"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 561612306.0,
+            "imports": 57286875.0,
+            "balance": 504325431.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 43432068.0,
+            "imports": 3749243.0,
+            "balance": 39682825.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "TR",
+      "iso3": "TUR",
+      "name": "튀르키예",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "튀르키예 중앙은행",
+        "url": "https://www.tcmb.gov.tr/"
+      },
+      "gdp": {
+        "value": 1597293229287,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=TR"
+      },
+      "gdpPerCapita": {
+        "value": 18599.4420922378,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=TR"
+      },
+      "inflation": {
+        "value": 34.8811700293777,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=TR"
+      },
+      "policyRate": {
+        "value": 36.0,
+        "date": "2026-10-23",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 9081161180.0,
+            "imports": 1568358791.0,
+            "balance": 7512802389.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 744052403.0,
+            "imports": 149903613.0,
+            "balance": 594148790.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "ZA",
+      "iso3": "ZAF",
+      "name": "남아프리카공화국",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "남아공 준비은행",
+        "url": "https://www.resbank.co.za/"
+      },
+      "gdp": {
+        "value": 427184325997.307,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=ZA"
+      },
+      "gdpPerCapita": {
+        "value": 6597.71450918774,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=ZA"
+      },
+      "inflation": {
+        "value": 3.20550474112603,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ZA"
+      },
+      "policyRate": {
+        "value": 7.25,
+        "date": "2026-10-26",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 764189067.0,
+            "imports": 2200722964.0,
+            "balance": -1436533897.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 77697439.0,
+            "imports": 277948990.0,
+            "balance": -200251551.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "NG",
+      "iso3": "NGA",
+      "name": "나이지리아",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "나이지리아 중앙은행",
+        "url": "https://www.cbn.gov.ng/"
+      },
+      "gdp": {
+        "value": 290794361542.112,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=NG"
+      },
+      "gdpPerCapita": {
+        "value": 1224.25410237743,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=NG"
+      },
+      "inflation": {
+        "value": 23.0101235833333,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=NG"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 531770376.0,
+            "imports": 565475152.0,
+            "balance": -33704776.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 45799801.0,
+            "imports": 67712462.0,
+            "balance": -21912661.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "KE",
+      "iso3": "KEN",
+      "name": "케냐",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "케냐 중앙은행",
+        "url": "https://www.centralbank.go.ke/"
+      },
+      "gdp": {
+        "value": 135941278878.815,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=KE"
+      },
+      "gdpPerCapita": {
+        "value": 2362.86091198611,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=KE"
+      },
+      "inflation": {
+        "value": 4.0693076061457,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=KE"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 184738362.0,
+            "imports": 41219456.0,
+            "balance": 143518906.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 16369894.0,
+            "imports": 2715162.0,
+            "balance": 13654732.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "ET",
+      "iso3": "ETH",
+      "name": "에티오피아",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "에티오피아 국립은행",
+        "url": "https://nbe.gov.et/"
+      },
+      "gdp": {
+        "value": 126358758448.356,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=ET"
+      },
+      "gdpPerCapita": {
+        "value": 932.729352775179,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=ET"
+      },
+      "inflation": {
+        "value": 13.2296432836808,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=ET"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 177310376.0,
+            "imports": 171142149.0,
+            "balance": 6168227.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 19371712.0,
+            "imports": 12956224.0,
+            "balance": 6415488.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "MA",
+      "iso3": "MAR",
+      "name": "모로코",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "모로코 중앙은행",
+        "url": "https://www.bkam.ma/en"
+      },
+      "gdp": {
+        "value": 182374250612.28,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=MA"
+      },
+      "gdpPerCapita": {
+        "value": 4672.46826171875,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=MA"
+      },
+      "inflation": {
+        "value": 0.701902154839544,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=MA"
+      },
+      "policyRate": {
+        "value": 2.25,
+        "date": "2026-08-31",
+        "unit": "%",
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 413909812.0,
+            "imports": 231891167.0,
+            "balance": 182018645.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 36414055.0,
+            "imports": 36484519.0,
+            "balance": -70464.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    },
+    {
+      "id": "DZ",
+      "iso3": "DZA",
+      "name": "알제리",
+      "dept": "mea",
+      "group": "기타 중동·아프리카",
+      "centralBank": {
+        "name": "알제리 중앙은행",
+        "url": "https://www.bank-of-algeria.dz/"
+      },
+      "gdp": {
+        "value": 287031225987.736,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?locations=DZ"
+      },
+      "gdpPerCapita": {
+        "value": 6051.00322704182,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/NY.GDP.PCAP.CD?locations=DZ"
+      },
+      "inflation": {
+        "value": 1.41835151429016,
+        "year": "2025",
+        "source": "World Bank",
+        "license": "CC BY 4.0",
+        "url": "https://data.worldbank.org/indicator/FP.CPI.TOTL.ZG?locations=DZ"
+      },
+      "policyRate": {
+        "value": null,
+        "source": "BIS",
+        "url": "https://data.bis.org/topics/CBPOL",
+        "note": "BIS 미수록"
+      },
+      "trade": {
+        "comtrade": {
+          "annual": {
+            "period": "2025",
+            "exports": 383669370.0,
+            "imports": 3682700337.0,
+            "balance": -3299030967.0
+          },
+          "monthly": {
+            "period": "2025-12",
+            "exports": 30040246.0,
+            "imports": 238393935.0,
+            "balance": -208353689.0
+          },
+          "source": "UN Comtrade (한국 보고 기준)",
+          "url": "https://comtradeplus.un.org/"
+        }
+      }
+    }
+  ]
+}
