@@ -1,32 +1,32 @@
 {
-  "date": "2026-10-31",
-  "generatedAt": "2026-10-31T12:30:00+09:00",
-  "coverage": "2026-10-30 ~ 2026-10-31 오전(KST) 보도 기준 (최근 24시간 내외, 러시아 한국 관련 이슈는 48시간)",
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T07:28:10+09:00",
+  "coverage": "2026-10-31 07:15 ~ 2026-11-01 07:15 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
   "topIssues": [
     {
-      "text": "카타르 중재단이 테헤란에서 12시간 넘게 미·이란 직접협상 재개를 위한 협의를 벌였고 31일 도하에서 논의 지속 예정이나, 미국의 핵 양보 요구와 이란의 해상봉쇄 해제·동결자금 해제·원유 판매 요구가 맞서는 상황",
-      "source": "Axios·Reuters",
-      "url": "https://www.axios.com/2026/10/31/qatari-mediators-iran-war-deal-before-midterms"
+      "text": "이란 협상단, 도하에서 카타르 중재진과 전쟁 종식 방안 협의…루비오 미 국무장관, 트럼프의 추가 공격 결정은 미정이라고 설명",
+      "source": "Reuters(MarketScreener 재게재)",
+      "url": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
     },
     {
-      "text": "호르무즈 해협에서 소형 보트가 부착한 폭발물에 유조선이 피격되고 미 중간선거 이후 대이란 확전 우려가 겹치며 브렌트유 12월물이 배럴당 117.64달러로 4월 말 이후 최고치에 마감, 10월 한 달간 13.6% 상승",
-      "source": "Reuters",
-      "url": "https://live.euronext.com/en/financial-news/oil-jumps-2-settles-6-month-highs-fears-escalation-iran"
+      "text": "OPEC+ 주요 7개국, 12월 원유 생산목표 동결에 원칙적 합의…11월 1일 회의에서 논의 예정",
+      "source": "Reuters(MarketScreener 재게재)",
+      "url": "https://www.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220"
     },
     {
-      "text": "미국 정부가 중국·일본 등 10여 개 경제권에 대한 과잉생산(overcapacity) 관세 부과에 필요한 조사를 완료했으나 중간선거를 앞두고 부과를 보류",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/trump-holds-off-overcapacity-tariffs-as-us-midterms-near"
+      "text": "중국 10월 제조업 PMI, 9월 50.1에서 49.3으로 하락하며 위축 국면 재진입",
+      "source": "Bloomberg(Business Standard 재게재)",
+      "url": "https://www.business-standard.com/world-news/china-s-factory-activity-eases-in-october-manufacturing-pmi-falls-to-49-3-126103100099_1.html"
     },
     {
-      "text": "일본은행이 정책금리를 1.25%로 동결하면서도 기조적 물가가 2% 목표에 도달했다고 밝히고 ETF 매각 속도를 연 8,600억 엔으로 높이기로 해 12월 추가 인상 가능성이 부각",
-      "source": "Reuters·CNBC",
-      "url": "https://www.channelnewsasia.com/business/bank-japan-keep-rates-steady-hits-price-target-6505836"
+      "text": "일본·싱가포르 정상, EU 자동차 역내산 우대 구상에 우려 전달…메르츠 독일 총리, 추가 논의 필요성 언급",
+      "source": "Bloomberg(The Star 재게재)",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/merz-sees-mounting-concern-in-asia-over-eu-buy-european-rules"
     },
     {
-      "text": "이스라엘 총선 최종 결과 네타냐후 총리 진영이 53석에 그쳐 과반(61석) 확보에 실패하면서 수주간의 연정 협상이 불가피",
-      "source": "AP",
-      "url": "https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674"
+      "text": "EU·캐나다 정상회의, 디지털무역·핵심광물·AI·슈퍼컴퓨터 분야 협력 방안 발표",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/31/europe-and-canada-detail-first-measures-of-their-unprecedented-rapprochement_6767983_4.html"
     }
   ],
   "departments": [
@@ -36,119 +36,58 @@
       "issues": [
         {
           "countries": [
-            "우크라이나",
-            "러시아"
-          ],
-          "category": "국제·외교",
-          "title": "위성락 안보실장, 한-우크라이나 갈등과 별개로 대러 제재·수출통제 기조 불변 입장",
-          "bullets": [
-            {
-              "text": "북한군 포로 송환 비공개 합의 파기 논란과 관련해 '양국 간 신뢰 회복을 위해 사실관계 규명이 필요'하다는 입장",
-              "source": "Financial News",
-              "url": "https://en.fnnews.com/news/202610301157438583"
-            },
-            {
-              "text": "대사 소환 및 일부 공관 인력 철수는 현지 안전 상황 등을 종합 고려한 결정이라고 설명",
-              "source": "Financial News",
-              "url": "https://en.fnnews.com/news/202610301157438583"
-            },
-            {
-              "text": "'러시아의 우크라이나 침공 이후 국제사회와 긴밀히 공조해 대러 제재와 수출통제를 일관되게 이행해 온 정책에는 변화가 없다'고 언급",
-              "source": "Financial News",
-              "url": "https://en.fnnews.com/news/202610301157438583"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "러시아",
-            "우크라이나"
-          ],
-          "category": "국제·외교",
-          "title": "러·미·우 3자 아부다비 회담 11월 개최 일정 조율 착수",
-          "bullets": [
-            {
-              "text": "우샤코프 크렘린 보좌관, '아부다비 3자 회담은 11월에 열릴 것'이며 미국 측에 일부 구상을 전달했다고 언급",
-              "source": "TASS",
-              "url": "https://tass.com/politics/2211091"
-            },
-            {
-              "text": "'11월 중순'만 언급됐을 뿐 구체적 날짜는 미정이며 시점은 국내외 여러 요인에 좌우될 것이라는 입장",
-              "source": "TASS",
-              "url": "https://tass.com/politics/2211091"
-            }
-          ]
-        },
-        {
-          "countries": [
             "러시아"
           ],
           "category": "정책·규제",
-          "title": "러시아, 디젤 수출금지 연말까지 연장하되 정유사별 쿼터 수출 허용",
+          "title": "러시아, 경유 수출금지 기한을 2027년 1월 말까지 연장",
           "bullets": [
             {
-              "text": "10월 31일 만료 예정이던 생산자 디젤 수출금지를 연말까지 연장하고 일부 정유사에 쿼터 허가 발급 ",
-              "source": "bne IntelliNews·Kommersant 인용",
-              "url": "https://www.intellinews.com/russia-extends-diesel-export-ban-as-us-bound-cargoes-lack-confirmed-buyers-480370/"
+              "text": "러시아 정부, 경유 수출금지 조치의 1월 말까지 연장 발표",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/russia-extends-diesel-export-ban-until-end-of-january-government-says-ce785fd8d88ef120"
             },
             {
-              "text": "11월 수출 쿼터는 약 200만 톤(일 50만 배럴)으로 10월의 4배 수준 전망 ",
-              "source": "bne IntelliNews·Reuters 인용",
-              "url": "https://www.intellinews.com/russia-extends-diesel-export-ban-as-us-bound-cargoes-lack-confirmed-buyers-480370/"
-            },
-            {
-              "text": "미-러 디젤 합의에 따라 미국으로 향한 유조선 3척은 법적 불확실성으로 구매자 미확정",
-              "source": "bne IntelliNews",
-              "url": "https://www.intellinews.com/russia-extends-diesel-export-ban-as-us-bound-cargoes-lack-confirmed-buyers-480370/"
+              "text": "노바크 부총리, 세계시장 공급을 위한 특정 예외 유지 방침 설명 및 미국행 경유 탱커 3척 출항 사실 언급",
+              "source": "BERNAMA-TASS",
+              "url": "https://web26.bernama.com/en/news.php?id=2628365"
             }
           ]
         },
         {
           "countries": [
-            "카자흐스탄",
-            "우즈베키스탄",
-            "키르기스스탄",
-            "투르크메니스탄",
-            "아제르바이잔"
-          ],
-          "category": "대외교역",
-          "title": "튀르크국가기구(OTS) 앙카라 정상회의, 중간회랑·핵심광물 협력 확대",
-          "bullets": [
-            {
-              "text": "토카예프 카자흐 대통령, 올해 1~9월 중간회랑(Middle Corridor) 화물량 30%, 환적 화물 90% 증가했다고 언급",
-              "source": "Euronews",
-              "url": "https://www.euronews.com/2026/10/30/turkic-states-press-on-with-asia-europe-transport-projects-as-new-opportunities-emerge"
-            },
-            {
-              "text": "미르지요예프 우즈벡 대통령, 희소·전략광물 완전가공과 친환경 에너지 장비 현지화를 우선하는 '튀르크 세계-100' 공동 투자 프로젝트 제안",
-              "source": "Euronews",
-              "url": "https://www.euronews.com/2026/10/30/turkic-states-press-on-with-asia-europe-transport-projects-as-new-opportunities-emerge"
-            },
-            {
-              "text": "앙카라 선언에 중국-키르기스스탄-우즈베키스탄 철도 및 트랜스-아프간 철도 언급, 투르크메니스탄은 투르크멘바시 항만을 활용한 카스피해 환적 확대 의사 표명",
-              "source": "Euronews",
-              "url": "https://www.euronews.com/2026/10/30/turkic-states-press-on-with-asia-europe-transport-projects-as-new-opportunities-emerge"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "키르기스스탄",
-            "카자흐스탄",
-            "우즈베키스탄"
+            "우크라이나"
           ],
           "category": "산업동향",
-          "title": "캄바라타-1 수력발전소(1,860MW) 3국 기술협의, 이스탄불서 진행",
+          "title": "러시아 공격으로 우크라이나 전력·가스·철도 기반시설 피해",
           "bullets": [
             {
-              "text": "카자흐·키르기스·우즈벡 3국이 세계은행 지원 하에 이스탄불에서 기술협의 진행, 건설·재원·운영 관련 정부 간 협정은 미서명 상태",
-              "source": "Aju Press",
-              "url": "https://www.ajupress.com/view/20261030150324811"
+              "text": "젤렌스키 대통령, 러시아의 야간 에너지·철도 시설 공격으로 드니프로·키이우 지역 28만 가구 정전 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/5cbc7d2a5b8ac34b15c914338fd5a9f3"
             },
             {
-              "text": "세계은행은 타당성조사 갱신 등에 1,860만 달러 기술지원을 약정했고 건설 재원 지원도 검토 중",
+              "text": "키이우·수미 지역 열병합발전소, 변전소 4곳, 드니프로 지역 가스공급시설 및 드니프로·하르키우 철도 시설에 대한 공격과 복구 작업 진행",
+              "source": "AP",
+              "url": "https://apnews.com/article/5cbc7d2a5b8ac34b15c914338fd5a9f3"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "우크라이나"
+          ],
+          "category": "국제·외교",
+          "title": "우크라이나 외교부, 한국과의 관계 정상화 의사 표명",
+          "bullets": [
+            {
+              "text": "티히 우크라이나 외교부 대변인, 한국과의 단교 가능성 보도를 반박하고 관계 정상화 준비가 돼 있다고 설명",
               "source": "Aju Press",
-              "url": "https://www.ajupress.com/view/20261030150324811"
+              "url": "https://www.ajupress.com/view/20261031172357023"
+            },
+            {
+              "text": "양국 외교부·외교공관과 외교장관 간 소통 지속 및 갈등을 확대할 추가 행동·발언 방지 필요성 언급",
+              "source": "Aju Press",
+              "url": "https://www.ajupress.com/view/20261031172357023"
             }
           ]
         }
@@ -163,42 +102,36 @@
             "중국"
           ],
           "category": "경제동향",
-          "title": "중국 10월 제조업 PMI 49.3, 3개월 만에 최대폭 위축",
+          "title": "중국 제조업 생산·수출주문 둔화와 비제조업 위축",
           "bullets": [
             {
-              "text": "공식 제조업 PMI가 9월 50.1에서 49.3으로 하락, 로이터 전망치(50.0) 하회",
-              "source": "Reuters",
-              "url": "https://kelo.com/2026/10/30/chinas-october-factory-activity-contracts-at-fastest-pace-in-3-months-pmi-survey-shows/"
+              "text": "10월 제조업 생산지수 49.8로 9월 51.7에서 하락, 신규 수출주문지수도 50.0에서 48.7로 하락",
+              "source": "AP",
+              "url": "https://apnews.com/article/f1e0e24004da425a1b3c8935b16a245c"
             },
             {
-              "text": "수출 수요를 포함한 수요 부진이 제조업체에 부담",
-              "source": "Reuters",
-              "url": "https://kelo.com/2026/10/30/chinas-october-factory-activity-contracts-at-fastest-pace-in-3-months-pmi-survey-shows/"
-            },
-            {
-              "text": "국가통계국은 국경절 연휴 전 수요 선반영과 복잡한 국제 환경을 요인으로 언급, 하이테크 제조업(51.3)과 장비 제조업(50.6)은 확장 국면 유지",
-              "source": "중국 국가통계국",
-              "url": "https://www.stats.gov.cn/sj/sjjd/202610/t20261031_1965719.html"
+              "text": "비제조업 PMI는 50.2에서 49.7로 하락, 대기업 제조업 PMI는 50.2인 반면 중기업 48.4·소기업 47.5 기록",
+              "source": "Bloomberg(Business Standard 재게재)",
+              "url": "https://www.business-standard.com/world-news/china-s-factory-activity-eases-in-october-manufacturing-pmi-falls-to-49-3-126103100099_1.html"
             }
           ]
         },
         {
           "countries": [
-            "중국",
             "일본"
           ],
           "category": "정책·규제",
-          "title": "미국 과잉생산 관세, 미·중 무역휴전과 물가 부담 사이에서 저울질",
+          "title": "일본, EU 산업가속화법 자동차 우대안에 동등 대우 요구",
           "bullets": [
             {
-              "text": "트럼프 행정부가 유권자의 물가 우려와 취약한 대중국 무역휴전을 함께 저울질하는 상황",
-              "source": "Nikkei Asia",
-              "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/trump-holds-off-overcapacity-tariffs-as-us-midterms-near"
+              "text": "아카자와 일본 경제산업상, EU 산업가속화법의 역내 조립·유럽산 부품 우대 구상에 우려를 표하고 일본산 제품, 특히 전기차의 동등 대우 요청",
+              "source": "Bloomberg(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/merz-sees-mounting-concern-in-asia-over-eu-buy-european-rules"
             },
             {
-              "text": "조사 완료는 트럼프 대통령의 보호무역 의제 재가동을 위한 핵심 단계라는 평가",
-              "source": "Nikkei Asia",
-              "url": "https://asia.nikkei.com/politics/u.s.-midterm-elections/trump-holds-off-overcapacity-tariffs-as-us-midterms-near"
+              "text": "EU 역내산 요건은 회원국·유럽의회의 합의가 필요한 단계이며, 영국의 보조금 대상 포함에는 EU 외국인직접투자·무역구제 규칙 정합성 조건 제시",
+              "source": "Bloomberg(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/merz-sees-mounting-concern-in-asia-over-eu-buy-european-rules"
             }
           ]
         },
@@ -206,23 +139,23 @@
           "countries": [
             "일본"
           ],
-          "category": "경제동향",
-          "title": "일본은행 '물가목표 달성' 선언, 엔화 157엔대로 강세",
+          "category": "국제·외교",
+          "title": "한·미·일 외교장관, 핵심광물·SMR·북극 해양협력 확대 합의",
           "bullets": [
             {
-              "text": "다카타 하지메 위원이 1.5%로의 인상을 제안하며 동결에 반대",
-              "source": "Reuters",
-              "url": "https://www.channelnewsasia.com/business/bank-japan-keep-rates-steady-hits-price-target-6505836"
+              "text": "조현·루비오·모테기 장관, 애틀랜타 G20 계기 회담에서 핵심광물 공급망 다변화와 소형모듈원전·AI 등 경제안보 협력 강화 합의",
+              "source": "연합뉴스 영문",
+              "url": "https://m-en.yna.co.kr/view/AEN20261031000553315?section=national%2Fdiplomacy"
             },
             {
-              "text": "2027회계연도 근원 소비자물가 전망을 2.4%에서 2.6%로 상향, 로이터 조사에서 다수 애널리스트는 12월 1.5%로 인상 예상",
-              "source": "Reuters",
-              "url": "https://www.channelnewsasia.com/business/bank-japan-keep-rates-steady-hits-price-target-6505836"
+              "text": "북극·태평양 해양협력과 경제협력을 모색하는 3국 북극태평양파트너십(TAPP) 협력각서 서명",
+              "source": "연합뉴스 영문",
+              "url": "https://m-en.yna.co.kr/view/AEN20261031000553315?section=national%2Fdiplomacy"
             },
             {
-              "text": "우에다 총재의 '물가 상방 리스크는 여전히 무시할 수 없는 정도로 존재' 발언 이후 엔화가 한때 157엔 12전 부근까지 상승",
-              "source": "니혼게이자이",
-              "url": "https://www.nikkei.com/article/DGXZQOFL308FM0Q6A031C2000000/"
+              "text": "북한 핵·탄도미사일 프로그램 수입 창출 활동을 금지하는 유엔 제재 이행 필요성 강조 및 다국적제재모니터링팀 활동 평가",
+              "source": "연합뉴스 영문",
+              "url": "https://m-en.yna.co.kr/view/AEN20261031000553315?section=national%2Fdiplomacy"
             }
           ]
         }
@@ -237,65 +170,55 @@
             "인도"
           ],
           "category": "정책·규제",
-          "title": "인도, 면화 수입 관세 면제 12월 31일까지 2개월 연장",
+          "title": "인도, 면화 무관세 수입을 12월 말까지 2개월 연장",
           "bullets": [
             {
-              "text": "10월 31일 만료 예정이던 면화 수입관세(11%) 면제를 관보 고시를 통해 2026년 12월 31일까지 연장 ",
-              "source": "CNBC-TV18·Reuters 인용",
-              "url": "https://www.cnbctv18.com/economy/india-extends-duty-free-cotton-imports-by-two-months-till-december-end-20023826.htm"
+              "text": "인도 정부, 10월 31일 종료 예정이던 면화 수입관세 11% 면제 조치를 12월 말까지 연장",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/india-extends-duty-free-cotton-imports-by-two-months-to-ease-domestic-prices-ce785fd8d980f321"
             },
             {
-              "text": "2026-27년 면화 생산은 2,900만 베일 미만, 수요는 3,400만 베일 초과 전망 ",
-              "source": "CNBC-TV18·Reuters 인용",
-              "url": "https://www.cnbctv18.com/economy/india-extends-duty-free-cotton-imports-by-two-months-till-december-end-20023826.htm"
-            },
-            {
-              "text": "FY27 상반기 면화 수입은 전년 대비 63% 증가한 11억 달러 ",
-              "source": "CNBC-TV18·Reuters 인용",
-              "url": "https://www.cnbctv18.com/economy/india-extends-duty-free-cotton-imports-by-two-months-till-december-end-20023826.htm"
+              "text": "불규칙한 몬순 강우에 따른 생산 감소 우려로 신작 출하 이후에도 국내 면화가격 강세 지속, 방직업계의 면제기간 연장 요청",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/india-extends-duty-free-cotton-imports-by-two-months-to-ease-domestic-prices-ce785fd8d980f321"
             }
           ]
         },
         {
           "countries": [
-            "인도"
+            "방글라데시"
           ],
-          "category": "대외교역",
-          "title": "인도 9월 원유 수입, 미국산 '0'·러시아 비중 33%로 축소, UAE 비중 사상 최고",
+          "category": "국제·외교",
+          "title": "방글라데시 재무장관 대표단 방한, 통상·첨단산업 협력 협의",
           "bullets": [
             {
-              "text": "9월 미국산 원유 수입이 전무했고 러시아산 비중은 7월 51%에서 9월 33%로 하락",
-              "source": "The Hindu",
-              "url": "https://www.thehindu.com/news/national/india-cut-us-and-russian-oil-imports-in-september-2026-pivoting-to-the-uae-as-tariffs-and-sanctions-reshaped-the-market/article71644597.ece"
+              "text": "아미르 코스루 마흐무드 초두리 재무장관이 이끄는 대표단 방한, 한국 고위 장관·당국자들과 경제·무역·투자 협의 예정",
+              "source": "BSS(Bonik Barta 재게재)",
+              "url": "https://en.bonikbarta.com/bangladesh/UCgS59EO6Uv4jEih"
             },
             {
-              "text": "UAE산 비중은 26.5%로 사상 최고, 러시아·UAE 2개국이 전체 원유 수입의 60% 차지",
-              "source": "The Hindu",
-              "url": "https://www.thehindu.com/news/national/india-cut-us-and-russian-oil-imports-in-september-2026-pivoting-to-the-uae-as-tariffs-and-sanctions-reshaped-the-market/article71644597.ece"
-            },
-            {
-              "text": "9월 원유 수입액은 약 143억 달러로 전년 동월 대비 33% 증가",
-              "source": "The Hindu",
-              "url": "https://www.thehindu.com/news/national/india-cut-us-and-russian-oil-imports-in-september-2026-pivoting-to-the-uae-as-tariffs-and-sanctions-reshaped-the-market/article71644597.ece"
+              "text": "ICT·AI·전자·반도체·제조업·조선 분야에 중점, 삼성·한화오션·네이버 등 기업 및 KOICA·한국수출입은행과 협의 계획",
+              "source": "BSS(Bonik Barta 재게재)",
+              "url": "https://en.bonikbarta.com/bangladesh/UCgS59EO6Uv4jEih"
             }
           ]
         },
         {
           "countries": [
-            "인도"
+            "파키스탄"
           ],
-          "category": "경제동향",
-          "title": "루피화, RBI 달러수요 억제책에 2월 이후 최대 월간 상승",
+          "category": "중동정세",
+          "title": "카타르 LNG 공급불가항력 연장으로 파키스탄 동절기 수급 부담",
           "bullets": [
             {
-              "text": "루피화는 달러당 94.95로 마감, 10월 약 1% 상승",
-              "source": "Reuters",
-              "url": "https://www.brecorder.com/news/40446683/indian-rupee-posts-best-month-in-eight-on-rbi-measures-to-curb-dollar-demand"
+              "text": "카타르에너지의 LNG 공급불가항력 기간이 12월 29일까지 연장됐다고 파키스탄 당국자들이 설명, 12~1월 가정용 수요 증가기에 공급 차질 우려 제기",
+              "source": "Arab News Pakistan",
+              "url": "https://www.arabnews.pk/pakistan/pakistan-braces-for-winter-gas-crunch-as-qatar-halts-lng-supply-till-end-december-3005738"
             },
             {
-              "text": "RBI가 국영 정유사에 달러를 직접 공급하고 헤지 규정을 강화하는 등 지원책 시행, 고유가와 포트폴리오 자금 유출은 여전한 부담",
-              "source": "Reuters",
-              "url": "https://www.brecorder.com/news/40446683/indian-rupee-posts-best-month-in-eight-on-rbi-measures-to-curb-dollar-demand"
+              "text": "석유부 당국자, 통상 3천만 달러 수준인 LNG 화물 1건의 현물 조달비용이 8천만~9천만 달러에 이를 수 있으며 가정용 공급 우선 방침 설명",
+              "source": "Arab News Pakistan",
+              "url": "https://www.arabnews.pk/pakistan/pakistan-braces-for-winter-gas-crunch-as-qatar-halts-lng-supply-till-end-december-3005738"
             }
           ]
         }
@@ -307,46 +230,39 @@
       "issues": [
         {
           "countries": [
-            "인도네시아",
             "싱가포르"
           ],
           "category": "국제·외교",
-          "title": "인도네시아-싱가포르, 연무·가스 공급 감축 둘러싼 외교 갈등",
+          "title": "싱가포르 외교장관 파키스탄 방문, 무역·투자 협력 확대 논의",
           "bullets": [
             {
-              "text": "인도네시아가 싱가포르향 가스 공급을 축소했고, 에너지장관은 '이른바 형제·자매국'이 계약 이행에 대해 훈계해서는 안 된다고 언급",
-              "source": "Reuters",
-              "url": "https://www.streetinsider.com/Reuters/Singapore+braces+as+Indonesia+slaps+back+at+neighbours+amid+haze%2C+political+woes/27262779.html"
+              "text": "발라크리슈난 외교장관, 이슬라마바드 방문에서 양국 무역·투자·기술인력 역량 강화와 탄소시장 협력 논의",
+              "source": "The Straits Times(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/better-late-than-never-says-singapore-fm-on-first-pakistan-visit-by-singapore-leader-in-two-decades"
             },
             {
-              "text": "인도네시아 정부 측은 가스 감축이 국내 수급 고려에 따른 것이라고 설명",
-              "source": "Reuters",
-              "url": "https://www.streetinsider.com/Reuters/Singapore+braces+as+Indonesia+slaps+back+at+neighbours+amid+haze%2C+political+woes/27262779.html"
-            },
-            {
-              "text": "싱가포르는 지난해 174억 달러로 인도네시아 최대 외국인직접투자 원천",
-              "source": "Reuters",
-              "url": "https://www.streetinsider.com/Reuters/Singapore+braces+as+Indonesia+slaps+back+at+neighbours+amid+haze%2C+political+woes/27262779.html"
+              "text": "중소기업 간 직접 교류와 정부의 상업적 기회 발굴 지원 필요성 제시, 싱가포르의 2027년 ASEAN 의장국 수임과 파키스탄의 상하이협력기구 역할을 통한 협력 기회 언급",
+              "source": "The Straits Times(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/better-late-than-never-says-singapore-fm-on-first-pakistan-visit-by-singapore-leader-in-two-decades"
             }
           ]
         },
         {
           "countries": [
-            "필리핀",
-            "인도네시아"
+            "베트남"
           ],
-          "category": "경제동향",
-          "title": "필리핀 10월 물가 최고 8.1% 전망, 페소·루피아 약세에 추가 금리인상 압력",
+          "category": "대외교역",
+          "title": "베트남 무역당국자, APEC 수출시장 규제·인증 대응 제시",
           "bullets": [
             {
-              "text": "필리핀 중앙은행(BSP), 연료·전기요금·교통요금 상승으로 10월 물가상승률을 7.1~8.1%로 전망",
-              "source": "BusinessWorld",
-              "url": "https://bworldonline.com/top-stories/2026/10/30/790449/bsp-inflation-likely-between-7-1-8-1-in-october/"
+              "text": "도응옥흥 주미 무역참사관, 통상규제 위험 업종 조기경보체계와 관세·무역구제·기술표준 해외시장 데이터베이스의 정기 갱신 제안",
+              "source": "VOV",
+              "url": "https://english.vov.vn/en/economy/vietnam-to-expand-exports-across-apec-markets-amid-tighter-trade-rules-post1346117.vov"
             },
             {
-              "text": "페소화는 10월 28일 달러당 64.18페소로 사상 최저치 기록, 루피아는 연초 대비 7.9% 하락",
-              "source": "bne IntelliNews",
-              "url": "https://www.intellinews.com/philippines-indonesia-face-more-rate-hikes-as-peso-rupiah-lead-asia-s-slide-480399/"
+              "text": "원산지 증빙·환경요건·공급망 투명성 대응 필요성 제기, 팜테끄엉 주인도네시아 무역참사관은 수입업체 접촉 전 할랄 인증 확보 권고",
+              "source": "VOV",
+              "url": "https://english.vov.vn/en/economy/vietnam-to-expand-exports-across-apec-markets-amid-tighter-trade-rules-post1346117.vov"
             }
           ]
         }
@@ -358,169 +274,99 @@
       "issues": [
         {
           "countries": [
-            "이란"
-          ],
-          "category": "중동정세",
-          "title": "미·이란 협상 재개 위한 카타르 중재 지속, 트럼프 '전쟁 곧 끝날 것'",
-          "bullets": [
-            {
-              "text": "트럼프 대통령은 이란과의 전쟁이 '곧 끝날 것'이라고 언급했으나 방식은 미제시",
-              "source": "CBS News",
-              "url": "https://www.cbsnews.com/live-updates/iran-war-us-trump-diplomacy-threat-resume-attacks/"
-            },
-            {
-              "text": "카타르는 이란이 피폭 핵시설에 대한 유엔 사찰을 허용하고 미국이 일부 제재 완화로 화답하는 신뢰구축 방안을 설득 중",
-              "source": "Axios",
-              "url": "https://www.axios.com/2026/10/31/qatari-mediators-iran-war-deal-before-midterms"
-            },
-            {
-              "text": "이집트·튀르키예·이라크·파키스탄·사우디 등 역내국은 중간선거 전 협상 재개를 이란에 촉구",
-              "source": "Axios",
-              "url": "https://www.axios.com/2026/10/31/qatari-mediators-iran-war-deal-before-midterms"
-            }
-          ]
-        },
-        {
-          "countries": [
             "이란",
-            "기타 중동·아프리카"
+            "카타르"
           ],
           "category": "중동정세",
-          "title": "호르무즈 해협서 림펫마인 유조선 피격, 2월 개전 이후 첫 사례",
+          "title": "미·이란 중재 협상, 신뢰구축 순서와 해협 재개방 조건 논의",
           "bullets": [
             {
-              "text": "소형 보트가 부착한 폭발물로 유조선 기관실에 화재 발생",
-              "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-10-30/rare-speedboat-attack-in-hormuz-ignites-tanker-s-engine-room"
+              "text": "도하 협의에 앞서 테헤란에서 이란·카타르 대표단이 12시간 넘게 회동, 협의는 워싱턴과 정기적으로 연락하며 조율",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
             },
             {
-              "text": "피격 선박은 파나마 선적 MT Louise 1로, 선원은 무사하고 화재 진압 후 항해 재개",
-              "source": "gCaptain",
-              "url": "https://gcaptain.com/tanker-in-strait-of-hormuz-hit-by-limpet-mines-security-sources-say/"
+              "text": "카타르 측 7일 신뢰구축안에 이란이 만족하지 않았다는 설명과 함께, 이란은 항만 봉쇄 해제·자산 동결 해제·자국이 지지하는 호르무즈 항로 승인을 요구",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
             },
             {
-              "text": "리비아 국영석유공사는 무장세력이 하마다 송유관 밸브를 잠가 일 1만5천 배럴 흐름이 중단됐다고 발표",
-              "source": "Reuters",
-              "url": "https://live.euronext.com/en/financial-news/oil-jumps-2-settles-6-month-highs-fears-escalation-iran"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "사우디"
-          ],
-          "category": "국제·외교",
-          "title": "이재명 대통령-무함마드 왕세자 통화, 원유 우선공급에 사의",
-          "bullets": [
-            {
-              "text": "사우디 요청으로 29일 통화, 이 대통령은 분쟁 속 한국에 원유를 우선 공급해 준 데 사의 표명 ",
-              "source": "Aju Press·청와대 서면브리핑",
-              "url": "https://www.ajupress.com/view/20261030100234917"
-            },
-            {
-              "text": "양 정상은 '미래지향적 전략적 동반자'로서 협력 확대 및 편리한 시기 대면 회담에 합의",
-              "source": "Aju Press",
-              "url": "https://www.ajupress.com/view/20261030100234917"
+              "text": "아라그치 이란 외무장관, 중재진과 호르무즈 해협을 이틀 안에 전면 재개방할 수 있는 제안에 도달했다고 설명하며 직접·간접 협상 방식은 미국의 조건 수용 이후 결정 방침 제시",
+              "source": "AP",
+              "url": "https://apnews.com/article/15c0556b92c8c23beb9b8854b4c124f4"
             }
           ]
         },
         {
           "countries": [
             "사우디",
-            "기타 중동·아프리카"
+            "이라크",
+            "쿠웨이트",
+            "알제리",
+            "오만"
           ],
           "category": "중동정세",
-          "title": "후티, 사우디 공항·정유시설 6곳 공격 주장",
+          "title": "OPEC+, 걸프 생산 차질 속 2027년 생산능력·기준 검토",
           "bullets": [
             {
-              "text": "후티는 라스타누라 정유시설, 아브카이크 아람코 시설, 리야드·담맘 공항, 라비그 정유시설 등을 공격했다고 주장했으나 독립적 확인은 부재",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities"
+              "text": "이란 전쟁으로 차질을 빚은 걸프 회원국의 수출이 증가하고 있으나 대부분의 실제 생산량은 생산목표를 밑도는 상황",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220"
             },
             {
-              "text": "사우디 주도 연합군은 리야드로 향한 탄도미사일 2발을 요격했다고 발표",
-              "source": "Al Jazeera",
-              "url": "https://www.aljazeera.com/news/2026/10/30/houthi-forces-claim-six-attacks-on-saudi-airports-oil-facilities"
+              "text": "회원국 대부분에 적용되는 하루 약 200만 배럴 감산은 2026년 말까지 유지, 2027년 기준생산량 설정 전 4분기 생산능력 검토 마무리 필요",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220"
             }
           ]
         },
         {
           "countries": [
-            "이스라엘"
+            "이란"
           ],
-          "category": "국제·외교",
-          "title": "이스라엘 총선 후 연정 구성 교착",
+          "category": "중동정세",
+          "title": "호르무즈 선박공격 심화 속 국제유가 6개월 최고 수준",
           "bullets": [
             {
-              "text": "아이젠코트 진영 48석, 아랍계 정당 역대 최다 19석 확보",
-              "source": "AP",
-              "url": "https://apnews.com/article/israel-elections-netanyahu-results-eisenkot-arabs-3a793c0d07fdfe515390524b849d8674"
+              "text": "10월 30일 브렌트유 선물은 배럴당 117.64달러로 2.4%, WTI는 104.12달러로 2.1% 상승 마감, 10월 상승률은 각각 13.6%·15.2% 기록",
+              "source": "Investing.com",
+              "url": "https://in.investing.com/news/economy-news/oil-hits-sixmonth-highs-as-hormuz-attacks-threaten-iran-peace-efforts-5669538"
             },
             {
-              "text": "헤르초그 대통령이 정당 대표 협의 후 지명하는 후보에게 28일(최대 14일 연장)의 연정 구성 기간 부여",
-              "source": "NPR",
-              "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs"
-            },
-            {
-              "text": "네타냐후-아이젠코트 대연정 가능성도 거론",
-              "source": "NPR",
-              "url": "https://www.npr.org/2026/10/30/g-s1-150761/israel-election-politics-deadlock-arabs"
+              "text": "호르무즈 선박공격 심화와 미 중간선거 이후 추가 군사공격 가능성에 따른 공급 불안 보도, 영국 해사무역기구의 10월 걸프·호르무즈 선박공격 집계는 최소 35건",
+              "source": "Investing.com",
+              "url": "https://in.investing.com/news/economy-news/oil-hits-sixmonth-highs-as-hormuz-attacks-threaten-iran-peace-efforts-5669538"
             }
           ]
         },
         {
           "countries": [
-            "UAE",
-            "기타 중동·아프리카"
+            "가나"
           ],
-          "category": "대외교역",
-          "title": "UAE-콩고민주공화국 CEPA 발효",
+          "category": "산업동향",
+          "title": "가나·러시아, 2,000MW 원전 개발 협력 합의",
           "bullets": [
             {
-              "text": "대부분 품목의 관세 철폐 및 통관절차 조화를 담은 CEPA가 30일 발효",
-              "source": "WAM",
-              "url": "https://www.wam.ae/en/article/c3051gr-uae%E2%80%99s-comprehensive-economic-partnership-agreement"
+              "text": "아블라콰 가나 외교장관, 러시아·아프리카 정상회의 협의에 이어 러시아와 2,000MW 원자력발전소 개발 협력 합의 발표",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/ghana-says-russia-to-back-2-000-mw-nuclear-plant-deepen-ties-ce785fd8db80f224"
             },
             {
-              "text": "콩고민주공화국은 세계 코발트 공급의 70% 이상을 차지하는 최대 생산국이자 아프리카 최대 구리 생산국",
-              "source": "WAM",
-              "url": "https://www.wam.ae/en/article/c3051gr-uae%E2%80%99s-comprehensive-economic-partnership-agreement"
-            },
-            {
-              "text": "UAE는 40개국과 CEPA를 타결했고 이 중 20건 발효",
-              "source": "WAM",
-              "url": "https://www.wam.ae/en/article/c3051gr-uae%E2%80%99s-comprehensive-economic-partnership-agreement"
+              "text": "가나 측은 사업 목적을 에너지안보와 산업화로 설명, 로사톰도 가나를 포함한 아프리카 4개국과 대형 원전사업을 협의 중이라고 발표",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/ghana-says-russia-to-back-2-000-mw-nuclear-plant-deepen-ties-ce785fd8db80f224"
             }
           ]
         }
       ]
     }
   ],
-  "reports": [
-    {
-      "org": "한국무역협회 국제무역통상연구원",
-      "title": "엔화 변동이 한국 수출에 미치는 영향 (트레이드 포커스)",
-      "date": "2026-10-28",
-      "url": "https://www.kita.net/researchTrade/report/tradeFocus/tradeFocusList.do",
-      "department": "neasia",
-      "countries": [
-        "일본"
-      ]
-    },
-    {
-      "org": "대외경제정책연구원(KIEP)",
-      "title": "로비토 회랑 프로젝트로 본 최근 개발금융 동향 (KIEP 세계경제 포커스)",
-      "date": "2026-10-27",
-      "url": "https://www.kiep.go.kr/galleryDownload.es?bid=0004&list_no=12667&seq=1",
-      "department": "mea",
-      "countries": [
-        "기타 중동·아프리카"
-      ]
-    }
-  ],
+  "reports": [],
   "notes": [
-    "이 리포트는 웹 검색으로 날짜·출처가 확인된 기사만 사용한 시안(MVP) 데이터입니다.",
-    "KITA 보고서는 PDF 직접 링크를 확인하지 못해 목록 페이지로 연결합니다. KIEP 링크는 원문 다운로드 링크입니다.",
-    "Kommersant·RBC에서 최근 48시간 내 한국 통상 관련 러시아 기사는 확인되지 않았습니다(한-우크라이나 외교 갈등 기사는 10.27자로 범위 밖)."
+    "Kommersant·RBC의 최근 48시간 한국 관련 기사 중 통상 관련성과 게시 시각을 함께 확인한 항목 미확보.",
+    "KOTRA 10월 29일 베트남 에너지 보고서와 10월 30일 중동 동향 자료는 발간일·PDF 첨부명 확인에 그쳐 실제 원문 PDF 검증 요건 미충족으로 제외.",
+    "수출입은행 해외경제연구소·현대경제연구원·KIEP 공식 사이트 접근 오류로 해당 기간 발간 원문 확인 불가.",
+    "검색 결과와 원문 게시 날짜가 불일치하는 기사 및 게시 시각 미확인 기사 제외.",
+    "자동 링크 점검: 출처 링크 19개 중 12개는 유료·봇 차단으로 접속 확인이 불가해 조사 단계에서 확인한 게시일을 기준으로 함."
   ]
 }

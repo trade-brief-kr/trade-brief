@@ -1,0 +1,372 @@
+{
+  "date": "2026-11-01",
+  "generatedAt": "2026-11-01T07:28:10+09:00",
+  "coverage": "2026-10-31 07:15 ~ 2026-11-01 07:15 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
+  "topIssues": [
+    {
+      "text": "이란 협상단, 도하에서 카타르 중재진과 전쟁 종식 방안 협의…루비오 미 국무장관, 트럼프의 추가 공격 결정은 미정이라고 설명",
+      "source": "Reuters(MarketScreener 재게재)",
+      "url": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
+    },
+    {
+      "text": "OPEC+ 주요 7개국, 12월 원유 생산목표 동결에 원칙적 합의…11월 1일 회의에서 논의 예정",
+      "source": "Reuters(MarketScreener 재게재)",
+      "url": "https://www.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220"
+    },
+    {
+      "text": "중국 10월 제조업 PMI, 9월 50.1에서 49.3으로 하락하며 위축 국면 재진입",
+      "source": "Bloomberg(Business Standard 재게재)",
+      "url": "https://www.business-standard.com/world-news/china-s-factory-activity-eases-in-october-manufacturing-pmi-falls-to-49-3-126103100099_1.html"
+    },
+    {
+      "text": "일본·싱가포르 정상, EU 자동차 역내산 우대 구상에 우려 전달…메르츠 독일 총리, 추가 논의 필요성 언급",
+      "source": "Bloomberg(The Star 재게재)",
+      "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/merz-sees-mounting-concern-in-asia-over-eu-buy-european-rules"
+    },
+    {
+      "text": "EU·캐나다 정상회의, 디지털무역·핵심광물·AI·슈퍼컴퓨터 분야 협력 방안 발표",
+      "source": "Le Monde",
+      "url": "https://www.lemonde.fr/en/international/article/2026/10/31/europe-and-canada-detail-first-measures-of-their-unprecedented-rapprochement_6767983_4.html"
+    }
+  ],
+  "departments": [
+    {
+      "id": "cis",
+      "name": "통상협력총괄과",
+      "issues": [
+        {
+          "countries": [
+            "러시아"
+          ],
+          "category": "정책·규제",
+          "title": "러시아, 경유 수출금지 기한을 2027년 1월 말까지 연장",
+          "bullets": [
+            {
+              "text": "러시아 정부, 경유 수출금지 조치의 1월 말까지 연장 발표",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/russia-extends-diesel-export-ban-until-end-of-january-government-says-ce785fd8d88ef120"
+            },
+            {
+              "text": "노바크 부총리, 세계시장 공급을 위한 특정 예외 유지 방침 설명 및 미국행 경유 탱커 3척 출항 사실 언급",
+              "source": "BERNAMA-TASS",
+              "url": "https://web26.bernama.com/en/news.php?id=2628365"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "우크라이나"
+          ],
+          "category": "산업동향",
+          "title": "러시아 공격으로 우크라이나 전력·가스·철도 기반시설 피해",
+          "bullets": [
+            {
+              "text": "젤렌스키 대통령, 러시아의 야간 에너지·철도 시설 공격으로 드니프로·키이우 지역 28만 가구 정전 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/5cbc7d2a5b8ac34b15c914338fd5a9f3"
+            },
+            {
+              "text": "키이우·수미 지역 열병합발전소, 변전소 4곳, 드니프로 지역 가스공급시설 및 드니프로·하르키우 철도 시설에 대한 공격과 복구 작업 진행",
+              "source": "AP",
+              "url": "https://apnews.com/article/5cbc7d2a5b8ac34b15c914338fd5a9f3"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "우크라이나"
+          ],
+          "category": "국제·외교",
+          "title": "우크라이나 외교부, 한국과의 관계 정상화 의사 표명",
+          "bullets": [
+            {
+              "text": "티히 우크라이나 외교부 대변인, 한국과의 단교 가능성 보도를 반박하고 관계 정상화 준비가 돼 있다고 설명",
+              "source": "Aju Press",
+              "url": "https://www.ajupress.com/view/20261031172357023"
+            },
+            {
+              "text": "양국 외교부·외교공관과 외교장관 간 소통 지속 및 갈등을 확대할 추가 행동·발언 방지 필요성 언급",
+              "source": "Aju Press",
+              "url": "https://www.ajupress.com/view/20261031172357023"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neasia",
+      "name": "동북아통상과",
+      "issues": [
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "경제동향",
+          "title": "중국 제조업 생산·수출주문 둔화와 비제조업 위축",
+          "bullets": [
+            {
+              "text": "10월 제조업 생산지수 49.8로 9월 51.7에서 하락, 신규 수출주문지수도 50.0에서 48.7로 하락",
+              "source": "AP",
+              "url": "https://apnews.com/article/f1e0e24004da425a1b3c8935b16a245c"
+            },
+            {
+              "text": "비제조업 PMI는 50.2에서 49.7로 하락, 대기업 제조업 PMI는 50.2인 반면 중기업 48.4·소기업 47.5 기록",
+              "source": "Bloomberg(Business Standard 재게재)",
+              "url": "https://www.business-standard.com/world-news/china-s-factory-activity-eases-in-october-manufacturing-pmi-falls-to-49-3-126103100099_1.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "일본"
+          ],
+          "category": "정책·규제",
+          "title": "일본, EU 산업가속화법 자동차 우대안에 동등 대우 요구",
+          "bullets": [
+            {
+              "text": "아카자와 일본 경제산업상, EU 산업가속화법의 역내 조립·유럽산 부품 우대 구상에 우려를 표하고 일본산 제품, 특히 전기차의 동등 대우 요청",
+              "source": "Bloomberg(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/merz-sees-mounting-concern-in-asia-over-eu-buy-european-rules"
+            },
+            {
+              "text": "EU 역내산 요건은 회원국·유럽의회의 합의가 필요한 단계이며, 영국의 보조금 대상 포함에는 EU 외국인직접투자·무역구제 규칙 정합성 조건 제시",
+              "source": "Bloomberg(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/merz-sees-mounting-concern-in-asia-over-eu-buy-european-rules"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "일본"
+          ],
+          "category": "국제·외교",
+          "title": "한·미·일 외교장관, 핵심광물·SMR·북극 해양협력 확대 합의",
+          "bullets": [
+            {
+              "text": "조현·루비오·모테기 장관, 애틀랜타 G20 계기 회담에서 핵심광물 공급망 다변화와 소형모듈원전·AI 등 경제안보 협력 강화 합의",
+              "source": "연합뉴스 영문",
+              "url": "https://m-en.yna.co.kr/view/AEN20261031000553315?section=national%2Fdiplomacy"
+            },
+            {
+              "text": "북극·태평양 해양협력과 경제협력을 모색하는 3국 북극태평양파트너십(TAPP) 협력각서 서명",
+              "source": "연합뉴스 영문",
+              "url": "https://m-en.yna.co.kr/view/AEN20261031000553315?section=national%2Fdiplomacy"
+            },
+            {
+              "text": "북한 핵·탄도미사일 프로그램 수입 창출 활동을 금지하는 유엔 제재 이행 필요성 강조 및 다국적제재모니터링팀 활동 평가",
+              "source": "연합뉴스 영문",
+              "url": "https://m-en.yna.co.kr/view/AEN20261031000553315?section=national%2Fdiplomacy"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "name": "인도통상협력과",
+      "issues": [
+        {
+          "countries": [
+            "인도"
+          ],
+          "category": "정책·규제",
+          "title": "인도, 면화 무관세 수입을 12월 말까지 2개월 연장",
+          "bullets": [
+            {
+              "text": "인도 정부, 10월 31일 종료 예정이던 면화 수입관세 11% 면제 조치를 12월 말까지 연장",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/india-extends-duty-free-cotton-imports-by-two-months-to-ease-domestic-prices-ce785fd8d980f321"
+            },
+            {
+              "text": "불규칙한 몬순 강우에 따른 생산 감소 우려로 신작 출하 이후에도 국내 면화가격 강세 지속, 방직업계의 면제기간 연장 요청",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/india-extends-duty-free-cotton-imports-by-two-months-to-ease-domestic-prices-ce785fd8d980f321"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "방글라데시"
+          ],
+          "category": "국제·외교",
+          "title": "방글라데시 재무장관 대표단 방한, 통상·첨단산업 협력 협의",
+          "bullets": [
+            {
+              "text": "아미르 코스루 마흐무드 초두리 재무장관이 이끄는 대표단 방한, 한국 고위 장관·당국자들과 경제·무역·투자 협의 예정",
+              "source": "BSS(Bonik Barta 재게재)",
+              "url": "https://en.bonikbarta.com/bangladesh/UCgS59EO6Uv4jEih"
+            },
+            {
+              "text": "ICT·AI·전자·반도체·제조업·조선 분야에 중점, 삼성·한화오션·네이버 등 기업 및 KOICA·한국수출입은행과 협의 계획",
+              "source": "BSS(Bonik Barta 재게재)",
+              "url": "https://en.bonikbarta.com/bangladesh/UCgS59EO6Uv4jEih"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "파키스탄"
+          ],
+          "category": "중동정세",
+          "title": "카타르 LNG 공급불가항력 연장으로 파키스탄 동절기 수급 부담",
+          "bullets": [
+            {
+              "text": "카타르에너지의 LNG 공급불가항력 기간이 12월 29일까지 연장됐다고 파키스탄 당국자들이 설명, 12~1월 가정용 수요 증가기에 공급 차질 우려 제기",
+              "source": "Arab News Pakistan",
+              "url": "https://www.arabnews.pk/pakistan/pakistan-braces-for-winter-gas-crunch-as-qatar-halts-lng-supply-till-end-december-3005738"
+            },
+            {
+              "text": "석유부 당국자, 통상 3천만 달러 수준인 LNG 화물 1건의 현물 조달비용이 8천만~9천만 달러에 이를 수 있으며 가정용 공급 우선 방침 설명",
+              "source": "Arab News Pakistan",
+              "url": "https://www.arabnews.pk/pakistan/pakistan-braces-for-winter-gas-crunch-as-qatar-halts-lng-supply-till-end-december-3005738"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asean",
+      "name": "아주통상과",
+      "issues": [
+        {
+          "countries": [
+            "싱가포르"
+          ],
+          "category": "국제·외교",
+          "title": "싱가포르 외교장관 파키스탄 방문, 무역·투자 협력 확대 논의",
+          "bullets": [
+            {
+              "text": "발라크리슈난 외교장관, 이슬라마바드 방문에서 양국 무역·투자·기술인력 역량 강화와 탄소시장 협력 논의",
+              "source": "The Straits Times(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/better-late-than-never-says-singapore-fm-on-first-pakistan-visit-by-singapore-leader-in-two-decades"
+            },
+            {
+              "text": "중소기업 간 직접 교류와 정부의 상업적 기회 발굴 지원 필요성 제시, 싱가포르의 2027년 ASEAN 의장국 수임과 파키스탄의 상하이협력기구 역할을 통한 협력 기회 언급",
+              "source": "The Straits Times(The Star 재게재)",
+              "url": "https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/31/better-late-than-never-says-singapore-fm-on-first-pakistan-visit-by-singapore-leader-in-two-decades"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "베트남"
+          ],
+          "category": "대외교역",
+          "title": "베트남 무역당국자, APEC 수출시장 규제·인증 대응 제시",
+          "bullets": [
+            {
+              "text": "도응옥흥 주미 무역참사관, 통상규제 위험 업종 조기경보체계와 관세·무역구제·기술표준 해외시장 데이터베이스의 정기 갱신 제안",
+              "source": "VOV",
+              "url": "https://english.vov.vn/en/economy/vietnam-to-expand-exports-across-apec-markets-amid-tighter-trade-rules-post1346117.vov"
+            },
+            {
+              "text": "원산지 증빙·환경요건·공급망 투명성 대응 필요성 제기, 팜테끄엉 주인도네시아 무역참사관은 수입업체 접촉 전 할랄 인증 확보 권고",
+              "source": "VOV",
+              "url": "https://english.vov.vn/en/economy/vietnam-to-expand-exports-across-apec-markets-amid-tighter-trade-rules-post1346117.vov"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mea",
+      "name": "중동아프리카통상과",
+      "issues": [
+        {
+          "countries": [
+            "이란",
+            "카타르"
+          ],
+          "category": "중동정세",
+          "title": "미·이란 중재 협상, 신뢰구축 순서와 해협 재개방 조건 논의",
+          "bullets": [
+            {
+              "text": "도하 협의에 앞서 테헤란에서 이란·카타르 대표단이 12시간 넘게 회동, 협의는 워싱턴과 정기적으로 연락하며 조율",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
+            },
+            {
+              "text": "카타르 측 7일 신뢰구축안에 이란이 만족하지 않았다는 설명과 함께, 이란은 항만 봉쇄 해제·자산 동결 해제·자국이 지지하는 호르무즈 항로 승인을 요구",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/iranian-envoys-meet-qatari-mediators-as-threat-looms-of-us-strikes-after-midterms-ce785fd8db8dff25"
+            },
+            {
+              "text": "아라그치 이란 외무장관, 중재진과 호르무즈 해협을 이틀 안에 전면 재개방할 수 있는 제안에 도달했다고 설명하며 직접·간접 협상 방식은 미국의 조건 수용 이후 결정 방침 제시",
+              "source": "AP",
+              "url": "https://apnews.com/article/15c0556b92c8c23beb9b8854b4c124f4"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "사우디",
+            "이라크",
+            "쿠웨이트",
+            "알제리",
+            "오만"
+          ],
+          "category": "중동정세",
+          "title": "OPEC+, 걸프 생산 차질 속 2027년 생산능력·기준 검토",
+          "bullets": [
+            {
+              "text": "이란 전쟁으로 차질을 빚은 걸프 회원국의 수출이 증가하고 있으나 대부분의 실제 생산량은 생산목표를 밑도는 상황",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220"
+            },
+            {
+              "text": "회원국 대부분에 적용되는 하루 약 200만 배럴 감산은 2026년 말까지 유지, 2027년 기준생산량 설정 전 4분기 생산능력 검토 마무리 필요",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/opec-agrees-in-principle-to-keep-oil-output-targets-steady-in-december-sources-say-ce785fd8db81f220"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "이란"
+          ],
+          "category": "중동정세",
+          "title": "호르무즈 선박공격 심화 속 국제유가 6개월 최고 수준",
+          "bullets": [
+            {
+              "text": "10월 30일 브렌트유 선물은 배럴당 117.64달러로 2.4%, WTI는 104.12달러로 2.1% 상승 마감, 10월 상승률은 각각 13.6%·15.2% 기록",
+              "source": "Investing.com",
+              "url": "https://in.investing.com/news/economy-news/oil-hits-sixmonth-highs-as-hormuz-attacks-threaten-iran-peace-efforts-5669538"
+            },
+            {
+              "text": "호르무즈 선박공격 심화와 미 중간선거 이후 추가 군사공격 가능성에 따른 공급 불안 보도, 영국 해사무역기구의 10월 걸프·호르무즈 선박공격 집계는 최소 35건",
+              "source": "Investing.com",
+              "url": "https://in.investing.com/news/economy-news/oil-hits-sixmonth-highs-as-hormuz-attacks-threaten-iran-peace-efforts-5669538"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "가나"
+          ],
+          "category": "산업동향",
+          "title": "가나·러시아, 2,000MW 원전 개발 협력 합의",
+          "bullets": [
+            {
+              "text": "아블라콰 가나 외교장관, 러시아·아프리카 정상회의 협의에 이어 러시아와 2,000MW 원자력발전소 개발 협력 합의 발표",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/ghana-says-russia-to-back-2-000-mw-nuclear-plant-deepen-ties-ce785fd8db80f224"
+            },
+            {
+              "text": "가나 측은 사업 목적을 에너지안보와 산업화로 설명, 로사톰도 가나를 포함한 아프리카 4개국과 대형 원전사업을 협의 중이라고 발표",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://www.marketscreener.com/news/ghana-says-russia-to-back-2-000-mw-nuclear-plant-deepen-ties-ce785fd8db80f224"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reports": [],
+  "notes": [
+    "Kommersant·RBC의 최근 48시간 한국 관련 기사 중 통상 관련성과 게시 시각을 함께 확인한 항목 미확보.",
+    "KOTRA 10월 29일 베트남 에너지 보고서와 10월 30일 중동 동향 자료는 발간일·PDF 첨부명 확인에 그쳐 실제 원문 PDF 검증 요건 미충족으로 제외.",
+    "수출입은행 해외경제연구소·현대경제연구원·KIEP 공식 사이트 접근 오류로 해당 기간 발간 원문 확인 불가.",
+    "검색 결과와 원문 게시 날짜가 불일치하는 기사 및 게시 시각 미확인 기사 제외.",
+    "자동 링크 점검: 출처 링크 19개 중 12개는 유료·봇 차단으로 접속 확인이 불가해 조사 단계에서 확인한 게시일을 기준으로 함."
+  ]
+}
