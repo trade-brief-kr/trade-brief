@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="ko">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>글로벌 통상 브리프</title><link rel="stylesheet" href="assets/style.css"></head>
+<body>
+<header class="site-header"><div class="container"><div class="heading"><div><p class="eyebrow">DAILY TRADE & POLICY</p><h1>글로벌 통상 브리프</h1></div><div class="dates"><strong id="report-date">보고서 불러오는 중</strong><p id="updated"></p></div></div>
+<div class="controls"><label>소관과 <select id="department"><option value="">전체(기본 순서)</option></select></label><label>국가 <select id="country" disabled><option value="">전체</option></select></label><button id="reset" type="button">초기화</button><button id="copy" type="button" disabled>텍스트 복사</button></div>
+<nav role="tablist" aria-label="콘텐츠"><button id="brief-tab" role="tab" aria-selected="true" aria-controls="brief">일일 브리프</button><button id="country-tab" role="tab" aria-selected="false" aria-controls="country-info" tabindex="-1">국가 정보 <span>(준비 중)</span></button></nav></div></header>
+<main class="container"><section id="brief" role="tabpanel" aria-labelledby="brief-tab"><p class="muted" role="status">보고서를 불러오고 있습니다.</p></section><section id="country-info" role="tabpanel" aria-labelledby="country-tab" hidden><article class="card"><p class="eyebrow">COMING SOON</p><h2>국가 정보를 준비하고 있습니다</h2><p>향후 GDP, 1인당 GDP, 인플레이션, 금리, 한국과의 교역현황을 제공할 예정입니다.</p><table><caption>제공 예정 항목</caption><thead><tr><th scope="col">항목</th><th scope="col">값</th></tr></thead><tbody><tr><th scope="row">GDP</th><td>—</td></tr><tr><th scope="row">1인당 GDP</th><td>—</td></tr><tr><th scope="row">인플레이션</th><td>—</td></tr><tr><th scope="row">금리</th><td>—</td></tr><tr><th scope="row">한국과의 교역현황</th><td>—</td></tr></tbody></table></article></section><p id="status" role="status" aria-live="polite"></p></main>
+<script src="data/report.js"></script><script src="assets/app.js"></script>
+</body></html>
