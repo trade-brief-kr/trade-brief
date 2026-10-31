@@ -10,7 +10,11 @@
 - `data/sample-report.json`: 실제 뉴스·통계를 포함하지 않은 작은 형식 예제
 - `data/report.json`: 별도 자동화가 생성하는 실제 보고서 (이 프로젝트에서 생성하지 않음)
 - `data/report.js`: Python 도구가 실제 JSON으로 생성하는 파일 직접 열기용 대체 데이터
-- `tools/build_report_js.py`: 표준 라이브러리만 사용하는 데이터 검증·변환 도구
+- `tools/build_report_js.py`: 표준 라이브러리만 사용하는 데이터 검증·변환 도구 (`data/report.js`만 생성)
+- `tools/publish_daily.py`: 일일 게시 명령. 검증 → `data/archive/<날짜>.json/.js` 저장 → `data/archive/index.json/.js` 재생성 → `data/report.js` 재생성
+- `data/archive/`: 날짜별 보고서 보관함. `index.json`은 최신순 `{date, topIssueHeadline, keywords}` 목록
+- `tools/DAILY_UPDATE.md`: 매일 08:00 KST 예약 실행 절차
+- `tools/research_prompt.md`: 사용자 조사 프롬프트 원문 (수정 금지)
 
 ## 로컬에서 열기
 
@@ -100,11 +104,18 @@ URL은 생략하거나 빈 문자열로 둘 수 있습니다. 제공 시 `http` 
 
 테스트용 순수 함수는 `window.TradeBrief.orderSections(data, prefs)`입니다. `{kind: 'country' | 'dept', deptId, issues: [...]}` 배열을 반환하며 입력을 변경하지 않습니다.
 
+## 지난 보고서 보기
+
+상단의 ◀ 이전 / 날짜 선택 / 다음 ▶ 으로 보관된 날짜를 고릅니다. 주소에 `#2026-10-31`처럼 날짜가 붙어 공유할 수 있습니다. 과거 날짜를 보면 "과거 보고서(YYYY.MM.DD)" 안내와 "최신 보고서로" 버튼이 표시되며, 소관과·국가 개인화와 텍스트 복사도 그대로 작동합니다. 키워드 검색은 보관된 모든 날짜의 Global Top Issues와 이슈 제목에서 찾습니다. 파일 직접 열기(file://)에서는 `data/archive/index.js`와 날짜별 `.js`를 대신 읽습니다. 과거 보고서는 자동화가 실제로 게시한 날짜만 존재합니다.
+
 ## 일일 업데이트 흐름
 
+자세한 예약 실행 절차는 `tools/DAILY_UPDATE.md`를 따릅니다. 게시 명령은 `python3 tools/publish_daily.py`입니다 (보고 날짜가 오늘 KST가 아니면 실패, `--allow-any-date`로 무시).
+
+
 1. 매일 **08:00 KST** 자동화가 최근 24시간 뉴스를 수집하고 출처를 확인하여 `data/report.json`을 재생성합니다.
-2. `python3 tools/build_report_js.py`를 실행합니다. 5개 주요 이슈, 부서 ID, 카테고리, bullet의 text/source 및 기본 형식을 검증합니다. 오류면 명확한 메시지와 비정상 종료 코드를 반환하고 기존 JS를 유지합니다.
-3. 검증에 성공한 JSON과 JS를 함께 커밋·푸시하여 GitHub Pages 또는 Cloudflare Pages 같은 무료 정적 호스팅에 배포합니다. 별도의 빌드 단계는 필요 없습니다.
+2. `python3 tools/publish_daily.py`를 실행합니다. 5개 주요 이슈, 부서 ID, 카테고리, bullet의 text/source 및 기본 형식을 검증합니다. 오류면 명확한 메시지와 비정상 종료 코드를 반환하고 기존 JS를 유지합니다.
+3. 검증에 성공한 JSON, JS, 보관함 파일을 함께 커밋·푸시하여 GitHub Pages 또는 Cloudflare Pages 같은 무료 정적 호스팅에 배포합니다. 별도의 빌드 단계는 필요 없습니다.
 
 GitHub Actions 예약 실행을 사용한다면 cron `0 23 * * *` UTC가 다음 날 **08:00 KST**입니다. 예약 작업은 지연될 수 있으며 실제 수집·커밋·배포 자동화는 이 저장소에 구현되어 있지 않습니다.
 

@@ -55,5 +55,47 @@
   function plainText(){const date=dotted(data.date),lines=[`★ Global Top Issues (${date})`,'',...data.topIssues.map(b=>`ㅇ ${b.text} (${b.source})`),'',`★ 일일보도동향 (${date})`,''];orderSections(data,prefs).forEach(s=>{lines.push(s.kind==='country'?`★ ${prefs.country} 관련 이슈`:`□ ${DEPARTMENTS.find(d=>d.id===s.deptId).name}`);if(!s.issues.length)lines.push(s.kind==='country'?`금일 ${prefs.country} 관련 이슈 없음`:'금일 반영 이슈 없음');s.issues.forEach(i=>lines.push(`[${i.countries.join(', ')}, ${i.category}] ${i.title}`,...i.bullets.map(b=>`ㅇ ${b.text} (${b.source})`)));lines.push('');});if(data.reports?.length)lines.push('주요 경제단체 보고서',...data.reports.map(r=>`ㅇ ${r.org}, ${r.title} (${r.date})${safeUrl(r.url)?' PDF: '+r.url:''}`),'');lines.push(...(data.notes||[]));return lines.join('\n');}
   $('copy').addEventListener('click',async()=>{const text=plainText();try{try{await navigator.clipboard.writeText(text);}catch{const area=document.createElement('textarea');area.value=text;area.style.position='fixed';area.style.opacity='0';document.body.append(area);area.select();try{if(!document.execCommand('copy'))throw Error('copy');}finally{area.remove();$('copy').focus();}}$('status').textContent='보고서 텍스트를 복사했습니다.';}catch{$('status').textContent='자동 복사를 사용할 수 없습니다. 아래 텍스트를 선택하여 복사해 주세요.';const area=document.createElement('textarea');area.value=text;area.setAttribute('aria-label','복사할 보고서');area.style.width='100%';area.rows=12;$('status').append(area);area.select();}});
   function usable(d){return d&&/^\d{4}-\d{2}-\d{2}$/.test(d.date)&&Number.isFinite(Date.parse(d.date))&&Number.isFinite(Date.parse(d.generatedAt))&&typeof d.coverage==='string'&&Array.isArray(d.topIssues)&&d.topIssues.length===5&&d.topIssues.every(b=>typeof b.text==='string'&&typeof b.source==='string')&&Array.isArray(d.departments)&&d.departments.every(d=>DEPARTMENTS.some(x=>x.id===d.id)&&Array.isArray(d.issues)&&d.issues.every(i=>Array.isArray(i.countries)&&CATEGORIES.includes(i.category)&&typeof i.title==='string'&&Array.isArray(i.bullets)&&i.bullets.every(b=>typeof b.text==='string'&&typeof b.source==='string')))&&Array.isArray(d.reports)&&d.reports.every(r=>r&&typeof r.title==='string')&&(!d.notes||Array.isArray(d.notes));}
-  (async()=>{try{try{const response=await fetch('data/report.json?v='+Date.now());if(!response.ok)throw Error('HTTP');const json=await response.json();if(!usable(json))throw Error('schema');data=json;}catch{if(!usable(window.REPORT_DATA))throw Error('missing');data=window.REPORT_DATA;}render();}catch{$('report-date').textContent='보고서 확인 필요';$('brief').innerHTML='<article class="card"><h2>아직 보고서를 불러올 수 없습니다</h2><p>보고서 파일이 준비되지 않았거나 형식이 올바르지 않습니다. data/report.json과 data/report.js가 생성되었는지 확인한 후 다시 열어 주세요.</p><p class="muted">로컬에서 파일을 직접 열었다면 python3 tools/build_report_js.py 실행 후 새로고침해 주세요.</p></article>';}})();
+  // ---- Loading, archive navigation and search ----
+  const DATE_RE=/^\d{4}-\d{2}-\d{2}$/;
+  let latest=null,index=[],token=0;const cache={};
+  async function fetchJSON(url){const r=await fetch(url+'?v='+Date.now(),{cache:'no-store'});if(!r.ok)throw Error('HTTP '+r.status);return r.json();}
+  function loadScript(src){return new Promise(resolve=>{const s=document.createElement('script');s.src=src+'?v='+Date.now();s.onload=s.onerror=()=>{s.remove();resolve();};document.head.append(s);});}
+  async function loadLatest(){try{const json=await fetchJSON('data/report.json');if(usable(json))return json;}catch{}if(usable(window.REPORT_DATA))return window.REPORT_DATA;throw Error('missing');}
+  const validIndex=v=>Array.isArray(v)&&v.every(e=>e&&DATE_RE.test(e.date));
+  async function loadIndex(){let list=[];try{const json=await fetchJSON('data/archive/index.json');if(validIndex(json))list=json;else throw Error('schema');}catch{if(validIndex(window.REPORT_INDEX))list=window.REPORT_INDEX;}
+    list=list.filter((e,i,a)=>a.findIndex(x=>x.date===e.date)===i);
+    if(latest&&!list.some(e=>e.date===latest.date))list.push({date:latest.date,topIssueHeadline:latest.topIssues[0].text,keywords:[]});
+    return list.sort((a,b)=>b.date.localeCompare(a.date));}
+  async function loadArchive(date){
+    if(latest&&date===latest.date)return latest;if(cache[date])return cache[date];
+    let d=null;try{const json=await fetchJSON(`data/archive/${date}.json`);if(usable(json))d=json;}catch{}
+    if(!d){if(!window.REPORT_ARCHIVE?.[date])await loadScript(`data/archive/${date}.js`);if(usable(window.REPORT_ARCHIVE?.[date]))d=window.REPORT_ARCHIVE[date];}
+    if(!d||d.date!==date)throw Error('archive');return cache[date]=d;}
+  function archiveUI(){
+    const sel=$('archive-date');sel.replaceChildren(...index.map((e,i)=>new Option(`${dotted(e.date)}${i===0?' (최신)':''}`,e.date)));
+    const cur=data?.date,i=index.findIndex(e=>e.date===cur);sel.value=cur||'';sel.disabled=index.length<1;
+    $('prev-day').disabled=i<0||i>=index.length-1;$('next-day').disabled=i<=0;
+    const old=latest&&cur&&cur!==latest.date;$('archive-banner').hidden=!old;
+    if(old)$('archive-banner-text').textContent=`과거 보고서(${dotted(cur)})를 보고 있습니다. 최신 보고서는 ${dotted(latest.date)}입니다.`;}
+  const goDate=date=>{if(!date||(latest&&date===latest.date)){history.pushState(null,'',location.pathname+location.search);route();}else location.hash=date;};
+  async function route(){
+    const my=++token,hash=decodeURIComponent(location.hash.slice(1));$('status').textContent='';
+    let target=latest;
+    if(hash&&hash!==latest.date){
+      if(DATE_RE.test(hash)&&index.some(e=>e.date===hash)){try{target=await loadArchive(hash);}catch{target=latest;$('status').textContent=`${dotted(hash)} 보고서를 불러오지 못해 최신 보고서를 표시합니다.`;}}
+      else $('status').textContent=`${dotted(hash)} 보고서가 보관되어 있지 않아 최신 보고서를 표시합니다.`;}
+    if(my!==token)return;data=target;render();archiveUI();}
+  $('archive-date').addEventListener('change',e=>goDate(e.target.value));
+  $('prev-day').addEventListener('click',()=>{const i=index.findIndex(e=>e.date===data?.date);if(i>=0&&i<index.length-1)goDate(index[i+1].date);});
+  $('next-day').addEventListener('click',()=>{const i=index.findIndex(e=>e.date===data?.date);if(i>0)goDate(index[i-1].date);});
+  $('to-latest').addEventListener('click',()=>goDate(''));
+  window.addEventListener('hashchange',()=>{if(latest)route();});
+  $('search-form').addEventListener('submit',e=>{e.preventDefault();const q=$('search').value.trim().toLowerCase(),box=$('search-results');
+    if(!q){box.hidden=true;return;}
+    const hits=index.map(en=>({en,hit:[en.topIssueHeadline,...(en.keywords||[])].find(t=>String(t||'').toLowerCase().includes(q))})).filter(x=>x.hit);
+    box.innerHTML=`<h2>‘${esc(q)}’ 검색 결과 (${hits.length}일)</h2>`+(hits.length?`<ul>${hits.map(({en,hit})=>`<li><a href="#${esc(en.date)}">${esc(dotted(en.date))}</a> <span class="hit">${esc(hit)}</span></li>`).join('')}</ul>`:'<p class="muted">보관된 보고서에서 일치하는 내용이 없습니다. (주요 이슈와 이슈 제목에서 검색)</p>')+'<button type="button" id="close-search">닫기</button>';
+    box.hidden=false;$('close-search').addEventListener('click',()=>{box.hidden=true;});});
+  $('search-results').addEventListener('click',e=>{const a=e.target.closest('a[href^="#"]');if(a){e.preventDefault();goDate(a.getAttribute('href').slice(1));}});
+  (async()=>{try{latest=await loadLatest();}catch{$('report-date').textContent='보고서 확인 필요';$('brief').innerHTML='<article class="card"><h2>아직 보고서를 불러올 수 없습니다</h2><p>보고서 파일이 준비되지 않았거나 형식이 올바르지 않습니다. data/report.json과 data/report.js가 생성되었는지 확인한 후 다시 열어 주세요.</p><p class="muted">로컬에서 파일을 직접 열었다면 python3 tools/publish_daily.py 실행 후 새로고침해 주세요.</p></article>';return;}
+    index=await loadIndex();await route();})();
 })();
