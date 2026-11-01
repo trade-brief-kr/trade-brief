@@ -2,11 +2,12 @@
 # 일일 조사 러너: ChatGPT(Codex CLI, 웹검색)로 오늘자 report.json을 작성하고 검증한다.
 # 에이전트는 직접 웹 조사하지 않고 이 스크립트만 실행한다. 게시는 하지 않는다.
 #
-# 사용법: bash tools/run_codex_research.sh [--out PATH] [--timeout SEC] [--strict-links] [--keep-work]
+# 사용법: bash tools/run_codex_research.sh [--out PATH] [--timeout SEC] [--strict-links] [--keep-work] [--prompt-only]
 #   --out PATH      검증 통과본을 쓸 위치 (기본 data/report.json). 드라이런은 저장소 밖 경로 지정.
 #   --timeout SEC   Codex 최대 실행 시간 (기본 2400초 = 40분, 환경변수 CODEX_TIMEOUT)
 #   --strict-links  유료·봇 차단(401/403/429 등)으로 접속 확인 불가한 링크도 제거
 #   --keep-work     Codex 임시 작업 폴더를 지우지 않음
+#   --prompt-only   Codex를 실행하지 않고 프롬프트만 <로그폴더>/prompt.md 로 생성 후 종료(0). --out 은 저장소 밖 경로 권장.
 #
 # 종료 코드 (0일 때만 다음 단계 `python3 tools/publish_daily.py` 진행)
 #   0  성공: 검증 통과본이 --out 에 기록됨 (publish_daily --check 통과)
@@ -26,13 +27,15 @@ TIMEOUT="${CODEX_TIMEOUT:-2400}"
 EFFORT="${CODEX_EFFORT:-high}"   # Codex 추론 강도 (기본 설정은 none → 조사량이 매우 적음)
 STRICT=""
 KEEP=0
+PROMPT_ONLY=0
 while [ $# -gt 0 ]; do
   case "$1" in
     --out) OUT="$2"; shift 2 ;;
     --timeout) TIMEOUT="$2"; shift 2 ;;
     --strict-links) STRICT="--strict-links"; shift ;;
     --keep-work) KEEP=1; shift ;;
-    -h|--help) sed -n '2,22p' "$0"; exit 0 ;;
+    --prompt-only) PROMPT_ONLY=1; shift ;;
+    -h|--help) sed -n '2,21p' "$0"; exit 0 ;;
     *) echo "알 수 없는 옵션: $1" >&2; exit 2 ;;
   esac
 done
@@ -93,8 +96,28 @@ cat <<HDR
 - 각 국가와 한국의 정상회담·장관급 회담·대통령 발언 등 한국 관련 고위급 교류 기사 검색 (연합뉴스 영문, Korea Herald, Korea JoongAng Daily 등 한국 영문 매체 사용 가능).
 - Kommersant·RBC에서 한국(Корея, Южная Корея) 관련 48시간 내 기사 검색.
 - 대상 경제단체 보고서 사이트(KITA, 수은 해외경제연구소, 현대경제연구원, 대한상의 SGI, KOTRA, KIEP)의 최근 3~4일 발간 보고서 확인.
-- 목표 분량: Top Issues 5개 + 일일보도동향 이슈 12~25개(각 이슈 bullet 2~3개). 각 소관과마다 확인된 이슈가 있으면 최소 1개 이상,
-  통상협력총괄과(CIS)는 고영향 이슈가 없으면 에너지·핵심광물·인프라·물류·프로젝트 관련 보강형 이슈 최소 1개.
+- 목표 분량: Top Issues 5개 + 일일보도동향 이슈 12~25개(각 이슈 bullet 2~3개). 각 소관과마다 확인된 이슈가 있으면 최소 1개 이상.
+
+## 소관과별 최소 분량 (필수 조건; 위 절대 원칙 1~3 안에서 충족)
+### 통상협력총괄과(cis): 러시아·우크라이나 외 국가 이슈 최소 1건 필수
+- 러시아·우크라이나 이슈와 별도로, 다음 국가 중 최소 1개국 이슈를 반드시 1건 이상 넣는다:
+  카자흐스탄, 우즈베키스탄, 투르크메니스탄, 키르기스스탄, 타지키스탄(중앙아시아) / 아제르바이잔, 아르메니아, 조지아(코카서스) / 몽골.
+- 관점: 에너지(석유·가스·우라늄·전력), 핵심광물 개발, 인프라·철도·물류(중간회랑 TITR, 카스피해 항만, 중앙아-중국 철도 등),
+  플랜트·프로젝트 수주·발표, 투자협정, 한국과의 협력. 사용자 원문 프롬프트의 '보강형' 규칙대로 글로벌 헤드라인급이 아니어도
+  공급망·통상 환경 변화와 관련된 중간 수준 이슈를 포함한다. 프로젝트 관련 이슈(플랜트 수주 계획 발표 등)는 고영향 이슈로 볼 수 있다.
+- 검색 방법: 위 9개국을 국가별로 각각 검색한다(Reuters, Bloomberg, AP, Nikkei Asia 외 Kazinform, Trend.az, Daryo, The Astana Times,
+  Gazeta.uz, AKIpress, Montsame, Interfax 등 현지·지역 매체 사용 가능, 출처·게시 시각 확인 필수).
+- 24시간 내 해당 국가 기사가 정말 없을 때만, 최근 기사 중 그 나라의 공급망·에너지·물류 구조적 변화, 정책 방향성 또는 경제흐름을 보여주는
+  보강형 항목 1건을 넣는다. 이때도 publishedAt은 실제 게시 시각을 쓰며, 기간 밖 기사는 검증에서 제거되므로 가능한 한 24시간 내 보도를 우선한다.
+  이 경우 notes에 "통상협력총괄과 중앙아·코카서스·몽골 검색 범위: (검색한 국가·매체)" 형식으로 확인한 검색 범위를 한 줄 기록한다.
+  '해당 없음' 같은 문구는 쓰지 않는다.
+- 본문(title·text)에 "고영향 이슈 제한적", "이슈 부재" 등의 문구를 쓰지 않는다.
+
+### 아주통상과(asean): 이슈 최소 3건, 가능하면 서로 다른 3개국 이상
+- 다음 국가를 국가별로 각각 검색한다: 필리핀, 싱가포르, 인도네시아, 말레이시아, 베트남, 태국 (추가로 캄보디아, 라오스, 미얀마, 브루나이, 아세안 전체).
+- 관점: 통상·관세·FTA, 수출입 동향, 공급망·핵심광물(인도네시아 니켈 등)·반도체, 에너지·전력, 인프라·프로젝트, 주요 정책·금리, 한국과의 교류.
+- asean 이슈는 최소 3건, 가능하면 서로 다른 아세안 국가 3개국 이상을 다룬다(한 나라 이슈만으로 채우지 않는다).
+  각 이슈의 countries에 해당 국가명을 넣는다. 24시간 내 확인된 기사가 정말 부족할 때만 3건 미만을 허용하며, 지어내거나 기간 밖 기사로 채우지 않는다.
 - 한 매체에 집중하지 말고, 단순 사실은 Reuters·AP, 정책 해석·시장 영향은 Bloomberg·FT·WSJ·Nikkei·CNBC 보도로 교차 확인.
   유료 기사는 검색 결과에 노출된 제목·요약·게시 시각까지만 사용한다.
 
@@ -113,9 +136,11 @@ cat <<TAIL
 ## 마지막 점검 (저장 전에 반드시)
 - 모든 bullet의 publishedAt이 수집 구간 안인지, url이 그 기사 페이지인지 재확인. 아니면 삭제.
 - topIssues 5개, departments 5개(순서·키), JSON 문법 유효.
+- cis에 러시아·우크라이나 외 중앙아·코카서스·몽골 이슈 1건 이상, asean 이슈 3건 이상(가능하면 3개국 이상)인지 확인. 부족하면 해당 국가를 다시 검색.
 - 현재 작업 폴더에 report.json 저장 (UTF-8). 다른 파일 생성·수정 금지.
 TAIL
 } > "$PROMPT"
+if [ "$PROMPT_ONLY" = 1 ]; then echo "프롬프트만 생성(Codex 미실행): $PROMPT"; exit 0; fi
 
 # --- Codex 실행 (임시 폴더에서만 쓰기 가능: 저장소·archive·research_prompt 수정 불가) ---
 echo "[$(TZ=Asia/Seoul date +%T) KST] Codex 조사 시작 (최대 ${TIMEOUT}s) work=$WORK log=$LOGDIR"

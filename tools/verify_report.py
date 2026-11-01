@@ -26,6 +26,8 @@ What it does (nothing is invented, items are only removed):
      output so data/report.json keeps the existing format.
 Output is written only on success; on failure a *.rejected.json is written next
 to --output for inspection.
+Quality warnings (cis 중앙아·코카서스·몽골 0건, asean 3건·3개국 미만) are logged in
+log.qualityWarnings and stderr only; they never fail verification.
 Exit codes: 0 ok, 12 unreadable/invalid JSON, 13 verification failed.
 """
 import argparse
@@ -294,6 +296,20 @@ def main(argv):
         report['notes'] = notes
     log['issueCount'] = sum(len(d['issues']) for d in depts)
     log['issuesPerDept'] = {d['id']: len(d['issues']) for d in depts}
+    # Quality warnings only (never a publish failure): user-approved minimums for cis / asean.
+    qw = []
+    cis_extra = {'카자흐스탄', '우즈베키스탄', '투르크메니스탄', '키르기스스탄', '타지키스탄',
+                 '아제르바이잔', '아르메니아', '조지아', '몽골', '몰도바', '벨라루스'}
+    for d in depts:
+        if d['id'] == 'cis' and not any(set(i.get('countries') or []) & cis_extra for i in d['issues']):
+            qw.append('통상협력총괄과: 러시아·우크라이나 외 중앙아·코카서스·몽골 이슈 0건')
+        if d['id'] == 'asean':
+            n_c = len({c for i in d['issues'] for c in (i.get('countries') or [])})
+            if len(d['issues']) < 3 or n_c < 3:
+                qw.append(f'아주통상과: 이슈 {len(d["issues"])}건, 국가 {n_c}개 (목표 3건·3개국 이상)')
+    log['qualityWarnings'] = qw
+    for w in qw:
+        print('품질 경고(게시 영향 없음): ' + w, file=sys.stderr)
 
     # Dedupe Top Issues (same sentence) before counting.
     seen_txt, uniq = set(), []
