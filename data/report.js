@@ -1,32 +1,32 @@
 window.REPORT_DATA = {
-  "date": "2026-11-04",
-  "generatedAt": "2026-11-04T07:19:10+09:00",
-  "coverage": "2026-11-03 07:09 ~ 2026-11-04 07:09 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
+  "date": "2026-11-05",
+  "generatedAt": "2026-11-05T07:28:05.000+09:00",
+  "coverage": "2026-11-04 07:17 ~ 2026-11-05 07:17 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
   "topIssues": [
     {
-      "text": "미·이란 종전 합의에 큰 이견이 남은 가운데 카타르의 중재안 검토와 호르무즈 해협 재개방 조건 협의 지속",
+      "text": "미 중간선거 이후 이란전 종식 기대에 국제유가 급락, 브렌트유 8.7% 하락한 배럴당 94.62달러·WTI 8.3% 하락한 88.12달러로 마감",
       "source": "Reuters(MarketScreener 재게재)",
-      "url": "https://www.marketscreener.com/news/iran-s-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-intensifies-ce785fd9df8cf422"
+      "url": "https://ca.marketscreener.com/news/oil-rises-on-iran-war-uncertainty-after-trump-s-republicans-face-election-rout-ce785fdede80f324"
     },
     {
-      "text": "우크라이나·이란 평화협상 기대와 공급 차질 우려가 교차하며 3일 15:44 GMT 브렌트유 배럴당 103.14달러·WTI 95.79달러로 하락",
-      "source": "Reuters(Moneycontrol 재게재)",
-      "url": "https://www.moneycontrol.com/news/business/oil-prices-slide-about-2-to-multi-week-low-amid-peace-talks-14068056.html"
+      "text": "카타르, 2033년 미국산 LNG 최대 구매국 부상 전망",
+      "source": "Financial Times",
+      "url": "https://www.ft.com/content/88e46724-0bd4-451a-b02b-f5709c9771b7?syn-25a6b1a6=1"
     },
     {
-      "text": "러시아·우크라이나·미국의 11월 10~11일 아부다비 3자 평화협상 재개 일정에 대한 크렘린 확인",
+      "text": "미 재무부, 이란 지원을 이유로 인도·튀르키예 소재 기업과 개인에 신규 제재 부과",
       "source": "Reuters(MarketScreener 재게재)",
-      "url": "https://www.marketscreener.com/news/kremlin-confirms-trilateral-ukraine-peace-talks-in-abu-dhabi-next-week-ce785fd9d189f721"
+      "url": "https://hk.marketscreener.com/news/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran-ce785fdfdf81f126"
     },
     {
-      "text": "중국 인민은행의 외화 지급준비율 4%에서 6%로 인상 발표 및 11월 15일 시행 예고",
+      "text": "중국 인민은행, 주식 매입 지원 재대출 금리를 1%로 인하하고 은행 신청액 2,000억 위안 돌파 발표",
       "source": "Reuters(MarketScreener 재게재)",
-      "url": "https://www.marketscreener.com/news/china-to-raise-fx-reserve-requirement-to-slow-yuan-s-rally-ce785fd9dd8efe2c"
+      "url": "https://ae.marketscreener.com/news/china-stock-buying-loan-applications-hit-30-billion-ce785fdede8bf520"
     },
     {
-      "text": "콩고민주공화국의 트럭 500대 이상·구리 및 코발트 수천 톤 압수 후 광업 사기·광물 밀수 의혹에 대한 사법조사 지시",
-      "source": "Reuters(MarketScreener 재게재)",
-      "url": "https://uk.marketscreener.com/news/congo-opens-mining-fraud-inquiry-after-copper-and-cobalt-seizures-statement-shows-ce785fdeda8af623"
+      "text": "구글, 2027~2028년 말레이시아 데이터센터·청정에너지·용수·인력양성에 150억 달러 투자 발표",
+      "source": "Reuters(StreetInsider 재게재)",
+      "url": "https://www.streetinsider.com/Reuters/Google%2Bto%2Binvest%2B$15%2Bbillion%2Bin%2BMalaysia%2Bin%2B2027%2Band%2B2028/27284476.html"
     }
   ],
   "departments": [
@@ -40,61 +40,17 @@ window.REPORT_DATA = {
             "우크라이나"
           ],
           "category": "국제·외교",
-          "title": "아부다비 협상 준비 속 에너지 시설 공격 지속",
+          "title": "우크라이나 전력시설 피격과 러시아 물류거점 공격",
           "bullets": [
             {
-              "text": "크렘린 대변인, 러시아 협상단 수석대표로 푸틴 대통령 보좌관 블라디미르 메딘스키 지명 발표",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/kremlin-confirms-trilateral-ukraine-peace-talks-in-abu-dhabi-next-week-ce785fd9d189f721"
+              "text": "젤렌스키 대통령, 러시아의 야간 공격으로 오데사·체르카시 등 9개 지역 발전시설과 변전소 피해 및 여러 도시의 긴급·비정기 정전 발생 발표",
+              "source": "ABC News",
+              "url": "https://abcnews.com/amp/International/ukraine-russia-trade-hundreds-drones-overnight-moscow-continues/story?id=137838953"
             },
             {
-              "text": "러시아의 미사일·드론 공격으로 오데사에서 리우네에 이르는 우크라이나 발전소·변전소 피격 및 광범위한 정전 발생",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/russia-bombards-ukraine-power-grid-before-abu-dhabi-talks-merz-urges-moscow-to-engage-ce785fdeda8ff727"
-            },
-            {
-              "text": "우크라이나 최대 민간 발전사 DTEK, 보유 화력발전소 5곳 중 3곳의 가동 중단 발표",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/russia-bombards-ukraine-power-grid-before-abu-dhabi-talks-merz-urges-moscow-to-engage-ce785fdeda8ff727"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "카자흐스탄",
-            "아제르바이잔"
-          ],
-          "category": "대외교역",
-          "title": "아제르바이잔 경유 카자흐스탄 원유 운송 확대 협의",
-          "bullets": [
-            {
-              "text": "SOCAR 사장과 카즈무나이가스 경영위원장, 아제르바이잔 인프라를 활용한 카자흐스탄 원유 운송량 확대 및 2024년 전략협력 양해각서 이행 상황 논의",
-              "source": "Trend",
-              "url": "https://www.trend.az/azerbaijan/4242449.html"
-            },
-            {
-              "text": "양사, 카자흐스탄 원유의 아제르바이잔 경유 운송사업 진행 상황 점검 및 제3국 공동투자 기회에 관한 의견 교환",
-              "source": "Trend",
-              "url": "https://www.trend.az/azerbaijan/4242449.html"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "우즈베키스탄"
-          ],
-          "category": "정책·규제",
-          "title": "OECD와 중앙아시아 핵심광물 관리·운송 협력 논의",
-          "bullets": [
-            {
-              "text": "우즈베키스탄 광업지질부 제1차관과 OECD 대표단, 중앙아시아 핵심광물 자원 관리의 안보·투명성 제고 사업 추진방안 협의",
-              "source": "Trend",
-              "url": "https://www.trend.az/casia/uzbekistan/4242494.html"
-            },
-            {
-              "text": "11월 5일 타슈켄트에서 개최 예정인 중앙아시아 핵심광물 원료 운송 연결성 세미나 준비 및 역내 광물 이동의 운송 과제 논의",
-              "source": "Trend",
-              "url": "https://www.trend.az/casia/uzbekistan/4242494.html"
+              "text": "러시아 아디게야 공화국 수장, 아디게이스크 소재 오존 대형 물류시설의 우크라이나 드론 공격 피해 발표",
+              "source": "ABC News",
+              "url": "https://abcnews.com/amp/International/ukraine-russia-trade-hundreds-drones-overnight-moscow-continues/story?id=137838953"
             }
           ]
         },
@@ -102,37 +58,37 @@ window.REPORT_DATA = {
           "countries": [
             "타지키스탄"
           ],
-          "category": "국제·외교",
-          "title": "두샨베 스마트교통 사업의 한국 무상지원 협력",
+          "category": "산업동향",
+          "title": "중국 기업과 석탄 가공·태양광 사업 협의",
           "bullets": [
             {
-              "text": "방한 중인 두샨베시 대표단, 11월 2~3일 한국 국토교통부 관계자들과 스마트교통 개발 협력 논의",
-              "source": "Trend",
-              "url": "https://www.trend.az/casia/tajikistan/4242446.html"
+              "text": "달레르 주마 에너지장관, 중국 핑메이선마홀딩그룹 대표단과 에너지 부문 프로젝트 추진 협의",
+              "source": "Interfax",
+              "url": "https://interfax.kz/en/news/83578"
             },
             {
-              "text": "한국 국토교통부와 두샨베시, 스마트교통 개발사업 실행 착수 의정서 체결 및 최대 190만 달러의 한국 무상지원 유치 기대",
-              "source": "Trend",
-              "url": "https://www.trend.az/casia/tajikistan/4242446.html"
+              "text": "협의 대상에 석탄 가공과 태양광발전소 건설 포함",
+              "source": "Interfax",
+              "url": "https://interfax.kz/en/news/83578"
             }
           ]
         },
         {
           "countries": [
-            "아제르바이잔"
+            "키르기스스탄"
           ],
-          "category": "대외교역",
-          "title": "겨울철 TAP 경유 대EU 가스 공급의 기존 수준 유지 전망",
+          "category": "정책·규제",
+          "title": "가스관망 확충 약속 이행 요구",
           "bullets": [
             {
-              "text": "Azernews가 인용한 IEA 전망에서 다가오는 난방철 아제르바이잔의 TAP 경유 대EU 천연가스 공급량은 전년과 거의 같은 수준",
-              "source": "Azernews",
-              "url": "https://www.azernews.az/oil_and_gas/266703.html"
+              "text": "자파로프 대통령, 가즈프롬이 가스 보급 확대 약속을 계속 이행하지 않을 경우 가스관망을 회수해 직접 확충하겠다는 입장 표명",
+              "source": "Kursiv Uzbekistan",
+              "url": "https://uz.kursiv.media/en/2026-11-04/japarov-seize-gazprom-kyrgyzstan/"
             },
             {
-              "text": "기존 가스관의 설계용량에 근접한 가동으로 유럽행 파이프라인 공급 확대 여력 제약",
-              "source": "Azernews",
-              "url": "https://www.azernews.az/oil_and_gas/266703.html"
+              "text": "자파로프 대통령, 전국 가스 연결을 위한 자금 제공 의무 미이행 지적 및 가즈프롬 소유 관망에 대한 정부의 직접 지시 제약 설명",
+              "source": "Kursiv Uzbekistan",
+              "url": "https://uz.kursiv.media/en/2026-11-04/japarov-seize-gazprom-kyrgyzstan/"
             }
           ]
         }
@@ -147,17 +103,17 @@ window.REPORT_DATA = {
             "중국"
           ],
           "category": "정책·규제",
-          "title": "외화 지급준비율 인상으로 위안화 강세 속도 조절",
+          "title": "주식 매입 지원 대출 집행 확대",
           "bullets": [
             {
-              "text": "Reuters 추산으로 외화 지급준비율 조정에 따른 금융시스템 내 추가 흡수 자금은 약 240억 달러",
+              "text": "인민은행, 자사주 매입·지분 취득 지원 재대출 금리를 0.25%포인트 인하해 11월 4일부터 적용",
               "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/china-to-raise-fx-reserve-requirement-to-slow-yuan-s-rally-ce785fd9dd8efe2c"
+              "url": "https://ae.marketscreener.com/news/china-stock-buying-loan-applications-hit-30-billion-ce785fdede8bf520"
             },
             {
-              "text": "정책 발표 후 역내 위안화의 달러 대비 하락폭 한때 0.37%, 환율은 달러당 6.6728위안까지 상승",
+              "text": "은행이 재대출 금리에 합리적 가산금리를 더해 대출 조건을 정하도록 허용하고 대출 집행 가속화 방침 제시",
               "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/china-to-raise-fx-reserve-requirement-to-slow-yuan-s-rally-ce785fd9dd8efe2c"
+              "url": "https://ae.marketscreener.com/news/china-stock-buying-loan-applications-hit-30-billion-ce785fdede8bf520"
             }
           ]
         },
@@ -165,18 +121,18 @@ window.REPORT_DATA = {
           "countries": [
             "중국"
           ],
-          "category": "산업동향",
-          "title": "엔비디아 클라우드 고객의 중국 사업 비중 축소 지침 보도",
+          "category": "국제·외교",
+          "title": "미·중 정상 합의 이행 의사 재확인",
           "bullets": [
             {
-              "text": "Reuters, FT를 인용해 엔비디아가 데이터센터 파트너들에게 중국 고객에 대한 사업 노출 축소를 요구했다고 보도하며 독립 검증 미완료 명시",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/nvidia-orders-data-centre-clients-to-reduce-china-exposure-ft-reports-ce785fd9dc8fff20"
+              "text": "마오닝 외교부 대변인, 미국 중간선거를 미국의 내정으로 규정하고 양국 정상이 도출한 합의를 계속 수호·이행할 의향 표명",
+              "source": "SBS",
+              "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008830844"
             },
             {
-              "text": "The Information, 클라우드 고객의 고객군 다변화 요구와 해당 지침의 비의무적 성격 보도",
-              "source": "The Information",
-              "url": "https://www.theinformation.com/briefings/nvidia-tells-cloud-clients-take-less-china-business"
+              "text": "중국 외교부, 상호 존중과 공평·평등을 토대로 소통 강화·이견 관리·협력 확대 추진 입장 제시",
+              "source": "SBS",
+              "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008830844"
             }
           ]
         },
@@ -184,18 +140,37 @@ window.REPORT_DATA = {
           "countries": [
             "일본"
           ],
-          "category": "국제·외교",
-          "title": "이재명 대통령의 한일 공급망·첨단기술 협력 확대 강조",
+          "category": "정책·규제",
+          "title": "미국 AI 기업에 취약점 정보 조기 공유 요청 추진",
           "bullets": [
             {
-              "text": "이재명 대통령, 미래경제포럼 서면 축사에서 한일 협력의 심화·확대를 더 미룰 수 없는 시대적 과제로 제시",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261103115800001?section=politics/all"
+              "text": "니혼게이자이 보도를 인용한 로이터, 일본 정부가 미국 AI 개발사 등 해외 기술기업에 미공개 소프트웨어 취약점 정보의 조기 접근을 요청할 계획이라고 보도",
+              "source": "Reuters(StreetInsider 재게재)",
+              "url": "https://new.streetinsider.com/Reuters/Japan%2Bto%2Bseek%2Bsoftware%2Bvulnerability%2Bdata%2Bfrom%2BUS%2BAI%2Bfirms%2Bamid%2Bcyberattack%2Bsurge,%2BNikkei%2Breports/27288367.html"
             },
             {
-              "text": "셔틀외교를 통한 신뢰 강화와 함께 공급망 안정에서 AI·우주·바이오 등 첨단기술로 경제협력 범위를 확대 중이라고 설명",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261103115800001?section=politics/all"
+              "text": "정부기관·핵심 인프라 운영자의 신속한 대응을 위해 중대 취약점의 공개 전 정보 확보 방안 검토 및 이르면 금요일 각료회의에서 긴급 사이버보안 대책 제시 전망",
+              "source": "Reuters(StreetInsider 재게재)",
+              "url": "https://new.streetinsider.com/Reuters/Japan%2Bto%2Bseek%2Bsoftware%2Bvulnerability%2Bdata%2Bfrom%2BUS%2BAI%2Bfirms%2Bamid%2Bcyberattack%2Bsurge,%2BNikkei%2Breports/27288367.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "국제·외교",
+          "title": "APEC 각료회의에서 에너지 공급 다변화·AI 협력 제안",
+          "bullets": [
+            {
+              "text": "김진아 외교부 2차관, 중국이 공동 주재한 APEC 각료회의에서 역내 에너지 회복력 강화와 공급원 다변화를 위한 협력 확대 촉구",
+              "source": "연합뉴스(K-VIBE 게재)",
+              "url": "https://korean-vibe.com/article/179542642821551"
+            },
+            {
+              "text": "한국, 글로벌 AI 허브와 아시아·태평양 AI 센터 등 혁신 플랫폼 구축을 통해 역내 AI 개발·도입 지원 방침 제시",
+              "source": "연합뉴스(K-VIBE 게재)",
+              "url": "https://korean-vibe.com/article/179542642821551"
             }
           ]
         }
@@ -207,20 +182,39 @@ window.REPORT_DATA = {
       "issues": [
         {
           "countries": [
-            "인도"
+            "방글라데시"
           ],
-          "category": "경제동향",
-          "title": "몬순 강우 부족에 따른 겨울작물·식품물가 압력",
+          "category": "국제·외교",
+          "title": "총리 특사 방한과 경제·통상·방산 협력 논의",
           "bullets": [
             {
-              "text": "인도 남부·서부 농가의 수분·관개용수 부족으로 밀·병아리콩 등 겨울작물 파종 차질 및 생육·수확량 감소 위험 확대",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/from-grains-to-chicken-and-milk-india-faces-prolonged-food-inflation-ce785fd9df8bf020"
+              "text": "위성락 국가안보실장, 총리 특사로 방한한 초우두리 재무장관을 접견하고 고위급 교류 활성화와 통상·투자·개발·인프라 협력 확대 논의",
+              "source": "연합뉴스",
+              "url": "https://www.yna.co.kr/view/AKR20261104165300001"
             },
             {
-              "text": "India Ratings and Research 수석이코노미스트, 강우 부족·국제가격 상승·루피화 약세를 근거로 10~12월 식품물가 상승률 약 10% 가능성 제시",
+              "text": "양측, 8월 원칙적 타결된 CEPA 등 경제협력 기반 강화를 평가하고 경제·통상 및 국방·방산 분야 협력 확대에 의견 일치",
+              "source": "연합뉴스",
+              "url": "https://www.yna.co.kr/view/AKR20261104165300001"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "인도"
+          ],
+          "category": "정책·규제",
+          "title": "이란 석유 운송 관련 인도 선박등록망 제재",
+          "bullets": [
+            {
+              "text": "미 재무부, 인도 소재 수니엘 쿠마르 샤르마와 배우자, 다른 인도 국적자 2명 및 관련 법인 9곳을 제재 대상으로 지정",
               "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/from-grains-to-chicken-and-milk-india-faces-prolonged-food-inflation-ce785fd9df8bf020"
+              "url": "https://hk.marketscreener.com/news/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran-ce785fdfdf81f126"
+            },
+            {
+              "text": "재무부, 해당 네트워크가 이란 군·대리세력 관련 석유 운송 선박에 허위 선적국 등록과 인증을 제공했다는 제재 사유 제시",
+              "source": "Reuters(MarketScreener 재게재)",
+              "url": "https://hk.marketscreener.com/news/us-slaps-sanctions-on-indian-turkish-firms-and-people-for-aiding-iran-ce785fdfdf81f126"
             }
           ]
         },
@@ -229,36 +223,17 @@ window.REPORT_DATA = {
             "인도"
           ],
           "category": "대외교역",
-          "title": "영국산 벌크 스카치위스키 관세 분류 논란과 FTA 혜택 유지 협의",
+          "title": "미 중간선거 이후 통상 압박·불확실성 평가",
           "bullets": [
             {
-              "text": "인도 상무부, 11월 2일 주류 제조업계에 벌크 스카치위스키의 품목분류 불확실성 해소 및 인도·영국 무역협정 혜택 보호 조치 추진 설명",
-              "source": "Moneycontrol",
-              "url": "https://www.moneycontrol.com/news/business/economy/a-bigger-pour-india-s-bulk-scotch-imports-from-uk-soar-nearly-1-000-after-trade-deal-14067737.html/amp"
+              "text": "블룸버그, 인도 관리들이 미 민주당의 양원 승리가 통상 긴장 압박을 일부 완화하면서도 양국 관계에 새로운 불확실성을 더한다는 신중한 평가를 제시했다고 보도",
+              "source": "Bloomberg(Bloomberg Tax 재게재)",
+              "url": "https://news.bloombergtax.com/international-trade/india-sees-some-trade-relief-new-risks-after-us-midterm-vote"
             },
             {
-              "text": "협정상 적격 스카치위스키 관세는 150%에서 75%로 인하됐으며 향후 10년에 걸쳐 40%로 추가 인하 예정",
-              "source": "Moneycontrol",
-              "url": "https://www.moneycontrol.com/news/business/economy/a-bigger-pour-india-s-bulk-scotch-imports-from-uk-soar-nearly-1-000-after-trade-deal-14067737.html/amp"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "방글라데시"
-          ],
-          "category": "국제·외교",
-          "title": "한국과 CEPA 이후 무역·투자 민관 실무그룹 구성 합의",
-          "bullets": [
-            {
-              "text": "방글라데시 재무기획장관과 한국 통상장관, 서울 회담에서 CEPA 협상 타결 이후 무역·투자 기회 발굴을 위한 정부·민간 공동 실무그룹 구성 합의",
-              "source": "UNB(The Business Standard 재게재)",
-              "url": "https://www.tbsnews.net/foreign-policy/bangladesh-south-korea-form-working-group-post-cepa-trade-and-investment-1591101"
-            },
-            {
-              "text": "전자·반도체·조선·재생에너지·AI 등 협력 분야 논의 및 방글라데시 측의 전자산업 원자재 관세 26%에서 0%로 인하·통관절차 간소화 설명",
-              "source": "UNB(The Business Standard 재게재)",
-              "url": "https://www.tbsnews.net/foreign-policy/bangladesh-south-korea-form-working-group-post-cepa-trade-and-investment-1591101"
+              "text": "미국을 최대 수출시장으로 두고 중동산 원유를 대량 수입하는 인도에 트럼프 행정부의 관세와 이란전이 특히 큰 타격을 줬다는 보도",
+              "source": "Bloomberg(Bloomberg Tax 재게재)",
+              "url": "https://news.bloombergtax.com/international-trade/india-sees-some-trade-relief-new-risks-after-us-midterm-vote"
             }
           ]
         }
@@ -270,39 +245,39 @@ window.REPORT_DATA = {
       "issues": [
         {
           "countries": [
-            "인도네시아"
+            "말레이시아"
           ],
-          "category": "정책·규제",
-          "title": "석탄·니켈·팜유 원자재거래소 규정의 11월 제정 추진",
+          "category": "산업동향",
+          "title": "구글 데이터센터 확장과 전력·용수 투자",
           "bullets": [
             {
-              "text": "인도네시아 금융감독청, 석탄·니켈·팜유 수출의 투명성과 통제력 제고를 위한 신규 원자재거래소 관련 규정 2건을 11월 말까지 발표할 계획",
-              "source": "Reuters(The Business Times 재게재)",
-              "url": "https://www.businesstimes.com.sg/international/asean/indonesia-aims-issue-rules-commodity-exchange-end-november"
+              "text": "기존 엘미나 비즈니스파크 캠퍼스에 더해 슬랑오르·느그리슴빌란에 신규 캠퍼스 건설 계획",
+              "source": "Reuters(StreetInsider 재게재)",
+              "url": "https://www.streetinsider.com/Reuters/Google%2Bto%2Binvest%2B$15%2Bbillion%2Bin%2BMalaysia%2Bin%2B2027%2Band%2B2028/27284476.html"
             },
             {
-              "text": "거래 개시 목표일은 2027년 1월 4일이며 거래소 조직·운영·거래상품 등에 관한 규정 4건 마련 및 정부·국부펀드 다난타라와 운영주체 협의 진행",
-              "source": "Reuters(The Business Times 재게재)",
-              "url": "https://www.businesstimes.com.sg/international/asean/indonesia-aims-issue-rules-commodity-exchange-end-november"
+              "text": "말레이시아 전력망에 1GW 이상의 청정에너지 설비 추가 및 데이터센터 전력 사용료·직접 계통연결 비용 전액 부담 방침",
+              "source": "Reuters(StreetInsider 재게재)",
+              "url": "https://www.streetinsider.com/Reuters/Google%2Bto%2Binvest%2B$15%2Bbillion%2Bin%2BMalaysia%2Bin%2B2027%2Band%2B2028/27284476.html"
             }
           ]
         },
         {
           "countries": [
-            "싱가포르"
+            "태국"
           ],
           "category": "정책·규제",
-          "title": "SGX 상장 심사 통합 및 6~8주 처리기한 도입",
+          "title": "수입 전기차 소비세 35% 인상 확정",
           "bullets": [
             {
-              "text": "2027년 1월 4일부터 SGX 메인보드·글로벌리스팅보드의 투자설명서 심사 기능을 SGX RegCo에 위임해 상장 심사 창구 일원화",
-              "source": "The Business Times",
-              "url": "https://www.businesstimes.com.sg/companies-markets/singapore-speeds-ipo-process-sgx-regco-taking-over-listing-review"
+              "text": "내각, 2027년 1월 1일부터 완성차 형태로 수입되는 배터리 전기차 소비세를 10%에서 35%, 주행거리 연장형 전기차를 15%에서 35%로 인상하는 방안 승인",
+              "source": "Thai Examiner",
+              "url": "https://www.thaiexaminer.com/thai-news-foreigners/2026/11/04/buying-frenzy-fears-followed-by-a-sales-slump-expressed-in-mixed-reaction-to-excise-tax-on-ev-imports/"
             },
             {
-              "text": "완비된 상장 신청의 6~8주 내 처리 추진 및 싱가포르 통화청의 투자설명서 법적 요건·면제 권한과 감독 기능 유지",
-              "source": "The Business Times",
-              "url": "https://www.businesstimes.com.sg/companies-markets/singapore-speeds-ipo-process-sgx-regco-taking-over-listing-review"
+              "text": "태국 공장 설립 계획 기업에 대한 우대 조건은 협상 예정으로, 관련 양허 조건은 미확정",
+              "source": "Thai Examiner",
+              "url": "https://www.thaiexaminer.com/thai-news-foreigners/2026/11/04/buying-frenzy-fears-followed-by-a-sales-slump-expressed-in-mixed-reaction-to-excise-tax-on-ev-imports/"
             }
           ]
         },
@@ -311,17 +286,55 @@ window.REPORT_DATA = {
             "베트남"
           ],
           "category": "대외교역",
-          "title": "교역액 1조 달러 돌파와 수출시장 다변화 추진",
+          "title": "EU와 녹색경제·공급망 협력 논의",
           "bullets": [
             {
-              "text": "1~10월 누적 수출입액 1조100억 달러로 전년 대비 32.3% 증가하며 처음으로 1조 달러 상회, 같은 기간 무역수지는 120억7천만 달러 적자",
-              "source": "VNA(VnExpress International 재게재)",
-              "url": "https://e.vnexpress.net/news/business/economy/vietnam-posts-back-to-back-monthly-trade-surpluses-5140266.html"
+              "text": "베트남 산업무역부·EU 대표부·EU-아세안기업협의회, 하노이에서 녹색경제와 새로운 가치사슬을 주제로 경제·무역 협력 포럼 개최",
+              "source": "Nhân Dân",
+              "url": "https://nhandan.vn/khai-mac-dien-dan-hop-tac-kinh-te-va-thuong-mai-viet-nam-eu-2026-post1000133.html"
             },
             {
-              "text": "산업무역부, 기체결 FTA 활용·신규시장 개척 및 무역구제·관세장벽·녹색기준·추적가능성·원산지 규정에 관한 조기경보 강화 추진",
-              "source": "VNA(VnExpress International 재게재)",
-              "url": "https://e.vnexpress.net/news/business/economy/vietnam-posts-back-to-back-monthly-trade-surpluses-5140266.html"
+              "text": "베트남 산업무역차관, 녹색 공급망 구축·청정에너지 전환·녹색 소재·순환경제 기술 도입 및 유럽의 첨단기술 이전 확대를 우선과제로 제시",
+              "source": "Nhân Dân",
+              "url": "https://nhandan.vn/khai-mac-dien-dan-hop-tac-kinh-te-va-thuong-mai-viet-nam-eu-2026-post1000133.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "싱가포르"
+          ],
+          "category": "정책·규제",
+          "title": "초국경 연무 책임 기업 제재 강화",
+          "bullets": [
+            {
+              "text": "의회, 초국경 연무 오염에 대한 최대 벌금을 200만 싱가포르달러에서 2,000만 싱가포르달러로 인상하는 법률 개정안 통과",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/watch/singapore-passes-tougher-haze-law-raises-maximum-fine-s20-million-s2-million-6524546"
+            },
+            {
+              "text": "의심 기업과의 거래 제한 및 연무 도달 전 조치 근거 신설, 거래 제한 위반 시 건당 최대 100만 싱가포르달러와 지속 위반 일당 10만 싱가포르달러 추가 벌금 부과",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/watch/singapore-passes-tougher-haze-law-raises-maximum-fine-s20-million-s2-million-6524546"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "필리핀"
+          ],
+          "category": "국제·외교",
+          "title": "중국과 대화 유지 및 공동 자원개발 협상 논의",
+          "bullets": [
+            {
+              "text": "필리핀 외교부, 라사로 외교장관과 왕이 중국 외교부장의 통화에서 대화·소통 유지 및 아세안·APEC 회의 정상 의전 보장 합의 발표",
+              "source": "Reuters(StreetInsider 재게재)",
+              "url": "https://www.streetinsider.com/Reuters/Philippines,%2BChina%2Bpledge%2Bto%2Bmaintain%2Bdialogue%2Bdespite%2Btensions/27284271.html"
+            },
+            {
+              "text": "AP에 설명한 필리핀 관리, 리드뱅크 공동 석유·가스 탐사에 관한 장기 중단 협상의 재개 가능성도 양국 외교장관 간 논의됐다고 언급",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/wang-yi-lazaro-china-philippines-sea-d42769727206e2c5f58009c407e5287c"
             }
           ]
         }
@@ -333,65 +346,20 @@ window.REPORT_DATA = {
       "issues": [
         {
           "countries": [
-            "이란",
-            "카타르"
+            "이란"
           ],
           "category": "중동정세",
-          "title": "카타르 중재 지속 속 이란의 호르무즈 재개방 조건 제시",
+          "title": "전면전 재개 방지 협상 지속",
           "bullets": [
             {
-              "text": "이란 고위 관계자, 호르무즈 해협 재개방 조건으로 원유 제재 면제·미국의 해상 봉쇄 종료·동결자금 해제 등 제시",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/iran-s-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-intensifies-ce785fd9df8cf422"
+              "text": "AP, 전면전 재개를 막기 위한 협상이 계속되는 가운데 역내 미국 우방국들이 워싱턴에 전쟁 재개 자제를 촉구 중이라고 보도",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/us-iran-midterm-election-f3c48a92df2bd8a658d3e704a7291d11"
             },
             {
-              "text": "카타르 외교부 대변인, 미국과 이란이 중재안을 검토 중이며 확전 방지를 위한 역내 공동 노력이 진행 중이라고 설명",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/iran-s-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-intensifies-ce785fd9df8cf422"
-            },
-            {
-              "text": "미국 관계자, 이란 케슘섬 지대공미사일을 겨냥한 공격을 방어 목적의 제한적 작전으로 설명",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://www.marketscreener.com/news/iran-s-foreign-minister-says-talks-with-saudi-arabia-are-ongoing-yemen-fighting-intensifies-ce785fd9df8cf422"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "이란",
-            "기타 중동"
-          ],
-          "category": "중동정세",
-          "title": "평화협상 기대와 중동 현물 공급 증가 신호에 유가 약세",
-          "bullets": [
-            {
-              "text": "Reuters, 우크라이나·이란 전쟁 종식 협상 기대와 양 지역의 최근 공격에 따른 추가 공급 차질 우려가 유가 변동 요인으로 작용했다고 보도",
-              "source": "Reuters(Moneycontrol 재게재)",
-              "url": "https://www.moneycontrol.com/news/business/oil-prices-slide-about-2-to-multi-week-low-amid-peace-talks-14068056.html"
-            },
-            {
-              "text": "Bloomberg 보도에서 중동 원유의 단기 공급이 수요를 웃도는 신호가 7월 이후 처음 관측되며 두바이유 11월물은 12월물보다 배럴당 약 2달러 낮은 가격",
-              "source": "Bloomberg(Sovereign News Station 재게재)",
-              "url": "https://snslive.uk/article/2854651"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "사우디"
-          ],
-          "category": "중동정세",
-          "title": "아람코의 호르무즈 우회 수출로·동서송유관 확장 검토",
-          "bullets": [
-            {
-              "text": "아람코 CEO, 홍해 수출거점으로 이어지는 동서송유관 확장과 추가 수출경로·해외 저장능력 확보 검토 공개",
-              "source": "Reuters(The Edge Malaysia 재게재)",
-              "url": "https://theedgemalaysia.com/node/824362"
-            },
-            {
-              "text": "AP, 동서송유관·얀부항을 통한 사우디 원유 수출 유지 및 오만 연안의 미국 보호 항로를 통한 호르무즈 운송 병행 보도",
-              "source": "AP",
-              "url": "https://apnews.com/article/aramco-saudi-oil-earnings-profit-hormuz-refineries-6fefcbf7b89dd2e4e638cf80d5ffc36f"
+              "text": "이란 최고지도자 모즈타바 하메네이, 미국 내 정당 변화가 대이란 적대 행태의 변화로 이어질 것이라는 기대를 일축",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/us-iran-midterm-election-f3c48a92df2bd8a658d3e704a7291d11"
             }
           ]
         },
@@ -400,80 +368,55 @@ window.REPORT_DATA = {
             "튀르키예"
           ],
           "category": "국제·외교",
-          "title": "한·튀르키예 정상회담의 원전 금융·핵심광물 협력 확대",
+          "title": "정상회담 계기 시노프 원전 금융협력 MOU",
           "bullets": [
             {
-              "text": "이재명 대통령과 에르도안 대통령의 청와대 정상회담을 계기로 원전 프로젝트 금융 협력 양해각서 체결 및 한국 기업의 튀르키예 신규 원전사업 참여 지원 합의",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261103143800001?section=politics/all"
+              "text": "한국수출입은행과 튀르키예 원자력공사 TÜNAŞ, 양국 정상 임석하에 신규 원전 프로젝트 금융협력 양해각서 체결",
+              "source": "Aju Press",
+              "url": "https://m.ajupress.com/view/20261104102070432"
             },
             {
-              "text": "에너지 협력 양해각서에 따른 한·튀르키예 에너지전환 포럼 신설과 천연자원·광업 협력 양해각서를 통한 핵심광물 공급망 다변화 추진",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261103143800001?section=politics/all"
-            },
-            {
-              "text": "이 대통령, 무역 불균형·수입 규제·통관 지연 과제 해결 및 방산 분야 제3국 공동진출 모색 방침 제시",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261103143800001?section=politics/all"
+              "text": "양측, 시노프 원전 금융모델 분석·자금조달 구조 수립·금융지원 타당성 검토를 위한 정보 교환 및 실무그룹 구성 추진",
+              "source": "Aju Press",
+              "url": "https://m.ajupress.com/view/20261104102070432"
             }
           ]
         },
         {
           "countries": [
-            "콩고민주공화국"
+            "튀르키예"
           ],
-          "category": "정책·규제",
-          "title": "구리·코발트 생산지역의 불법채굴·밀수 조사 확대",
+          "category": "산업동향",
+          "title": "한국 기업과 희토류 영구자석 현지 공급망 협의",
           "bullets": [
             {
-              "text": "콩고민주공화국 법무장관, 광물자원이 집중된 루알라바·오트카탕가주 내 광업 사기와 밀수 의혹에 대한 사법조사 지시",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/congo-opens-mining-fraud-inquiry-after-copper-and-cobalt-seizures-statement-shows-ce785fdeda8af623"
+              "text": "제이에스링크, 튀르키예 에너지·산업 담당 장관들과 희토류 원료 확보부터 금속·합금·고성능 영구자석 제조까지 이어지는 현지 통합 공급망 구축 협의 발표",
+              "source": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2644081?trc=right_categori_news_estudio"
             },
             {
-              "text": "정부 합동조사단, ERG 소유 보스마이닝의 멘다 광구에서 광업장비 500점 이상 압수 및 별도 작전에서 외국인 60명 이상 구금",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/congo-opens-mining-fraud-inquiry-after-copper-and-cobalt-seizures-statement-shows-ce785fdeda8af623"
+              "text": "호주 라이나스와의 전략적 협력 활용 및 아테쉬와 연간 1,000톤 생산체계 확보 후 3,000톤까지 확대하는 방안 검토",
+              "source": "이투데이",
+              "url": "https://www.etoday.co.kr/news/view/2644081?trc=right_categori_news_estudio"
             }
           ]
         },
         {
           "countries": [
-            "UAE"
+            "아프리카"
           ],
-          "category": "중동정세",
-          "title": "ADNOC Gas·토탈에너지의 5년 LNG 공급계약",
+          "category": "국제·외교",
+          "title": "한국·AU 협력기금 운영과 무역·투자 협력 협의",
           "bullets": [
             {
-              "text": "토탈에너지, UAE ADNOC Gas로부터 5년 계약에 따라 LNG 최대 160만 톤 구매 발표",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/totalenergies-signs-five-year-lng-supply-deal-with-adnoc-gas-ce785fd9df81f123"
+              "text": "한국과 아프리카연합, 아디스아바바에서 제7차 정책협의회를 열고 한·AU 협력기금 운영 및 무역·투자·보건 등 실질협력 확대 방안 논의",
+              "source": "연합뉴스",
+              "url": "https://en.yna.co.kr/view/AEN20261104006300315"
             },
             {
-              "text": "토탈에너지 발표에 따른 첫 LNG 인도 개시 예정 시점은 2026년",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/totalenergies-signs-five-year-lng-supply-deal-with-adnoc-gas-ce785fd9df81f123"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "남아프리카공화국",
-            "르완다"
-          ],
-          "category": "정책·규제",
-          "title": "미국 AGOA 무관세 자격 중단과 수출업계 대응",
-          "bullets": [
-            {
-              "text": "미국, 2027년 1월부터 남아프리카공화국·르완다의 아프리카성장기회법(AGOA) 무관세 혜택 자격 중단 발표",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/south-africa-braces-for-some-job-losses-as-us-trade-benefits-end-ce785fd9d089ff2d"
-            },
-            {
-              "text": "남아공 무역부, 피해 업종과 영향 평가·지원 협의 및 수출시장 다변화 가속 방침 제시",
-              "source": "Reuters(MarketScreener 재게재)",
-              "url": "https://uk.marketscreener.com/news/south-africa-braces-for-some-job-losses-as-us-trade-benefits-end-ce785fd9d089ff2d"
+              "text": "한국, 대아프리카 협력사업 추진 상황 공유 및 고위급 교류 확대 제안, AU는 상호 호혜적 협력 지원 의사 표명",
+              "source": "연합뉴스",
+              "url": "https://en.yna.co.kr/view/AEN20261104006300315"
             }
           ]
         }
@@ -482,11 +425,10 @@ window.REPORT_DATA = {
   ],
   "reports": [],
   "notes": [
-    "통상협력총괄과 중앙아·코카서스·몽골 검색 범위: 카자흐스탄·우즈베키스탄·투르크메니스탄·키르기스스탄·타지키스탄·아제르바이잔·아르메니아·조지아·몽골 국가별 웹 검색, Trend·Azernews·Interfax·AP 등 확인",
-    "Kommersant·RBC의 Корея·Южная Корея 및 11월 2~3일 검색에서 한국 통상 관련 기사와 게시 시각의 동시 검증 미완료",
-    "한국무역협회·수출입은행 해외경제연구소·현대경제연구원·대한상의 SGI·KOTRA·KIEP 보고서 중 최근 3~4일 발간일과 공식 PDF의 동시 확인 자료 미확보; 수출입은행 사이트 502·현대경제연구원 사이트 403 접근 오류",
-    "한·인도 외교장관·부안보보좌관 회동 보도는 기사 게시 시각 미확인으로 제외",
-    "엔비디아 관련 내용은 FT 인용 Reuters 보도와 The Information의 공개 제목·요약·검색 노출 범위로 한정; Bloomberg 유가 분석은 원 매체·UTC 게시 시각이 명시된 Sovereign News Station 재게재본 사용",
-    "자동 링크 점검: 출처 링크 25개 중 13개는 유료·봇 차단으로 접속 확인이 불가해 조사 단계에서 확인한 게시일을 기준으로 함."
+    "통상협력총괄과 중앙아·코카서스·몽골 검색 범위: 카자흐스탄·우즈베키스탄·투르크메니스탄·키르기스스탄·타지키스탄·아제르바이잔·아르메니아·조지아·몽골; Interfax·Kursiv·AKIpress·The Times of Central Asia·현지 및 한국 관련 매체",
+    "Kommersant·RBC 한국 관련 48시간 검색에서 한국 통상 기사 원문·게시 시각의 동시 확인 미완",
+    "KITA·수은 해외경제연구소·현대경제연구원·대한상의 SGI·KOTRA·KIEP의 최근 3~4일 보고서 발간일·공식 PDF 동시 확인 미완",
+    "FT LNG 항목은 유료 원문 제목·검색 노출 요약과 배포 피드 기반 게시 시각 범위에서 반영",
+    "자동 링크 점검: 출처 링크 22개 중 9개는 유료·봇 차단으로 접속 확인이 불가해 조사 단계에서 확인한 게시일을 기준으로 함."
   ]
 };
