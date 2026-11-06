@@ -50,6 +50,8 @@ def bullet(value, path):
     string(value.get('text'), path + '.text')
     string(value.get('source'), path + '.source')
     url(value.get('url'), path + '.url')
+    # Optional republish / mirror link (kept alongside original url).
+    url(value.get('altUrl'), path + '.altUrl')
 
 
 def countries(value, path):

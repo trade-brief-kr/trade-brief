@@ -1,7 +1,7 @@
 window.REPORT_ARCHIVE = window.REPORT_ARCHIVE || {};
 window.REPORT_ARCHIVE["2026-11-06"] = {
   "date": "2026-11-06",
-  "generatedAt": "2026-11-06T10:45:00+09:00",
+  "generatedAt": "2026-11-06T10:50:00+09:00",
   "coverage": "2026-11-05 07:15 ~ 2026-11-06 07:15 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
   "topIssues": [
     {
@@ -17,12 +17,14 @@ window.REPORT_ARCHIVE["2026-11-06"] = {
     {
       "text": "메르츠 독일 총리, 특정 국가에 대한 핵심 원자재 의존 축소를 위해 유럽 차원의 비축과 조달선 다변화·재활용 강화 제안",
       "source": "Reuters",
-      "url": "https://www.reuters.com/world/china/europe-must-stockpile-critical-raw-materials-germanys-merz-says-2026-11-05/"
+      "url": "https://www.reuters.com/world/china/europe-must-stockpile-critical-raw-materials-germanys-merz-says-2026-11-05/",
+      "altUrl": "https://ca.marketscreener.com/news/europe-must-stockpile-critical-raw-materials-germany-s-merz-says-ce785fdcd18ef626"
     },
     {
       "text": "ABB에 따르면 중국 당국이 소프트뱅크의 54억 달러 규모 로봇사업 인수를 불허하며 첨단기술 분야 외국인투자 심사 강화",
       "source": "Reuters",
-      "url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/"
+      "url": "https://www.reuters.com/business/media-telecom/china-blocks-softbanks-54-billion-takeover-abbs-robotics-division-ft-reports-2026-11-05/",
+      "altUrl": "https://www.streetinsider.com/Reuters/China%2Bblocks%2BSoftBank%E2%80%99s%2B$5.4%2Bbillion%2Btakeover%2Bof%2BABB%E2%80%99s%2Brobotics%2Bdivision,%2BFT%2Breports/27292471.html"
     },
     {
       "text": "통상·법률 전문가들, 민주당의 미 의회 장악에도 대통령 거부권과 행정부 통상권한으로 단기간 관세정책 변경은 어려울 것으로 전망",
@@ -65,12 +67,14 @@ window.REPORT_ARCHIVE["2026-11-06"] = {
             {
               "text": "Reuters 영상 분석에서 랴잔 정유시설이 대규모 드론 공격의 표적이 된 정황 포착, 확인될 경우 이번 주 야로슬라블에 이은 두 번째 정유시설 피격",
               "source": "Reuters",
-              "url": "https://www.reuters.com/world/renewed-refinery-attacks-deplete-russian-diesel-supply-us-deal-focus-2026-11-05/"
+              "url": "https://www.reuters.com/world/renewed-refinery-attacks-deplete-russian-diesel-supply-us-deal-focus-2026-11-05/",
+              "altUrl": "https://www.streetinsider.com/Reuters/Renewed%2Brefinery%2Battacks%2Bdeplete%2BRussian%2Bdiesel%2Bsupply%2Bas%2BUS%2Bdeal%2Bin%2Bfocus/27297428.html"
             },
             {
               "text": "미국과의 경유 수출 합의에도 미국에 도착한 러시아산 경유 화물은 아직 미확인, 첫 뉴욕 도착 예정 물량의 하역도 규제·제재 문제로 불확실하다는 Kpler 분석",
               "source": "Reuters",
-              "url": "https://www.reuters.com/world/renewed-refinery-attacks-deplete-russian-diesel-supply-us-deal-focus-2026-11-05/"
+              "url": "https://www.reuters.com/world/renewed-refinery-attacks-deplete-russian-diesel-supply-us-deal-focus-2026-11-05/",
+              "altUrl": "https://www.streetinsider.com/Reuters/Renewed%2Brefinery%2Battacks%2Bdeplete%2BRussian%2Bdiesel%2Bsupply%2Bas%2BUS%2Bdeal%2Bin%2Bfocus/27297428.html"
             }
           ]
         },
@@ -148,12 +152,14 @@ window.REPORT_ARCHIVE["2026-11-06"] = {
             {
               "text": "중국 상무부, 미국산 농산물 구매 확대에 열려 있으나 양국이 서로 수입하는 600억 달러 규모 상품에 대한 상호 관세 인하 확정·이행이 전제라고 설명",
               "source": "Reuters",
-              "url": "https://www.reuters.com/world/china/china-ties-more-us-farm-imports-reciprocal-tariff-cuts-2026-11-05/"
+              "url": "https://www.reuters.com/world/china/china-ties-more-us-farm-imports-reciprocal-tariff-cuts-2026-11-05/",
+              "altUrl": "https://new.streetinsider.com/Reuters/China%2Bties%2Bmore%2BUS%2Bfarm%2Bimports%2Bto%2Breciprocal%2Btariff%2Bcuts/27292716.html"
             },
             {
               "text": "황링 상무부 대변인, 미국과 공동으로 양국 농산물 교역에 유리한 여건을 조성하기를 희망한다는 입장 표명",
               "source": "Reuters",
-              "url": "https://www.reuters.com/world/china/china-ties-more-us-farm-imports-reciprocal-tariff-cuts-2026-11-05/"
+              "url": "https://www.reuters.com/world/china/china-ties-more-us-farm-imports-reciprocal-tariff-cuts-2026-11-05/",
+              "altUrl": "https://new.streetinsider.com/Reuters/China%2Bties%2Bmore%2BUS%2Bfarm%2Bimports%2Bto%2Breciprocal%2Btariff%2Bcuts/27292716.html"
             }
           ]
         },
@@ -168,12 +174,14 @@ window.REPORT_ARCHIVE["2026-11-06"] = {
             {
               "text": "Financial Times에 따르면 중국 당국은 ABB 로봇사업의 중국 공급망과 제조능력 잔류를 상세 심사했으며, 중국 고객용 로봇의 90% 이상은 현지 생산",
               "source": "Financial Times",
-              "url": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4"
+              "url": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4",
+              "altUrl": "https://www.swissinfo.ch/eng/workplace/china-blocks-softbanks-5-4bn-takeover-of-abbs-robotics-division/92331403"
             },
             {
               "text": "사안에 정통한 관계자들에 따르면 해외 AI 모델 훈련에 활용될 수 있는 로봇 데이터의 국외 이전을 우려하고, 일부 지식재산의 중국 내 유지와 중국 소유주로의 사업 분리도 검토",
               "source": "Financial Times",
-              "url": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4"
+              "url": "https://www.ft.com/content/f10c3e24-45e4-47ff-bde2-24a8de90aec4",
+              "altUrl": "https://www.swissinfo.ch/eng/workplace/china-blocks-softbanks-5-4bn-takeover-of-abbs-robotics-division/92331403"
             }
           ]
         },
@@ -187,12 +195,14 @@ window.REPORT_ARCHIVE["2026-11-06"] = {
             {
               "text": "일본은행 9월 회의 의사록에서 추가 금리 인상의 필요성과 물가 상방 위험 발생 시 인상 속도를 높일 수 있다는 일부 위원 견해 확인",
               "source": "Reuters",
-              "url": "https://www.reuters.com/world/asia-pacific/boj-board-saw-need-keep-raising-rates-september-meeting-minutes-show-2026-11-05/"
+              "url": "https://www.reuters.com/world/asia-pacific/boj-board-saw-need-keep-raising-rates-september-meeting-minutes-show-2026-11-05/",
+              "altUrl": "https://www.marketscreener.com/news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-ce785fdfd08df123"
             },
             {
               "text": "위원들은 중립금리와 최종 정책금리 수준을 논의했으며, 다수 위원은 기존 인상이 금융여건에 미치는 영향을 보며 금리를 계속 올리는 데 동의",
               "source": "Reuters",
-              "url": "https://www.reuters.com/world/asia-pacific/boj-board-saw-need-keep-raising-rates-september-meeting-minutes-show-2026-11-05/"
+              "url": "https://www.reuters.com/world/asia-pacific/boj-board-saw-need-keep-raising-rates-september-meeting-minutes-show-2026-11-05/",
+              "altUrl": "https://www.marketscreener.com/news/boj-board-saw-the-need-to-keep-raising-rates-september-meeting-minutes-show-ce785fdfd08df123"
             }
           ]
         },
@@ -417,12 +427,14 @@ window.REPORT_ARCHIVE["2026-11-06"] = {
             {
               "text": "Bloomberg가 인용한 관계자에 따르면 카타르에너지는 수개월 내 연간 300만~600만 톤의 미국산 LNG를 추가 구매하는 장기계약 체결 추진",
               "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-05/qatar-in-talks-to-buy-more-us-lng-diversify-supply-outside-persian-gulf"
+              "url": "https://www.bloomberg.com/news/articles/2026-11-05/qatar-in-talks-to-buy-more-us-lng-diversify-supply-outside-persian-gulf",
+              "altUrl": "https://finance.yahoo.com/energy/articles/qatar-talks-buy-more-us-165623170.html"
             },
             {
               "text": "최근 체니어·우드사이드와 맺은 연간 합계 700만 톤 구매계약에 이은 협의로, 걸프 지역 밖 공급원 다변화와 LNG 트레이딩 확대 추진",
               "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-05/qatar-in-talks-to-buy-more-us-lng-diversify-supply-outside-persian-gulf"
+              "url": "https://www.bloomberg.com/news/articles/2026-11-05/qatar-in-talks-to-buy-more-us-lng-diversify-supply-outside-persian-gulf",
+              "altUrl": "https://finance.yahoo.com/energy/articles/qatar-talks-buy-more-us-165623170.html"
             }
           ]
         },

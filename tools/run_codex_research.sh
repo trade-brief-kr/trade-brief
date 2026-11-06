@@ -90,10 +90,13 @@ cat <<HDR
 8. 한국어, 명사형 종결(예: "비용부담은 여전"). 진행상황·안내 문구 금지.
 9. 확인 못 한 부분은 notes 배열에 짧게 적는다(선택).
 10. source/url은 원 발행 매체 도메인을 우선한다 (reuters.com, bloomberg.com, ft.com, wsj.com, apnews.com,
-    nikkei.com, cnbc.com, aljazeera.com, kommersant.ru, rbc.ru 등). 재게재·요약 사이트
-    (MarketScreener, StreetInsider, Investing.com, Yahoo Finance, swissinfo 등) URL은 쓰지 않는다.
-    재게재 페이지에서 원문을 확인했으면 원문 URL과 원 매체명만 넣고, "(… 재게재)" 표기를 쓰지 않는다.
-    원문 URL을 웹검색으로 찾지 못했을 때만 재게재 URL을 유지하고 notes에 "원문 URL 미확인: (매체·제목)"을 한 줄 남긴다.
+    nikkei.com, cnbc.com, aljazeera.com, kommersant.ru, rbc.ru 등).
+    재게재·요약 사이트(MarketScreener, StreetInsider, Investing.com, Yahoo Finance, swissinfo 등)에서
+    원문을 확인했으면: url=원문 URL, source=원 매체명(예: "Reuters"), altUrl=재게재 URL을 함께 넣는다.
+    "(… 재게재)" 표기는 source에 쓰지 않는다(화면이 url 옆 「재게재」 링크로 altUrl을 표시).
+    원문만 있고 재게재가 없으면 altUrl을 생략한다.
+    원문 URL을 웹검색으로 찾지 못했을 때만 url에 재게재 URL을 두고 altUrl은 생략하며,
+    notes에 "원문 URL 미확인: (매체·제목)"을 한 줄 남긴다.
     검증은 Codex가 한다. 후처리 curl 재검증에 의존하지 말 것.
 
 ## 조사 범위 (누락 없이: 아래를 모두 개별 검색한 뒤 작성)
@@ -131,7 +134,7 @@ cat <<HDR
 
 ## report.json 스키마 (아래 README 발췌를 따르되, 각 bullet에 publishedAt 추가)
 필수 최상위 값: "date": "$TODAY", "generatedAt": "작성 완료 시각(+09:00)", "coverage": "$YESTERDAY $NOW_HM ~ $TODAY $NOW_HM KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)".
-bullet 예: {"text": "...", "source": "Reuters", "url": "https://www.reuters.com/...", "publishedAt": "2026-10-31T09:12:00Z"}
+bullet 예: {"text": "...", "source": "Reuters", "url": "https://www.reuters.com/...", "altUrl": "https://www.marketscreener.com/...(있으면)", "publishedAt": "2026-10-31T09:12:00Z"}
 
 HDR
 awk '/^## report.json 전체 형식/{f=1} /^### 개인화와 복사/{f=0} f' "$ROOT/README.md"

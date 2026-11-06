@@ -24,7 +24,7 @@
   const $=id=>document.getElementById(id);
   const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
   const safeUrl=url=>{try{const u=new URL(url);return ['https:','http:'].includes(u.protocol)?u.href:'';}catch{return '';}};
-  const source=b=>{const label=`(${esc(b.source)})`,url=safeUrl(b.url);return url?`<a class="source" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`:`<span class="source">${label}</span>`;};
+  const source=b=>{const label=`(${esc(b.source)})`,url=safeUrl(b.url),alt=safeUrl(b.altUrl);const main=url?`<a class="source" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label}</a>`:`<span class="source">${label}</span>`;return alt?`${main} <a class="source-alt" href="${esc(alt)}" target="_blank" rel="noopener noreferrer">재게재</a>`:main;};
   const dotted=s=>String(s||'').replaceAll('-','.');
   let data=null,prefs={department:'',country:''};
   try{const saved=JSON.parse(localStorage.getItem('tradeBrief.prefs'));if(saved&&DEPARTMENTS.some(d=>d.id===saved.department)){prefs.department=saved.department;prefs.country=DEPARTMENTS.find(d=>d.id===saved.department).countries.includes(saved.country)?saved.country:'';}}catch{}

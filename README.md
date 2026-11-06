@@ -15,7 +15,7 @@
 - `data/archive/`: 날짜별 보고서 보관함. `index.json`은 최신순 `{date, topIssueHeadline, keywords}` 목록
 - `tools/DAILY_UPDATE.md`: 매일 08:00 KST 예약 실행 절차
 - `tools/run_codex_research.sh`: ChatGPT(Codex CLI, 웹검색)로 오늘자 `data/report.json`을 작성하는 조사 러너 (게시 안 함, 종료 코드 0일 때만 `publish_daily.py` 진행)
-- `tools/verify_report.py`: 러너 후처리. 게시일 기간·출처 URL(curl) 재확인, 실패 항목 제거, 검증된 Top Issues 5개 미만이면 중단
+- `tools/verify_report.py`: 러너 후처리. 게시일·스키마 검증(URL curl 재확인은 기본 OFF, `--check-links` 시에만). 검증된 Top Issues 5개 미만이면 중단
 - `tools/research_prompt.md`: 사용자 조사 프롬프트 원문 (수정 금지)
 - `tools/fetch_customs.ps1`: 국내 Windows PC용 관세청 수집 스크립트(파이썬 불필요) → `data/customs-kr.json`
 - `tools/merge_customs.py`: `customs-kr.json`을 `data/country-stats.json/js`에 병합
@@ -65,13 +65,13 @@ python3 tools/build_report_js.py
 | `date` | KST 보고 날짜, `YYYY-MM-DD` |
 | `generatedAt` | 시간대 오프셋이 있는 ISO 8601 생성 시각. 화면은 KST로 변환 |
 | `coverage` | 수집 구간 자유 텍스트. 예: 전일 08:00 ~ 당일 08:00 KST (최근 24시간) |
-| `topIssues` | 정확히 5개. 각 항목은 한 문장 `text`, 출처 `source`, 선택적 `url` |
+| `topIssues` | 정확히 5개. 각 항목은 한 문장 `text`, 출처 `source`, 선택적 `url`(원출처 우선), 선택적 `altUrl`(재게재·미러) |
 | `departments` | 부서 객체 배열. `id`, `name`, `issues` 필요. 중복 ID 금지 |
 | `departments[].issues` | 이슈 배열. 비어 있어도 부서 제목과 “금일 반영 이슈 없음” 표시. 누락 부서도 기본 제목 표시 |
 | `issues[].countries` | 국가명 문자열 배열 |
 | `issues[].category` | 아래 6개 카테고리 중 하나 |
 | `issues[].title` | 이슈 제목 문자열 |
-| `issues[].bullets` | 하나 이상의 핵심 내용. 각 항목은 `text`, `source` 필수, `url` 선택 |
+| `issues[].bullets` | 하나 이상의 핵심 내용. 각 항목은 `text`, `source` 필수, `url`(원출처) 선택, `altUrl`(재게재) 선택 |
 | `reports` | 보고서 배열. 빈 배열이면 보고서 영역 숨김 |
 | `reports[].org`, `title` | 기관명과 보고서 제목 |
 | `reports[].date` | 발간일 `YYYY-MM-DD` |
@@ -79,7 +79,7 @@ python3 tools/build_report_js.py
 | `reports[].url` | 선택적 PDF 링크 |
 | `notes` | 선택적 투명성 안내 문자열 배열. 화면 하단에 작게 표시 |
 
-URL은 생략하거나 빈 문자열로 둘 수 있습니다. 제공 시 `http` 또는 `https` 주소여야 하며 출처는 새 탭 링크(`rel="noopener noreferrer"`)로 표시합니다. URL이 없으면 일반 출처 텍스트로 표시합니다. 보고서는 **최근 3~4일 이내 발간되었고 PDF가 확인된 경우에만** 수집 자동화에서 포함하세요. 발간 시점과 실제 PDF 여부는 생성 도구가 네트워크로 확인하지 않으므로 수집 단계의 책임입니다.
+URL은 생략하거나 빈 문자열로 둘 수 있습니다. 제공 시 `http` 또는 `https` 주소여야 하며 출처는 새 탭 링크(`rel="noopener noreferrer"`)로 표시합니다. URL이 없으면 일반 출처 텍스트로 표시합니다. `url`은 원 발행 매체(Reuters·Bloomberg·FT 등)를 우선하고, 재게재·미러 주소가 있으면 `altUrl`에 넣습니다. 화면에는 출처 옆에 작은 「재게재」 링크로 표시됩니다. 보고서는 **최근 3~4일 이내 발간되었고 PDF가 확인된 경우에만** 수집 자동화에서 포함하세요. 발간 시점과 실제 PDF 여부는 생성 도구가 네트워크로 확인하지 않으므로 수집 단계의 책임입니다.
 
 카테고리: `국제·외교`, `정책·규제`, `경제동향`, `산업동향`, `대외교역`, `중동정세`.
 
