@@ -20,11 +20,11 @@
    ```sh
    bash tools/run_codex_research.sh; echo "rc=$?"
    ```
-   - 러너가 `tools/research_prompt.md` 원문 + README 스키마 + 위 원칙을 Codex(웹검색)에 넘기고, 결과를 `tools/verify_report.py`로 후처리(게시일 기간·출처 URL curl 재확인, 실패 항목 제거, 검증된 Top Issues 5개 미만이면 중단)한 뒤 통과본만 `data/report.json`에 쓴다. 최대 약 40분.
+   - 러너가 `tools/research_prompt.md` 원문 + README 스키마 + 위 원칙을 Codex(웹검색)에 넘기고, 결과를 `tools/verify_report.py`로 후처리(게시일·스키마 검증; URL curl 재확인은 기본 OFF·Codex 검증 신뢰, 검증된 Top Issues 5개 미만이면 중단)한 뒤 통과본만 `data/report.json`에 쓴다. 최대 약 40분.
    - 종료 코드: `0` 성공 · `2` 환경 오류 · `10` Codex 실패 · `11` 타임아웃 · `12` 결과 없음/JSON 오류 · `13` 검증 실패(날짜, 스키마, Top Issues 5개 미만) · `14` 사전검증 실패.
    - **0이 아니면 여기서 멈춘다.** `data/report.json`은 변경되지 않은 상태다. 대신 조사해서 채우지 말고, 커밋·푸시 없이 실패 단계·종료 코드·사유(로그 `/tmp/trade-brief-runs/codex-run-*/`의 `codex.log`, `verify-log.json`)를 보고한다. `10`·`11`이면 1회까지 재실행 가능.
 3. (참고) 드라이런: `bash tools/run_codex_research.sh --out /workspace/trade-brief-dryrun/report.json` (data/ 변경 없음)
-4. 보고 시 `verify-log.json`의 `unverifiable`(유료·봇 차단으로 접속 확인 불가 링크 수)도 함께 적는다.
+4. 보고 시 (선택) `--check-links`를 켠 경우에만 `verify-log.json`의 `unverifiable`을 함께 적는다. 기본 경로는 curl 재확인 없음.
 5. 검증·게시 (한 번에 처리, 같은 날 재실행 시 그 날짜를 덮어씀)
    ```sh
    python3 tools/publish_daily.py

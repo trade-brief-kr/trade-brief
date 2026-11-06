@@ -2,10 +2,11 @@
 # 일일 조사 러너: ChatGPT(Codex CLI, 웹검색)로 오늘자 report.json을 작성하고 검증한다.
 # 에이전트는 직접 웹 조사하지 않고 이 스크립트만 실행한다. 게시는 하지 않는다.
 #
-# 사용법: bash tools/run_codex_research.sh [--out PATH] [--timeout SEC] [--strict-links] [--keep-work] [--prompt-only]
+# 사용법: bash tools/run_codex_research.sh [--out PATH] [--timeout SEC] [--check-links] [--strict-links] [--keep-work] [--prompt-only]
 #   --out PATH      검증 통과본을 쓸 위치 (기본 data/report.json). 드라이런은 저장소 밖 경로 지정.
 #   --timeout SEC   Codex 최대 실행 시간 (기본 2400초 = 40분, 환경변수 CODEX_TIMEOUT)
-#   --strict-links  유료·봇 차단(401/403/429 등)으로 접속 확인 불가한 링크도 제거
+#   --check-links   (선택) 후처리에서 URL curl 재확인. 기본은 OFF — Codex 검증을 신뢰.
+#   --strict-links  --check-links와 함께: 유료·봇 차단(401/403/429 등) 링크도 제거
 #   --keep-work     Codex 임시 작업 폴더를 지우지 않음
 #   --prompt-only   Codex를 실행하지 않고 프롬프트만 <로그폴더>/prompt.md 로 생성 후 종료(0). --out 은 저장소 밖 경로 권장.
 #
@@ -26,12 +27,14 @@ OUT="$ROOT/data/report.json"
 TIMEOUT="${CODEX_TIMEOUT:-2400}"
 EFFORT="${CODEX_EFFORT:-high}"   # Codex 추론 강도 (기본 설정은 none → 조사량이 매우 적음)
 STRICT=""
+CHECK_LINKS=""
 KEEP=0
 PROMPT_ONLY=0
 while [ $# -gt 0 ]; do
   case "$1" in
     --out) OUT="$2"; shift 2 ;;
     --timeout) TIMEOUT="$2"; shift 2 ;;
+    --check-links) CHECK_LINKS="--check-links"; shift ;;
     --strict-links) STRICT="--strict-links"; shift ;;
     --keep-work) KEEP=1; shift ;;
     --prompt-only) PROMPT_ONLY=1; shift ;;
@@ -77,16 +80,21 @@ cat <<HDR
 3. 모든 bullet(topIssues 포함)에는 반드시 "source"(매체명), "url"(그 기사의 실제 주소, 홈페이지·검색결과 주소 금지),
    "publishedAt"(기사 게시 시각, 시간대 포함 ISO 8601, 예 "2026-10-31T21:40:00+09:00" 또는 "...Z")을 넣는다.
    publishedAt을 확인할 수 없으면 그 bullet을 넣지 않는다. 텍스트는 기사 워딩을 객관적으로 옮기고 해석을 붙이지 않는다.
-4. topIssues는 정확히 5개. 검증 단계에서 링크가 죽었거나 날짜가 틀린 항목은 자동 제거되어 5개 미만이면 게시가 취소되므로,
+4. topIssues는 정확히 5개. 게시일·스키마 검증에서 날짜가 틀린 항목은 제거되어 5개 미만이면 게시가 취소되므로,
    확실한 항목으로 고른다. Top Issues 문장은 일일보도동향 bullet에서 같은 문장으로 반복하지 않는다.
+   링크 HTTP 재검증은 후처리에서 하지 않는다. 출처·URL 검증은 Codex(본인)가 한다.
 5. departments는 정확히 이 순서와 키: cis(통상협력총괄과), neasia(동북아통상과), india(인도통상협력과), asean(아주통상과),
    mea(중동아프리카통상과). 이슈가 없는 과는 "issues": [].
 6. category는 국제·외교, 정책·규제, 경제동향, 산업동향, 대외교역, 중동정세 중 하나.
 7. reports는 3~4일 내 발간되고 기관 공식 원문(가능하면 PDF 직링크)이 확인된 것만. 없으면 [].
 8. 한국어, 명사형 종결(예: "비용부담은 여전"). 진행상황·안내 문구 금지.
 9. 확인 못 한 부분은 notes 배열에 짧게 적는다(선택).
-10. source는 url 페이지의 실제 발행 매체명으로 쓴다. 재배포·요약 사이트(MarketScreener, Yahoo 등)의 기사를 원 매체명
-    (예: Reuters)으로 표기하려면 그 페이지에 원 매체가 명시돼 있어야 하며, 이 경우 "Reuters(MarketScreener 재게재)"처럼 쓴다.
+10. source/url은 원 발행 매체 도메인을 우선한다 (reuters.com, bloomberg.com, ft.com, wsj.com, apnews.com,
+    nikkei.com, cnbc.com, aljazeera.com, kommersant.ru, rbc.ru 등). 재게재·요약 사이트
+    (MarketScreener, StreetInsider, Investing.com, Yahoo Finance, swissinfo 등) URL은 쓰지 않는다.
+    재게재 페이지에서 원문을 확인했으면 원문 URL과 원 매체명만 넣고, "(… 재게재)" 표기를 쓰지 않는다.
+    원문 URL을 웹검색으로 찾지 못했을 때만 재게재 URL을 유지하고 notes에 "원문 URL 미확인: (매체·제목)"을 한 줄 남긴다.
+    검증은 Codex가 한다. 후처리 curl 재검증에 의존하지 말 것.
 
 ## 조사 범위 (누락 없이: 아래를 모두 개별 검색한 뒤 작성)
 - 공통 필수: 미국·이란 협상/중동 정세, 유가(브렌트·WTI) 변동 요인, 글로벌 에너지 공급(OPEC+, LNG), 핵심광물·공급망, 주요국(미·중·EU·일) 정책 변화, 통상 규제·관세·제재.
@@ -159,9 +167,9 @@ if [ $RC -ne 0 ]; then echo "Codex 실패 rc=$RC (로그: $LOGDIR/codex.log)" >&
 if [ ! -s "$WORK/report.json" ]; then echo "Codex가 report.json을 만들지 않음" >&2; exit 12; fi
 cp "$WORK/report.json" "$LOGDIR/raw-report.json"
 
-# --- 후처리 검증 (curl 링크·게시일 재확인, 실패 항목 제거, Top 5 미만이면 중단) ---
+# --- 후처리 검증 (게시일·스키마; 링크 curl은 기본 OFF — Codex 검증 신뢰. --check-links 시에만) ---
 python3 "$ROOT/tools/verify_report.py" --input "$LOGDIR/raw-report.json" --output "$LOGDIR/verified-report.json" \
-  --log "$LOGDIR/verify-log.json" $STRICT
+  --log "$LOGDIR/verify-log.json" $CHECK_LINKS $STRICT
 VRC=$?
 if [ $VRC -ne 0 ]; then exit $VRC; fi
 # publish_daily.py와 같은 검증(build_report_js.validate + 오늘 날짜)을 게시 없이 재확인

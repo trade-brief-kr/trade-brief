@@ -3,7 +3,8 @@
 
 Usage:
   python3 tools/verify_report.py --input RAW.json --output REPORT.json [--log LOG.json]
-                                 [--strict-links] [--no-network] [--grace-hours 1]
+                                 [--check-links] [--strict-links] [--no-network]
+                                 [--grace-hours 1]
 
 What it does (nothing is invented, items are only removed):
   1. Parses JSON; requires report.date == today (KST).
@@ -12,15 +13,15 @@ What it does (nothing is invented, items are only removed):
   3. Window: publishedAt within 24h (+grace) of now; Kommersant/RBC bullets 48h.
      Dates embedded in the URL (…/2026/10/31/…, -2026-10-31, /20261031…) that
      fall before the window -> removed.
-  4. curl each URL: 404/410/connection failure -> removed. 2xx -> published date
-     read from page meta (article:published_time, datePublished, <time>) and
-     re-checked against the window. 401/403/429/451/5xx (bot block / paywall)
-     -> kept as "unverifiable" (removed with --strict-links) and counted in notes.
-     TLS reset/timeout with no HTTP response (box egress blocked, e.g. yna.co.kr)
-     -> also "unverifiable"; DNS failure -> removed.
+  4. Link HTTP re-check is OFF by default (Codex is trusted for source/url).
+     With --check-links: curl each URL; 404/410/connection failure -> removed.
+     2xx -> published date from page meta re-checked; 401/403/429/451/5xx
+     (bot block / paywall) -> kept as "unverifiable" (removed with --strict-links);
+     TLS reset/timeout with no HTTP response -> also "unverifiable"; DNS -> removed.
+     --no-network is kept for compatibility (same as default: skip curl).
   5. Issues left with no bullets are dropped; departments normalised to
-     cis, neasia, india, asean, mea. Reports must be dated within 4 days and
-     reachable (or bot-blocked).
+     cis, neasia, india, asean, mea. Reports must be dated within 4 days
+     (reachable check only when --check-links).
   6. topIssues: first 5 surviving items; fewer than 5 -> fail.
   7. Schema check with build_report_js.validate. publishedAt is removed from the
      output so data/report.json keeps the existing format.
@@ -153,8 +154,12 @@ def main(argv):
     ap.add_argument('--input', required=True)
     ap.add_argument('--output', required=True)
     ap.add_argument('--log')
-    ap.add_argument('--strict-links', action='store_true')
-    ap.add_argument('--no-network', action='store_true')
+    ap.add_argument('--check-links', action='store_true',
+                    help='Opt-in: curl each URL (404/DNS drop items). Default is OFF; trust Codex.')
+    ap.add_argument('--strict-links', action='store_true',
+                    help='With --check-links: also drop bot-blocked/paywall links')
+    ap.add_argument('--no-network', action='store_true',
+                    help='Compatibility alias: skip curl (same as default)')
     ap.add_argument('--grace-hours', type=float, default=1.0)
     ap.add_argument('--now', help='ISO timestamp override (testing)')
     a = ap.parse_args(argv)
@@ -163,7 +168,10 @@ def main(argv):
     today = now.astimezone(KST).date()
     grace = timedelta(hours=a.grace_hours)
     out_path = Path(a.output)
-    log = {'now': now.isoformat(), 'removed': [], 'links': {}, 'unverifiable': 0}
+    # Network re-check OFF by default; only --check-links enables curl.
+    use_network = bool(a.check_links) and not a.no_network
+    log = {'now': now.isoformat(), 'removed': [], 'links': {}, 'unverifiable': 0,
+           'networkCheck': use_network}
 
     def finish(code, msg, report=None):
         log['result'] = msg
@@ -185,7 +193,7 @@ def main(argv):
     if report.get('date') != today.isoformat():
         return finish(13, f"date가 오늘(KST {today})이 아님: {report.get('date')}", report)
 
-    checker = Checker(not a.no_network, a.strict_links)
+    checker = Checker(use_network, a.strict_links)
 
     def check_bullet(b, where, hours):
         if not isinstance(b, dict):
@@ -289,7 +297,7 @@ def main(argv):
     unverifiable = sorted({u for u, s in log['links'].items() if s.startswith('unverifiable')})
     log['unverifiable'] = len(unverifiable)
     notes = [n for n in report.get('notes') or [] if isinstance(n, str) and n.strip()]
-    if unverifiable and not a.no_network:
+    if unverifiable and use_network:
         notes.append(f'자동 링크 점검: 출처 링크 {len(log["links"])}개 중 {len(unverifiable)}개는 유료·봇 차단으로 '
                      '접속 확인이 불가해 조사 단계에서 확인한 게시일을 기준으로 함.')
     if notes:
