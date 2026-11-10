@@ -37,9 +37,13 @@
       "monthly": "2025-12"
     },
     "customs": {
-      "status": "unreachable",
-      "message": "apis.data.go.kr 연결 실패(URLError: [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029))",
-      "checkedAt": "2026-10-31T13:38:24+09:00"
+      "status": "ok",
+      "source": "file",
+      "file": "customs-kr.json",
+      "message": "54개국 반영(국내 PC 수집)",
+      "latestPeriod": "2026-09",
+      "fetchedAt": "2026-11-10T09:45:21+09:00",
+      "checkedAt": "2026-11-10T10:15:40+09:00"
     }
   },
   "sources": {
@@ -56,7 +60,8 @@
     "customs": {
       "name": "관세청 국가별 수출입실적(GW)",
       "url": "https://www.data.go.kr/data/15101612/openapi.do",
-      "license": "이용허락범위 제한 없음"
+      "license": "이용허락범위 제한 없음",
+      "latestPeriod": "2026-09"
     },
     "comtrade": {
       "name": "UN Comtrade Database",
@@ -119,7 +124,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 351673014.0,
+            "imports": 891942334.0,
+            "balance": -540269320.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 4043760780.0,
+            "imports": 6895668457.0,
+            "balance": -2851907677.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 3812060115.0,
+            "imports": 7717916837.0,
+            "balance": -3905856722.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -175,7 +209,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 47434336.0,
+            "imports": 7769383.0,
+            "balance": 39664953.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 520594344.0,
+            "imports": 287301762.0,
+            "balance": 233292582.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 598746465.0,
+            "imports": 281718989.0,
+            "balance": 317027476.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -231,7 +294,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 153579646.0,
+            "imports": 204571242.0,
+            "balance": -50991596.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 2991502053.0,
+            "imports": 1365220962.0,
+            "balance": 1626281091.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 1961399085.0,
+            "imports": 1702802868.0,
+            "balance": 258596217.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -286,7 +378,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 2774703.0,
+            "imports": 230.0,
+            "balance": 2774473.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 45198725.0,
+            "imports": 33850.0,
+            "balance": 45164875.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 41651625.0,
+            "imports": 202061.0,
+            "balance": 41449564.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -342,7 +463,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 175771530.0,
+            "imports": 902879.0,
+            "balance": 174868651.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 1786877218.0,
+            "imports": 22196236.0,
+            "balance": 1764680982.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 1995384641.0,
+            "imports": 28011816.0,
+            "balance": 1967372825.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -398,7 +548,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 17740179.0,
+            "imports": 15205.0,
+            "balance": 17724974.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 145361035.0,
+            "imports": 5377385.0,
+            "balance": 139983650.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 178506242.0,
+            "imports": 2584555.0,
+            "balance": 175921687.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -454,7 +633,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 2706546.0,
+            "imports": 10875023.0,
+            "balance": -8168477.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 30395297.0,
+            "imports": 61012362.0,
+            "balance": -30617065.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 37828742.0,
+            "imports": 56194383.0,
+            "balance": -18365641.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -510,7 +718,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 60831601.0,
+            "imports": 1807866.0,
+            "balance": 59023735.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 660462196.0,
+            "imports": 32420826.0,
+            "balance": 628041370.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 605888619.0,
+            "imports": 27494195.0,
+            "balance": 578394424.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -566,7 +803,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 139708079.0,
+            "imports": 87224.0,
+            "balance": 139620855.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 3476727310.0,
+            "imports": 3219800.0,
+            "balance": 3473507510.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 2673025960.0,
+            "imports": 1156192.0,
+            "balance": 2671869768.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -622,7 +888,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 14962671.0,
+            "imports": 20.0,
+            "balance": 14962651.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 353637897.0,
+            "imports": 84002.0,
+            "balance": 353553895.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 338261187.0,
+            "imports": 3101596.0,
+            "balance": 335159591.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -678,7 +973,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 13893139.0,
+            "imports": 2343654.0,
+            "balance": 11549485.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 133394869.0,
+            "imports": 12425806.0,
+            "balance": 120969063.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 152905084.0,
+            "imports": 85345744.0,
+            "balance": 67559340.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -734,7 +1058,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 7144200.0,
+            "imports": 5936092.0,
+            "balance": 1208108.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 67767688.0,
+            "imports": 50811021.0,
+            "balance": 16956667.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 77356985.0,
+            "imports": 45689308.0,
+            "balance": 31667677.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -790,7 +1143,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 8925783.0,
+            "imports": 3342559.0,
+            "balance": 5583224.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 70845978.0,
+            "imports": 24692917.0,
+            "balance": 46153061.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 93989968.0,
+            "imports": 27102715.0,
+            "balance": 66887253.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -847,7 +1229,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 26055913192.0,
+            "imports": 19288693001.0,
+            "balance": 6767220191.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 130781482315.0,
+            "imports": 141950977172.0,
+            "balance": -11169494857.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 208015316374.0,
+            "imports": 174056865362.0,
+            "balance": 33958451012.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -904,7 +1315,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 3205540573.0,
+            "imports": 5228522843.0,
+            "balance": -2022982270.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 28307861492.0,
+            "imports": 48908530570.0,
+            "balance": -20600669078.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 31594248136.0,
+            "imports": 54133262002.0,
+            "balance": -22539013866.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -961,7 +1401,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 10575683329.0,
+            "imports": 450242673.0,
+            "balance": 10125440656.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 34831539354.0,
+            "imports": 4022010109.0,
+            "balance": 30809529245.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 75902218776.0,
+            "imports": 4494772396.0,
+            "balance": 71407446380.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1015,7 +1484,36 @@
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/",
           "note": "UN Comtrade 'Other Asia, nes'(코드 490) 기준. 대만으로 집계되는 항목"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 10233883075.0,
+            "imports": 5038433051.0,
+            "balance": 5195450024.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 49070090309.0,
+            "imports": 32324437225.0,
+            "balance": 16745653084.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 72163189308.0,
+            "imports": 41609614526.0,
+            "balance": 30553574782.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1072,7 +1570,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 2575611365.0,
+            "imports": 680263112.0,
+            "balance": 1895348253.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 19230747517.0,
+            "imports": 6421528388.0,
+            "balance": 12809219129.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 24051477462.0,
+            "imports": 7175326331.0,
+            "balance": 16876151131.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1128,7 +1655,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 99390270.0,
+            "imports": 14052687.0,
+            "balance": 85337583.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 1318997107.0,
+            "imports": 255038187.0,
+            "balance": 1063958920.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 1241532757.0,
+            "imports": 265662823.0,
+            "balance": 975869934.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1184,7 +1740,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 125140612.0,
+            "imports": 86401251.0,
+            "balance": 38739361.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 1758021778.0,
+            "imports": 613232508.0,
+            "balance": 1144789270.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 2367047681.0,
+            "imports": 621966733.0,
+            "balance": 1745080948.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1240,7 +1825,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 12858917.0,
+            "imports": 28786349.0,
+            "balance": -15927432.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 233989409.0,
+            "imports": 109355567.0,
+            "balance": 124633842.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 258952452.0,
+            "imports": 129071132.0,
+            "balance": 129881320.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1296,7 +1910,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 3213717.0,
+            "imports": 762717.0,
+            "balance": 2451000.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 32530193.0,
+            "imports": 7384064.0,
+            "balance": 25146129.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 34449927.0,
+            "imports": 7248697.0,
+            "balance": 27201230.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1352,7 +1995,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 910930.0,
+            "imports": 630104.0,
+            "balance": 280826.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 7579772.0,
+            "imports": 10515939.0,
+            "balance": -2936167.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 8240915.0,
+            "imports": 9676151.0,
+            "balance": -1435236.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1408,7 +2080,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 1191597.0,
+            "imports": 13212.0,
+            "balance": 1178385.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 9690977.0,
+            "imports": 35634.0,
+            "balance": 9655343.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 12198119.0,
+            "imports": 50081.0,
+            "balance": 12148038.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1464,7 +2165,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 5243415.0,
+            "imports": 1798.0,
+            "balance": 5241617.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 42635848.0,
+            "imports": 1415210.0,
+            "balance": 41220638.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 43748026.0,
+            "imports": 945407.0,
+            "balance": 42802619.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1521,7 +2251,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 3908929794.0,
+            "imports": 333053980.0,
+            "balance": 3575875814.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 11616471173.0,
+            "imports": 3500718832.0,
+            "balance": 8115752341.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 21205677486.0,
+            "imports": 4177056964.0,
+            "balance": 17028620522.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1577,7 +2336,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 3792444100.0,
+            "imports": 1250103892.0,
+            "balance": 2542340208.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 19552923741.0,
+            "imports": 11374830181.0,
+            "balance": 8178093560.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 27437059643.0,
+            "imports": 15370784972.0,
+            "balance": 12066274671.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1634,7 +2422,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 751914090.0,
+            "imports": 1086110854.0,
+            "balance": -334196764.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 6994732949.0,
+            "imports": 11303929643.0,
+            "balance": -4309196694.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 8469526995.0,
+            "imports": 11832555835.0,
+            "balance": -3363028840.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1691,7 +2508,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 3173653886.0,
+            "imports": 1740720160.0,
+            "balance": 1432933726.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 12366369425.0,
+            "imports": 15512723354.0,
+            "balance": -3146353929.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 22033053457.0,
+            "imports": 18951189520.0,
+            "balance": 3081863937.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1747,7 +2593,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 8529545012.0,
+            "imports": 3621685052.0,
+            "balance": 4907859960.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 62775056696.0,
+            "imports": 31774236133.0,
+            "balance": 31000820563.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 88450111443.0,
+            "imports": 37023210182.0,
+            "balance": 51426901261.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1803,7 +2678,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 8446837.0,
+            "imports": 6391593.0,
+            "balance": 2055244.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 127149297.0,
+            "imports": 95386320.0,
+            "balance": 31762977.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 107621646.0,
+            "imports": 86462024.0,
+            "balance": 21159622.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1860,7 +2764,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 1035550290.0,
+            "imports": 673452121.0,
+            "balance": 362098169.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 8010034952.0,
+            "imports": 6969186408.0,
+            "balance": 1040848544.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 10547269690.0,
+            "imports": 7389111381.0,
+            "balance": 3158158309.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1916,7 +2849,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 59905732.0,
+            "imports": 65743816.0,
+            "balance": -5838084.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 678905796.0,
+            "imports": 518740341.0,
+            "balance": 160165455.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 725734435.0,
+            "imports": 660583763.0,
+            "balance": 65150672.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -1972,7 +2934,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 36027889.0,
+            "imports": 97103341.0,
+            "balance": -61075452.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 307514817.0,
+            "imports": 576682941.0,
+            "balance": -269168124.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 338110698.0,
+            "imports": 574335944.0,
+            "balance": -236225246.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2028,7 +3019,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 2360115.0,
+            "imports": 121892.0,
+            "balance": 2238223.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 59640770.0,
+            "imports": 556537415.0,
+            "balance": -496896645.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 31643905.0,
+            "imports": 463239315.0,
+            "balance": -431595410.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2084,7 +3104,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 196666.0,
+            "imports": 253490.0,
+            "balance": -56824.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 3603535.0,
+            "imports": 327560.0,
+            "balance": 3275975.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 2658021.0,
+            "imports": 736399.0,
+            "balance": 1921622.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2140,7 +3189,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 353059897.0,
+            "imports": 1345169954.0,
+            "balance": -992110057.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 5663038125.0,
+            "imports": 14116578453.0,
+            "balance": -8453540328.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 5152090435.0,
+            "imports": 15375355885.0,
+            "balance": -10223265450.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2197,7 +3275,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 53617898.0,
+            "imports": 476832341.0,
+            "balance": -423214443.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 660716428.0,
+            "imports": 7924069784.0,
+            "balance": -7263353356.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 470402115.0,
+            "imports": 5897583963.0,
+            "balance": -5427181848.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2253,7 +3360,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 227525521.0,
+            "imports": 8601893.0,
+            "balance": 218923628.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 1668147268.0,
+            "imports": 71688461.0,
+            "balance": 1596458807.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 2307913324.0,
+            "imports": 211808965.0,
+            "balance": 2096104359.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2310,7 +3446,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 315669947.0,
+            "imports": 1892082017.0,
+            "balance": -1576412070.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 4860088593.0,
+            "imports": 27431751145.0,
+            "balance": -22571662552.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 4243561689.0,
+            "imports": 27192612112.0,
+            "balance": -22949050423.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2366,7 +3531,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 4355710.0,
+            "imports": 68270.0,
+            "balance": 4287440.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 148841403.0,
+            "imports": 1691523.0,
+            "balance": 147149880.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 87451635.0,
+            "imports": 3855314.0,
+            "balance": 83596321.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2423,7 +3617,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 169641990.0,
+            "imports": 154160397.0,
+            "balance": 15481593.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 1931473397.0,
+            "imports": 1528695299.0,
+            "balance": 402778098.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 1840496592.0,
+            "imports": 1758121507.0,
+            "balance": 82375085.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2479,7 +3702,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 42947076.0,
+            "imports": 333697391.0,
+            "balance": -290750315.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 832683361.0,
+            "imports": 9923474037.0,
+            "balance": -9090790676.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 464608474.0,
+            "imports": 5012237992.0,
+            "balance": -4547629518.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2535,7 +3787,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 76704954.0,
+            "imports": 1062886170.0,
+            "balance": -986181216.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 660077598.0,
+            "imports": 2788978132.0,
+            "balance": -2128900534.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 562427705.0,
+            "imports": 4762420815.0,
+            "balance": -4199993110.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2591,7 +3872,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 3399489.0,
+            "imports": 14933681.0,
+            "balance": -11534192.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 140820491.0,
+            "imports": 669641310.0,
+            "balance": -528820819.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 97372046.0,
+            "imports": 422914514.0,
+            "balance": -325542468.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2647,7 +3957,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 83302686.0,
+            "imports": 706918128.0,
+            "balance": -623615442.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 1378772997.0,
+            "imports": 9107218177.0,
+            "balance": -7728445180.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 1090130635.0,
+            "imports": 6062416733.0,
+            "balance": -4972286098.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2703,7 +4042,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 72175775.0,
+            "imports": 4816588.0,
+            "balance": 67359187.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 561612306.0,
+            "imports": 57286875.0,
+            "balance": 504325431.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 538405989.0,
+            "imports": 76663179.0,
+            "balance": 461742810.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2760,7 +4128,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 693582797.0,
+            "imports": 190061097.0,
+            "balance": 503521700.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 9092483146.0,
+            "imports": 1568358791.0,
+            "balance": 7524124355.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 9274095242.0,
+            "imports": 1913270390.0,
+            "balance": 7360824852.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2817,7 +4214,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 67682915.0,
+            "imports": 312959605.0,
+            "balance": -245276690.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 765302621.0,
+            "imports": 2227024388.0,
+            "balance": -1461721767.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 793709873.0,
+            "imports": 3164780577.0,
+            "balance": -2371070704.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2873,7 +4299,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 47947118.0,
+            "imports": 62834621.0,
+            "balance": -14887503.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 531838351.0,
+            "imports": 565475152.0,
+            "balance": -33636801.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 566362083.0,
+            "imports": 1183074143.0,
+            "balance": -616712060.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2929,7 +4384,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 30902754.0,
+            "imports": 4126683.0,
+            "balance": 26776071.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 184738362.0,
+            "imports": 41219456.0,
+            "balance": 143518906.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 197101008.0,
+            "imports": 29902771.0,
+            "balance": 167198237.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -2985,7 +4469,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 10710383.0,
+            "imports": 24296379.0,
+            "balance": -13585996.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 177310376.0,
+            "imports": 171142149.0,
+            "balance": 6168227.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 195727994.0,
+            "imports": 195545519.0,
+            "balance": 182475.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -3042,7 +4555,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 35258123.0,
+            "imports": 32667389.0,
+            "balance": 2590734.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 413909812.0,
+            "imports": 259455122.0,
+            "balance": 154454690.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 444402453.0,
+            "imports": 381070897.0,
+            "balance": 63331556.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     },
     {
@@ -3098,7 +4640,36 @@
           },
           "source": "UN Comtrade (한국 보고 기준)",
           "url": "https://comtradeplus.un.org/"
-        }
+        },
+        "customs": {
+          "monthly": {
+            "period": "2026-09",
+            "exports": 25552109.0,
+            "imports": 358209099.0,
+            "balance": -332656990.0
+          },
+          "annual": {
+            "period": "2025",
+            "exports": 383669370.0,
+            "imports": 3682700337.0,
+            "balance": -3299030967.0
+          },
+          "last12": {
+            "period": "2025-10~2026-09",
+            "exports": 412858067.0,
+            "imports": 4329278319.0,
+            "balance": -3916420252.0
+          },
+          "source": "관세청 수출입무역통계",
+          "url": "https://www.data.go.kr/data/15101612/openapi.do",
+          "basis": "한국 기준 · 수출 FOB / 수입 CIF · USD",
+          "fetchedAt": "2026-11-10T09:45:21+09:00",
+          "collectedBy": "국내 PC 수집 파일"
+        },
+        "priority": [
+          "customs",
+          "comtrade"
+        ]
       }
     }
   ]
