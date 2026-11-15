@@ -1,0 +1,418 @@
+window.REPORT_ARCHIVE = window.REPORT_ARCHIVE || {};
+window.REPORT_ARCHIVE["2026-11-16"] = {
+  "date": "2026-11-16",
+  "generatedAt": "2026-11-16T07:22:39.000+09:00",
+  "coverage": "2026-11-15 07:11 ~ 2026-11-16 07:11 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
+  "topIssues": [
+    {
+      "text": "이란 의회 의장, 미국이 이란의 7개 조건을 수용하면 합의의 문은 열려 있다는 입장 표명",
+      "source": "The Times of India",
+      "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-speaker-says-tehran-will-not-accept-neither-war-nor-peace-situation-sets-conditions-for-us-deal/amp_articleshow/135853737.cms"
+    },
+    {
+      "text": "OPEC+ 증산과 미국 원유 재고 증가 속 브렌트·WTI가 각각 배럴당 95.84달러·88.56달러로 주간 하락",
+      "source": "PTI",
+      "url": "https://www.moneycontrol.com/news/india/crude-oil-may-extend-losses-next-week-brent-seen-testing-90-92-barrel-analysts-14080618.html"
+    },
+    {
+      "text": "미·중 정상회담을 앞두고 미국의 다수 핵심광물 사업은 생산까지 수년이 남아 제조업의 중국산 원료 의존 지속",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/autos-transportation/trumps-minerals-push-has-yet-loosen-chinas-grip-ahead-xi-talks-2026-11-15/",
+      "altUrl": "https://ca.marketscreener.com/news/trump-s-minerals-push-has-yet-to-loosen-china-s-grip-ahead-of-xi-talks-ce785ededc8cf42d"
+    },
+    {
+      "text": "미 상원 공화당, 엔비디아 AI 반도체의 중국 유입을 막지 못했다는 의혹과 관련해 러트닉 상무장관의 의회 증언 요구",
+      "source": "Bloomberg",
+      "url": "https://news.bloomberglaw.com/tech-and-telecom-law/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement"
+    },
+    {
+      "text": "트럼프, 필리핀 아세안 관련 회의와 중국 APEC 참석을 위해 아시아 순방에 나서 시진핑·푸틴과 회동 예정",
+      "source": "Associated Press",
+      "url": "https://apnews.com/article/trump-asia-midterm-elections-xi-30ac0f6937301f36904808f278b79b1e"
+    }
+  ],
+  "departments": [
+    {
+      "id": "cis",
+      "name": "통상협력총괄과",
+      "issues": [
+        {
+          "countries": [
+            "우크라이나",
+            "러시아"
+          ],
+          "category": "산업동향",
+          "title": "우크라이나 에너지 방어용 위성통신 제약과 흑해 상선 피격",
+          "bullets": [
+            {
+              "text": "젤렌스키 대통령, 스타실드 통신 제약으로 요격 드론이 시속 161㎞를 넘으면 연결이 끊겨 러시아 드론 추격에 지장 발생 주장",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/russia-ukraine-war-starshield-spacex-energy-winter-b139307f0d3ed0f7d0b222c08c30a4a1"
+            },
+            {
+              "text": "오데사주 당국, 초르노모르스크 에너지 시설 피격으로 약 4만1천 고객의 전력 공급이 일시 중단됐다고 발표",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/russia-ukraine-war-starshield-spacex-energy-winter-b139307f0d3ed0f7d0b222c08c30a4a1"
+            },
+            {
+              "text": "루마니아 정부, 흑해 상선 3척의 드론 피격과 선상 화재 발생 발표, 승무원들의 진화와 인명피해 미발생 확인",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/russia-ukraine-war-starshield-spacex-energy-winter-b139307f0d3ed0f7d0b222c08c30a4a1"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "카자흐스탄"
+          ],
+          "category": "대외교역",
+          "title": "중국 연결 철도화물 증가와 국경 통과 물류 확대",
+          "bullets": [
+            {
+              "text": "카자흐스탄 교통부에 따르면 1~10월 중국과의 철도화물은 3,180만 톤으로 전년 동기 대비 8% 증가",
+              "source": "Trend",
+              "url": "https://www.trend.az/casia/kazakhstan/4246611.html"
+            },
+            {
+              "text": "중국발 카자흐스탄행 화물은 1,210만 톤으로 9% 증가, 반대 방향은 1,970만 톤으로 8% 증가",
+              "source": "Trend",
+              "url": "https://www.trend.az/casia/kazakhstan/4246611.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "아제르바이잔"
+          ],
+          "category": "산업동향",
+          "title": "수반가스 생산 확대와 유럽·튀르키예 가스 공급",
+          "bullets": [
+            {
+              "text": "1~9월 유전 수반가스 생산은 116억7,595만㎥로 전년 동기 대비 4.1% 증가, 상업용 생산은 31억8,312만㎥로 7.8% 증가",
+              "source": "Trend",
+              "url": "https://www.trend.az/azerbaijan/4246617.html"
+            },
+            {
+              "text": "에너지부에 따르면 1~9월 전체 가스 생산은 379억㎥, 국가관세위원회에 따르면 가스 수출 184억㎥ 중 유럽행 86억㎥·튀르키예행 70억㎥",
+              "source": "Trend",
+              "url": "https://www.trend.az/azerbaijan/4246617.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neasia",
+      "name": "동북아통상과",
+      "issues": [
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "국제·외교",
+          "title": "한·중 외교장관 협의에서 FTA 서비스·투자 협상과 신산업 협력 제시",
+          "bullets": [
+            {
+              "text": "한국 측 회담 설명은 한·중 FTA 서비스·투자 협상 진전을 강조, 중국 측 설명은 AI·바이오의약품·녹색산업 등 신흥 분야 협력 확대를 강조",
+              "source": "Korea JoongAng Daily",
+              "url": "https://www.koreajoongangdaily.com/korea/differing-accounts-of-ministers-meeting-highlight-koreas-chinas-priorities/12973684"
+            },
+            {
+              "text": "조현 외교장관은 북한의 대화 복귀 등에서 중국의 건설적 역할을 요청, 한국 외교부 고위 관계자는 회담에서 반도체·희토류 공급망 문제는 논의되지 않았다고 설명",
+              "source": "Korea JoongAng Daily",
+              "url": "https://www.koreajoongangdaily.com/korea/differing-accounts-of-ministers-meeting-highlight-koreas-chinas-priorities/12973684"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "산업동향",
+          "title": "미국 핵심광물 생산·가공 기반 확충의 소요 기간",
+          "bullets": [
+            {
+              "text": "국제에너지기구에 따르면 2025년 네오디뮴·철·붕소 자석의 연간 제조능력은 미국 약 4,500톤·중국 약 21만 톤",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/business/autos-transportation/trumps-minerals-push-has-yet-loosen-chinas-grip-ahead-xi-talks-2026-11-15/",
+              "altUrl": "https://ca.marketscreener.com/news/trump-s-minerals-push-has-yet-to-loosen-china-s-grip-ahead-of-xi-talks-ce785ededc8cf42d"
+            },
+            {
+              "text": "고려아연이 추진하는 74억 달러 규모 테네시 구리·아연 등 핵심광물 제련소는 2030년 가동 예상, 트릴로지메탈스의 알래스카 구리 생산은 2031년 시작 계획",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/business/autos-transportation/trumps-minerals-push-has-yet-loosen-chinas-grip-ahead-xi-talks-2026-11-15/",
+              "altUrl": "https://ca.marketscreener.com/news/trump-s-minerals-push-has-yet-to-loosen-china-s-grip-ahead-of-xi-talks-ce785ededc8cf42d"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "정책·규제",
+          "title": "미 상원의 AI 반도체 수출통제 집행 경위 조사 요구",
+          "bullets": [
+            {
+              "text": "짐 뱅크스 상원의원, 중국에 엔비디아 반도체를 밀반출했다는 의혹을 받는 싱가포르 기업 메가스피드가 미국 수출금지 명단에 오르지 않은 경위 설명 요구",
+              "source": "Bloomberg",
+              "url": "https://news.bloomberglaw.com/tech-and-telecom-law/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement"
+            },
+            {
+              "text": "팀 스콧 상원 은행위원장도 러트닉 상무장관의 증언을 요청, 상무부의 반도체 수출통제 집행이 조사 쟁점",
+              "source": "Bloomberg",
+              "url": "https://news.bloomberglaw.com/tech-and-telecom-law/senate-republicans-seek-lutnick-testimony-on-nvidia-enforcement"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "name": "인도통상협력과",
+      "issues": [
+        {
+          "countries": [
+            "인도"
+          ],
+          "category": "대외교역",
+          "title": "이집트와 잠재적 무역협정 협상 범위 마련 추진",
+          "bullets": [
+            {
+              "text": "고얄 상공장관과 이집트 투자·대외무역장관의 공동무역위원회에서 잠재적 양자 무역협정의 협상 범위를 정하는 위임사항 작성 추진 발표",
+              "source": "NDTV Profit",
+              "url": "https://www.ndtvprofit.com/india/india-egypt-to-work-on-terms-of-reference-for-potential-trade-pact-12330083"
+            },
+            {
+              "text": "양측 실무그룹을 통한 위임사항 마련 계획, 고얄 장관은 현재 65억 달러 규모 교역보다 높은 목표와 UPI·이집트 결제시스템 연결 제안",
+              "source": "NDTV Profit",
+              "url": "https://www.ndtvprofit.com/india/india-egypt-to-work-on-terms-of-reference-for-potential-trade-pact-12330083"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asean",
+      "name": "아주통상과",
+      "issues": [
+        {
+          "countries": [
+            "필리핀",
+            "베트남",
+            "태국",
+            "라오스",
+            "캄보디아",
+            "미얀마"
+          ],
+          "category": "국제·외교",
+          "title": "대통령의 한·아세안·한·메콩 정상회의와 양자회담 일정",
+          "bullets": [
+            {
+              "text": "이재명 대통령, 16일 한·아세안 및 한·메콩 정상회의, 17일 아세안+3 정상회의와 동아시아정상회의 참석 예정",
+              "source": "SBS",
+              "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008846857"
+            },
+            {
+              "text": "회의 기간 개최국 필리핀을 비롯한 각국 정상과 양자회담 예정",
+              "source": "SBS",
+              "url": "https://news.sbs.co.kr/english/article.do?news_id=N1008846857"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "싱가포르"
+          ],
+          "category": "정책·규제",
+          "title": "디지털 결제 연결과 아세안 공동 에너지 대응 촉구",
+          "bullets": [
+            {
+              "text": "로런스 웡 총리, 디지털경제기본협정 서명 이후 실질적 협력 확대와 역내 국경 간 전자결제망 구축 제안",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-asean-summit-manila-6552066"
+            },
+            {
+              "text": "아세안 석유안보협정의 신속한 비준과 국가 간 전력거래를 위한 아세안 전력망 구축 우선 추진 촉구",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/singapore/lawrence-wong-asean-summit-manila-6552066"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "말레이시아"
+          ],
+          "category": "정책·규제",
+          "title": "미국과의 관계 속 중국 등과 독자적 교류 원칙 재확인",
+          "bullets": [
+            {
+              "text": "안와르 총리, 미국과의 관계가 중국을 포함한 다른 국가들과의 독자적 교류를 제한하지 않는다고 발언",
+              "source": "Bernama",
+              "url": "https://web26.bernama.com/en/general/news.php?id=2634785"
+            },
+            {
+              "text": "외국인 투자는 말레이시아의 국가정책 체계와 국익을 존중해야 한다는 입장, 루비오 미 국무장관과 데이터센터·반도체·AI 문제를 논의하며 독자적 입장을 전달했다고 설명",
+              "source": "Bernama",
+              "url": "https://web26.bernama.com/en/general/news.php?id=2634785"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "태국"
+          ],
+          "category": "대외교역",
+          "title": "미·태국 무역협정의 마닐라 서명 계획",
+          "bullets": [
+            {
+              "text": "백악관, 트럼프 대통령이 마닐라에서 태국과 무역협정에 서명할 예정이라고 발표",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/trump-asia-midterm-elections-xi-30ac0f6937301f36904808f278b79b1e"
+            },
+            {
+              "text": "마닐라 일정에서 복수의 상업계약 체결도 예정",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/trump-asia-midterm-elections-xi-30ac0f6937301f36904808f278b79b1e"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "미얀마"
+          ],
+          "category": "국제·외교",
+          "title": "아세안 정상회의의 미얀마 정치대표 참석 제한 유지",
+          "bullets": [
+            {
+              "text": "아세안 정상들, 5개항 평화 합의 이행에서 의미 있는 진전이 있을 때까지 미얀마 정상·외교장관의 정상회의 참석 제한 유지",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/myanmar-violence-asean-philippines-660b4a8df06082f79b673912b2f3e655"
+            },
+            {
+              "text": "평화 합의의 지속적이고 구체적인 이행 진전에 따라 정치대표의 단계적 복귀 검토 가능 입장, 현재 회의에는 비정치적 대표 참석만 허용",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/myanmar-violence-asean-philippines-660b4a8df06082f79b673912b2f3e655"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mea",
+      "name": "중동아프리카통상과",
+      "issues": [
+        {
+          "countries": [
+            "이란",
+            "바레인"
+          ],
+          "category": "중동정세",
+          "title": "이란의 협상 조건 재확인과 바레인 미군기지 공격 주장",
+          "bullets": [
+            {
+              "text": "갈리바프 의회 의장, 미국과의 대치에서 전쟁도 평화도 아닌 상태의 장기화를 수용하지 않겠다는 입장 표명",
+              "source": "The Times of India",
+              "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-speaker-says-tehran-will-not-accept-neither-war-nor-peace-situation-sets-conditions-for-us-deal/amp_articleshow/135853737.cms"
+            },
+            {
+              "text": "이란 혁명수비대는 바레인 소재 미국 헬리콥터 기지의 레이더를 타격했다고 주장, 바레인군은 다수 이란 발사체를 목표 도달 전에 요격했다고 발표",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-november-15-2026-3b4adde832dadd333451fd2f7a51908c"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "예멘",
+            "사우디"
+          ],
+          "category": "중동정세",
+          "title": "예멘 정부군의 바브엘만데브 주변 재배치",
+          "bullets": [
+            {
+              "text": "정부군 주력 남부군은 두바브 공항·바브엘만데브 지역에서 아덴과 인접 주 방어를 우선하는 재배치 발표",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+              "altUrl": "https://ca.marketscreener.com/news/yemeni-government-force-retreats-from-strait-in-major-setback-in-war-against-houthis-ce785ededc81f321"
+            },
+            {
+              "text": "예멘 군 소식통에 따르면 정부군은 두바브 남쪽·아덴 서쪽 약 150㎞의 알수키야로 이동, 인근 해안에서 후티를 밀어내려는 작전은 지속",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/yemen-government-forces-withdraw-area-near-bab-el-mandeb-strait-houthis-control-2026-11-15/",
+              "altUrl": "https://ca.marketscreener.com/news/yemeni-government-force-retreats-from-strait-in-major-setback-in-war-against-houthis-ce785ededc81f321"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "사우디",
+            "카타르",
+            "이란"
+          ],
+          "category": "중동정세",
+          "title": "호르무즈·후티 공격 우려 속 걸프 증시 하락과 LNG 계약 해지",
+          "bullets": [
+            {
+              "text": "호르무즈 해협 차질과 후티의 사우디 공격을 평가하는 가운데 사우디 증시는 0.7%·카타르 증시는 1.8% 하락",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/",
+              "altUrl": "https://www.brecorder.com/news/40449028/"
+            },
+            {
+              "text": "카타르의 불가항력 선언을 근거로 장기 걸프 LNG 공급계약 해지 발생, 보도에 인용된 분석가들은 폴란드 오를렌의 절감 가능액을 최대 20억 달러로 제시",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/world/middle-east/gulf-bourses-slide-hormuz-tensions-houthi-strikes-rattle-traders-2026-11-15/",
+              "altUrl": "https://www.brecorder.com/news/40449028/"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "이란",
+            "사우디"
+          ],
+          "category": "중동정세",
+          "title": "원유 공급·재고 증가와 중동 불확실성에 대한 시장 전망",
+          "bullets": [
+            {
+              "text": "렐리가레브로킹의 아지트 미슈라, OPEC+의 10월 생산 증가 약 196만 배럴/일과 미국 원유 재고 증가 466만 배럴을 유가 하락 요인으로 제시",
+              "source": "PTI",
+              "url": "https://www.moneycontrol.com/news/india/crude-oil-may-extend-losses-next-week-brent-seen-testing-90-92-barrel-analysts-14080618.html"
+            },
+            {
+              "text": "미슈라는 브렌트가 다음 주 배럴당 90~92달러를 시험할 가능성과 하방 편향의 변동성을 전망, 호르무즈 해협은 공급 차질의 잠재적 요인으로 지목",
+              "source": "PTI",
+              "url": "https://www.moneycontrol.com/news/india/crude-oil-may-extend-losses-next-week-brent-seen-testing-90-92-barrel-analysts-14080618.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "튀르키예"
+          ],
+          "category": "정책·규제",
+          "title": "COP31에서 화석연료 전환 국가계획 공개 추진",
+          "bullets": [
+            {
+              "text": "산타마르타 화석연료 전환 연합, 창립국 콜롬비아의 탈퇴에도 튀르키예 안탈리아 COP31에서 국가별 전환계획과 진전 보고서 공개 준비",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/cop31-fossil-fuels-colombia-ireland-tuvalu-coal-09c81f8bc4afd44fb6a4c5a804b74cab"
+            },
+            {
+              "text": "아일랜드와 투발루가 콜롬비아·네덜란드의 연합 주도 역할을 이어받을 준비, 2027년 7월 두 번째 국제회의 개최 계획",
+              "source": "Associated Press",
+              "url": "https://apnews.com/article/cop31-fossil-fuels-colombia-ireland-tuvalu-coal-09c81f8bc4afd44fb6a4c5a804b74cab"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reports": [],
+  "notes": [
+    "원문 URL 미확인: PTI·유가 추가 하락 및 브렌트 90~92달러 전망(Crude oil may extend losses next week, Brent seen testing $90-92/barrel: Analysts)",
+    "통상협력총괄과 중앙아·코카서스·몽골 검색 범위: 카자흐스탄·우즈베키스탄·투르크메니스탄·키르기스스탄·타지키스탄·아제르바이잔·아르메니아·조지아·몽골, Reuters·Trend·Qazinform·Gazeta.uz·AKIpress·Montsame",
+    "Kommersant·RBC 한국 관련 검색: Kommersant의 한국 관광 보도는 실제 게시일 11월 13일로 48시간 범위 밖, RBC는 기간 내 출처·게시 시각 확인 항목 미확보",
+    "경제단체 보고서: KITA·수은 해외경제연구소·현대경제연구원·대한상의 SGI·KOTRA·KIEP 확인, 최근 3~4일 발간일과 공식 PDF를 함께 확인한 자료 미확보"
+  ]
+};
