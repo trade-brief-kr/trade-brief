@@ -1,0 +1,558 @@
+window.REPORT_ARCHIVE = window.REPORT_ARCHIVE || {};
+window.REPORT_ARCHIVE["2026-11-17"] = {
+  "date": "2026-11-17",
+  "generatedAt": "2026-11-17T07:22:18+09:00",
+  "coverage": "2026-11-16 07:08 ~ 2026-11-17 07:08 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
+  "topIssues": [
+    {
+      "text": "미국, 제3국 데이터센터를 통한 중국의 첨단 AI 연산 접근 차단을 위해 원격접속 규제와 반도체 수출허가 요건 즉시 강화",
+      "source": "AP",
+      "url": "https://apnews.com/article/nvidia-export-controls-chips-china-remote-access-60f868d3bb430b85a8657b27d421096e"
+    },
+    {
+      "text": "중동 수출 회복과 공급과잉 전망에 브렌트유 3.6% 하락한 배럴당 92.44달러·WTI 3.2% 하락한 85.72달러로 마감",
+      "source": "Reuters",
+      "url": "https://uk.marketscreener.com/news/oil-prices-fall-on-expectations-of-coming-supply-surplus-ce785ededf81f320"
+    },
+    {
+      "text": "중국 10월 산업생산·소매판매 증가율과 1~10월 고정자산투자 모두 시장 예상치 하회",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
+      "altUrl": "https://uk.marketscreener.com/news/china-s-economy-falters-as-factory-output-retail-sales-undershoot-expectations-ce785ededf80f021"
+    },
+    {
+      "text": "EU, 러시아 금융·에너지 거래 관련 추가 제재 부과와 우크라이나 휴전 우선 원칙 재확인",
+      "source": "AP",
+      "url": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e"
+    },
+    {
+      "text": "파키스탄, 이란 제안에 대한 미국 답변 대기 속 중재 지속 의사 표명과 경제협력기구의 파키스탄·카타르 중재 지지 확보",
+      "source": "AP",
+      "url": "https://apnews.com/article/pakistan-economic-bloch-eco-diplomats-meeting-islamabad-fff3bfdcebb7ef084f0f29dd04d239ee"
+    }
+  ],
+  "departments": [
+    {
+      "id": "cis",
+      "name": "통상협력총괄과",
+      "issues": [
+        {
+          "countries": [
+            "러시아",
+            "우크라이나"
+          ],
+          "category": "정책·규제",
+          "title": "EU, 러시아 은행·에너지 거래 관련 제재 확대",
+          "bullets": [
+            {
+              "text": "러시아 은행·금융기관 약 50곳과 에너지·원유·석유제품 거래에 연계된 기업인 제재",
+              "source": "AP",
+              "url": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e"
+            },
+            {
+              "text": "친러 선전·허위정보 유포 혐의 인사 수십 명에 자산동결·여행금지 부과, EU 외교장관들은 휴전 후 실질적 평화협정 추진 강조",
+              "source": "AP",
+              "url": "https://apnews.com/article/europe-ukraine-russia-security-ceasefire-cde686fba0e452b10ca613b3517e884e"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "러시아",
+            "한국"
+          ],
+          "category": "대외교역",
+          "title": "한국의 10월 러시아산 LNG 수입, 2021년 이후 최대",
+          "bullets": [
+            {
+              "text": "한국의 10월 러시아산 LNG 수입은 32만8,000톤·2억3,800만 달러로 2021년 11월 이후 최대 규모",
+              "source": "Kommersant",
+              "url": "https://www.kommersant.ru/doc/9110150"
+            },
+            {
+              "text": "한국의 10월 전체 LNG 수입은 405만 톤으로 전년 동월 대비 23% 증가, 1~10월 러시아산 수입은 175만 톤으로 7.3% 감소",
+              "source": "Kommersant",
+              "url": "https://www.kommersant.ru/doc/9110150"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "카자흐스탄",
+            "중국"
+          ],
+          "category": "대외교역",
+          "title": "카자흐스탄, 중국과의 세 번째 철도 국경통과 지점 2027년 개통 추진",
+          "bullets": [
+            {
+              "text": "길이 303㎞의 바흐티–아야고즈 철도 2027년 준공·가동 계획, 연간 최대 2,000만 톤의 화물처리 능력 확보 예정",
+              "source": "Trend.az",
+              "url": "https://www.trend.az/casia/kazakhstan/4247019.html"
+            },
+            {
+              "text": "계획 토공사 물량의 93% 완료, 카자흐스탄 교통부는 기존 도스티크·알틴콜 국경통과 지점 부담 완화와 대중국 수송능력 확대 예상",
+              "source": "Trend.az",
+              "url": "https://www.trend.az/casia/kazakhstan/4247019.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "우즈베키스탄",
+            "오만"
+          ],
+          "category": "국제·외교",
+          "title": "우즈베키스탄·오만, 물류센터망·생산시설·수출 확대 합의",
+          "bullets": [
+            {
+              "text": "우즈베키스탄 투자산업통상장관과 오만 기업·투자기금·금융기관 간 무스카트 협의에서 물류센터망 개발, 신규 생산시설 설립, 수출 확대 합의",
+              "source": "Trend.az",
+              "url": "https://www.trend.az/casia/uzbekistan/4246982.html"
+            },
+            {
+              "text": "전기공학·에너지·화학·광업·건설·농업·디지털 분야 공동사업 논의, 교통·물류 인프라와 금융협력 확대에 중점",
+              "source": "Trend.az",
+              "url": "https://www.trend.az/casia/uzbekistan/4246982.html"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "neasia",
+      "name": "동북아통상과",
+      "issues": [
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "정책·규제",
+          "title": "미국, 중국의 해외 AI 연산 접근과 반도체 우회 수출 규제 강화",
+          "bullets": [
+            {
+              "text": "중국·러시아·이란·쿠바 등의 기업에 서비스를 제공하는 해외 데이터센터에 최종 사용자 식별 의무 부과",
+              "source": "AP",
+              "url": "https://apnews.com/article/nvidia-export-controls-chips-china-remote-access-60f868d3bb430b85a8657b27d421096e"
+            },
+            {
+              "text": "인도네시아·말레이시아·싱가포르·태국·브라질에 대한 반도체 판매에 추가 허가 요건 적용, 제3국 데이터센터 원격 연산을 통한 수출규제 우회 차단 목적",
+              "source": "AP",
+              "url": "https://apnews.com/article/nvidia-export-controls-chips-china-remote-access-60f868d3bb430b85a8657b27d421096e"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "경제동향",
+          "title": "중국, 생산 둔화·소비 부진·투자 감소 심화",
+          "bullets": [
+            {
+              "text": "10월 산업생산은 전년 동월 대비 4.8% 증가해 예상치 5.3% 하회, 소매판매는 0.4% 증가해 예상치 0.8% 하회",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
+              "altUrl": "https://uk.marketscreener.com/news/china-s-economy-falters-as-factory-output-retail-sales-undershoot-expectations-ce785ededf80f021"
+            },
+            {
+              "text": "1~10월 고정자산투자는 전년 동기 대비 8.1% 감소하고 부동산투자는 21.6% 감소, 고정자산투자 감소폭은 1~9월 7.2%보다 확대",
+              "source": "Reuters",
+              "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
+              "altUrl": "https://uk.marketscreener.com/news/china-s-economy-falters-as-factory-output-retail-sales-undershoot-expectations-ce785ededf80f021"
+            },
+            {
+              "text": "블룸버그, 순수출의 3분기 GDP 성장 기여 비중이 약 40%이며 AI 투자 지속성 우려가 수출의존 위험을 키우고 있다고 보도",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-16/china-s-economy-weakens-more-than-forecast-despite-stimulus-push",
+              "altUrl": "https://www.businesstimes.com.sg/international/global/chinas-economy-misses-forecasts-across-board-slowdown"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국"
+          ],
+          "category": "산업동향",
+          "title": "희토류 생산량 통제와 가격 상승 속 주요 생산업체 수익 확대",
+          "bullets": [
+            {
+              "text": "북방희토류의 1~9월 순이익은 36억5,000만 위안, 중국희토자원기술은 4억800만 위안으로 각각 두 배 이상 증가",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/china-s-top-rare-earth-firms-profits-surge-on-supply-caps-ce785eded088f126"
+            },
+            {
+              "text": "로이터, 생산쿼터·기업 통합과 수입광석의 쿼터 편입에 따른 공급관리 강화 보도, 수출통제 대상이 아닌 경희토류 가격 상승이 통제 품목 출하 감소 상쇄",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/china-s-top-rare-earth-firms-profits-surge-on-supply-caps-ce785eded088f126"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "일본"
+          ],
+          "category": "경제동향",
+          "title": "일본 3분기 경제 역성장, 소비 감소와 원유 수입비 부담",
+          "bullets": [
+            {
+              "text": "3분기 실질 GDP는 전기 대비 연율 0.1% 감소, 소비 둔화와 원유 수입비 상승이 성장 제약",
+              "source": "AP",
+              "url": "https://apnews.com/article/japan-economy-growth-oil-energy-inflation-263988f2ec1894d3bf88522fd12500a6"
+            },
+            {
+              "text": "민간소비는 연율 1.1% 감소한 반면 민간 비주거 투자는 디지털 수요에 힘입어 연율 6.8% 증가",
+              "source": "AP",
+              "url": "https://apnews.com/article/japan-economy-growth-oil-energy-inflation-263988f2ec1894d3bf88522fd12500a6"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "일본",
+            "한국"
+          ],
+          "category": "국제·외교",
+          "title": "한·일 정상, 17일 마닐라 양자회담 개최 예정",
+          "bullets": [
+            {
+              "text": "이재명 대통령과 다카이치 사나에 일본 총리, 아세안 정상회의 계기 17일 양자회담 개최 예정",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116001100315"
+            },
+            {
+              "text": "양국 관계와 지역·국제 안보 현안 협의 계획, 다카이치 총리 취임 이후 네 번째 정상회담 예정",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116001100315"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국",
+            "캐나다"
+          ],
+          "category": "정책·규제",
+          "title": "캐나다, 대미 무역협상 결과에 따른 중국 자동차 투자 가능성 거론",
+          "bullets": [
+            {
+              "text": "카니 총리, 미국과의 무역협상이 우선이나 협상 결과에 따라 중국·유럽·일본 자동차 업체와의 대안 모색 가능성 표명",
+              "source": "AP",
+              "url": "https://apnews.com/article/canada-carney-trump-china-trade-autos-cbb2d3f90eed95925ffa4cb9a4b25239"
+            },
+            {
+              "text": "중국 투자에는 단순 조립을 넘어선 현지 제조, 노동기준 준수와 캐나다 핵심광물 활용 등 국내 공급망 확대가 필요하다는 입장",
+              "source": "AP",
+              "url": "https://apnews.com/article/canada-carney-trump-china-trade-autos-cbb2d3f90eed95925ffa4cb9a4b25239"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "india",
+      "name": "인도통상협력과",
+      "issues": [
+        {
+          "countries": [
+            "파키스탄"
+          ],
+          "category": "중동정세",
+          "title": "파키스탄, 미국–이란 중재 지속과 ECO 교통·통상 연계 논의",
+          "bullets": [
+            {
+              "text": "다르 외무장관, 6월 잠정합의를 토대로 한 이란의 최신 제안에 대해 미국 답변을 기다리고 있으며 평화 중재 노력 지속 중이라고 설명",
+              "source": "AP",
+              "url": "https://apnews.com/article/pakistan-economic-bloch-eco-diplomats-meeting-islamabad-fff3bfdcebb7ef084f0f29dd04d239ee"
+            },
+            {
+              "text": "이슬라마바드 경제협력기구 회의에서 회원국 간 운송·상업 연결 강화를 통한 역내 무역협력 확대 논의",
+              "source": "AP",
+              "url": "https://apnews.com/article/pakistan-economic-bloch-eco-diplomats-meeting-islamabad-fff3bfdcebb7ef084f0f29dd04d239ee"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "인도"
+          ],
+          "category": "경제동향",
+          "title": "인도 증시, 유가 하락·AI 투자 재편 속 외국인 자금 유입 확대",
+          "bullets": [
+            {
+              "text": "11월 외국인 주식 순매수액은 95억3,000만 달러로 월간 사상 최대, 월요일 종가 기준 채권을 포함한 외국인 포트폴리오 유입액은 103억3,000만 달러",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/record-foreign-inflows-fuel-indian-stocks-november-surge-ce785eded18df123"
+            },
+            {
+              "text": "유가 하락·견조한 기업실적·글로벌 AI 관련주 투자 축소가 자금 유입 배경, 니프티50과 센섹스의 11월 상승률은 각각 9.7%와 10.3%",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/record-foreign-inflows-fuel-indian-stocks-november-surge-ce785eded18df123"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "asean",
+      "name": "아주통상과",
+      "issues": [
+        {
+          "countries": [
+            "필리핀",
+            "인도네시아",
+            "말레이시아",
+            "싱가포르",
+            "베트남",
+            "태국",
+            "라오스",
+            "캄보디아",
+            "미얀마",
+            "브루나이",
+            "동티모르"
+          ],
+          "category": "국제·외교",
+          "title": "한·아세안 정상회의, AI·문화 협력 구상과 교역 확대 목표 제시",
+          "bullets": [
+            {
+              "text": "이재명 대통령, 한·아세안 FTA 개선협상을 언급하며 연간 교역 3,000억 달러 달성을 위한 협력 추진 의사 표명",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116008000315",
+              "altUrl": "https://web26.bernama.com/en/world/news.php?id=2635135"
+            },
+            {
+              "text": "한·아세안 AI 협력 구상과 문화·창의산업 협력 구상 제안, AI 발전의 혜택 공유와 아세안 청년의 창의성을 활용한 기회 확대 약속",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116008000315",
+              "altUrl": "https://web26.bernama.com/en/world/news.php?id=2635135"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "필리핀",
+            "한국"
+          ],
+          "category": "국제·외교",
+          "title": "한·필리핀 정상, 방산·인프라와 조선·AI·원전 협력 확대",
+          "bullets": [
+            {
+              "text": "이재명 대통령과 마르코스 대통령, 마닐라 정상회담에서 방산·인프라 협력을 심화하고 조선·AI·원전·항공우주·재난관리 분야로 협력 확대 합의",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116009051315"
+            },
+            {
+              "text": "1~9월 양국 교역 213억 달러로 종전 연간 기록 상회, 정상회담 계기 무상원조 협정과 과학기술 협력 양해각서 체결",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116009051315"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "태국",
+            "한국"
+          ],
+          "category": "대외교역",
+          "title": "한·태국 정상, 포괄적경제동반자협정 협상 가속 합의",
+          "bullets": [
+            {
+              "text": "이재명 대통령과 아누틴 총리, 무역·투자 확대를 위한 포괄적경제동반자협정의 조속한 타결 필요성에 공감하고 관련 협상 가속 합의",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116008851315"
+            },
+            {
+              "text": "방산·AI·원자력·지식재산 보호 분야 협력 추진, 아누틴 총리는 태국 내 한국 기업에 대한 지원 의사 표명",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116008851315"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "베트남",
+            "태국",
+            "캄보디아",
+            "라오스",
+            "미얀마",
+            "한국"
+          ],
+          "category": "국제·외교",
+          "title": "한·메콩 정상회의, 핵심광물 공급망 등 신규 협력 확대 제안",
+          "bullets": [
+            {
+              "text": "이재명 대통령, 메콩 5개국 정상과의 회의에서 핵심광물 공급망과 초국경 범죄 대응으로 협력 확대 약속",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116009300315"
+            },
+            {
+              "text": "AI·디지털 기술·메콩 제조업 공급망을 공동성장 기반으로 제시, 7대 우선협력 분야를 중심으로 실용적·호혜적 협력 강화 의사 표명",
+              "source": "Yonhap News Agency",
+              "url": "https://en.yna.co.kr/view/AEN20261116009300315"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "싱가포르",
+            "중국"
+          ],
+          "category": "대외교역",
+          "title": "싱가포르, 아세안–중국 디지털·AI 협력과 통관 간소화 강조",
+          "bullets": [
+            {
+              "text": "로런스 웡 총리, 아세안–중국 정상회의에서 책임 있는 AI 개발·도입과 디지털 연결성 확대 제안, 2027년 AI 협력의 해 지정 제안 환영",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/singapore/asean-china-summit-lawrence-wong-6553926"
+            },
+            {
+              "text": "아세안–중국 FTA 3.0 개선 의정서의 12월 발효를 앞두고 통관절차·인증요건 간소화 작업 진행 설명, 항공운송협정 자유화 필요성 제기",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/singapore/asean-china-summit-lawrence-wong-6553926"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "필리핀",
+            "인도네시아",
+            "말레이시아",
+            "싱가포르",
+            "태국",
+            "베트남",
+            "라오스",
+            "캄보디아",
+            "미얀마",
+            "브루나이",
+            "동티모르"
+          ],
+          "category": "산업동향",
+          "title": "아세안, 연료 공동 대응과 역내 전력망 구축 추진",
+          "bullets": [
+            {
+              "text": "아세안 회원국, 공급 차질 시 원유·석유제품·LNG를 공유하는 아세안 석유안보협정의 전면 이행 지지",
+              "source": "Philstar.com",
+              "url": "https://qa.philstar.com/headlines/2026/11/16/2570487/philippines-asean-leaders-back-faster-rollout-power-fuel-solutions/amp/"
+            },
+            {
+              "text": "아세안 전력망 강화 양해각서 서명, 2040년까지 국가별 전력시스템을 국경 간 인프라로 연결하고 역내 전력교역 확대 추진",
+              "source": "Philstar.com",
+              "url": "https://qa.philstar.com/headlines/2026/11/16/2570487/philippines-asean-leaders-back-faster-rollout-power-fuel-solutions/amp/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mea",
+      "name": "중동아프리카통상과",
+      "issues": [
+        {
+          "countries": [
+            "이란"
+          ],
+          "category": "중동정세",
+          "title": "중동 원유 수출 회복과 중국 정제수요 둔화로 공급과잉 전망",
+          "bullets": [
+            {
+              "text": "IEA, 중동 수출 회복이 수요 증가를 웃돌면서 4분기 원유 공급을 하루 1억500만 배럴, 수요 초과분을 하루 170만 배럴로 전망",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/oil-prices-fall-on-expectations-of-coming-supply-surplus-ce785ededf81f320"
+            },
+            {
+              "text": "중국의 10월 정제처리량은 전년 동월 대비 8.1% 감소, OPEC은 16일 회원국과 OPEC+의 최대 지속가능 생산능력 재평가 논의",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/oil-prices-fall-on-expectations-of-coming-supply-surplus-ce785ededf81f320"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "이란"
+          ],
+          "category": "중동정세",
+          "title": "미국 중동 항모 3척 배치와 호르무즈 선박 피격",
+          "bullets": [
+            {
+              "text": "미 항공모함 시어도어 루스벨트함의 중동 도착으로 항모 3척 배치, 핵프로그램과 해상봉쇄 해제를 둘러싼 미국–이란 협상 교착 지속",
+              "source": "AP",
+              "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a"
+            },
+            {
+              "text": "영국해사무역기구, 호르무즈 해협 통과 유조선의 피격과 기관실 화재 보고, 인명피해 보고는 없는 상태",
+              "source": "AP",
+              "url": "https://apnews.com/article/us-iran-war-aircraft-carrier-middle-east-9858fc82c61c7a1d159e7bba72afe99a"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "UAE"
+          ],
+          "category": "정책·규제",
+          "title": "UAE, 광물 가공·정제 역량과 공급망 협력 확대 방침 제시",
+          "bullets": [
+            {
+              "text": "에너지인프라부, 국가광물자원전략의 2030년 비석유 GDP 대비 광물 부문 비중 5% 목표와 통합 지질정보 데이터베이스·규제체계 현대화 추진 소개",
+              "source": "WAM",
+              "url": "https://www.wam.ae/en/article/c3a9erc-ministry-energy-and-infrastructure-highlights-uae"
+            },
+            {
+              "text": "광물 가공·정제·제조 역량 구축과 핵심광물 국제협력 확대 강조, 특정 국가에 집중된 가공·정제 능력과 통상규제의 공급망 영향 지적",
+              "source": "WAM",
+              "url": "https://www.wam.ae/en/article/c3a9erc-ministry-energy-and-infrastructure-highlights-uae"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "이집트",
+            "인도"
+          ],
+          "category": "대외교역",
+          "title": "이집트·인도, 수에즈운하경제특구 산업단지와 교역 확대 추진",
+          "bullets": [
+            {
+              "text": "이집트, 수에즈운하경제특구 내 첫 인도 산업단지 조성 가속 추진, 재생에너지·그린수소·에너지저장·제약·데이터센터 투자와 기술이전 유치 목표",
+              "source": "Arab News",
+              "url": "https://www.arabnews.com/business/egypt-steps-up-plans-for-first-indian-industrial-area-in-suez-canal-economic-zone-3012218"
+            },
+            {
+              "text": "양국, 2025/26 회계연도 65억 달러인 교역을 2030년 120억 달러로 확대 목표, 재생에너지·배터리·자동차·농식품 등 협력 확대 추진",
+              "source": "Arab News",
+              "url": "https://www.arabnews.com/business/egypt-steps-up-plans-for-first-indian-industrial-area-in-suez-canal-economic-zone-3012218"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "튀르키예"
+          ],
+          "category": "산업동향",
+          "title": "이슬람개발은행, 이스탄불 철도 연결사업에 6억6,000만 유로 금융지원",
+          "bullets": [
+            {
+              "text": "이슬람개발은행과 튀르키예, INRAIL 사업 금융협정 서명, 약 127㎞의 전철화 철도·현대식 신호체계 구축 지원",
+              "source": "Trend.az",
+              "url": "https://www.trend.az/world/turkey/4246977.html"
+            },
+            {
+              "text": "사업의 연간 철도화물 수송능력은 300만 톤에서 5,000만 톤으로 확대 예상, 유럽–아시아 철도 연결과 중간회랑 물류 병목 완화 추진",
+              "source": "Trend.az",
+              "url": "https://www.trend.az/world/turkey/4246977.html"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "reports": [],
+  "notes": [
+    "원문 URL 미확인: Reuters·Oil settles lower as recovering Middle East exports bolster surplus outlook",
+    "원문 URL 미확인: Reuters·China's top rare earth firms' profits surge on supply caps",
+    "원문 URL 미확인: Reuters·Record foreign inflows fuel Indian stocks' November surge",
+    "재게재 기사의 publishedAt은 해당 재게재 페이지에 표시된 게시 시각 기준",
+    "Bloomberg 중국 실물지표 기사는 The Business Times 재게재 원문 대조",
+    "RBC 한국 관련 통상 기사: 48시간 내 게시 시각 확인 미충족",
+    "경제단체 보고서: KITA·수은 해외경제연구소·현대경제연구원·대한상의 SGI·KOTRA·KIEP 검색에서 최근 3~4일 발간일과 공식 PDF 동시 확인 미충족"
+  ]
+};
