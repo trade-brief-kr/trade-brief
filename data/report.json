@@ -1,32 +1,34 @@
 {
-  "date": "2026-11-18",
-  "generatedAt": "2026-11-18T07:23:07+09:00",
-  "coverage": "2026-11-17 07:10 ~ 2026-11-18 07:10 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
+  "date": "2026-11-19",
+  "generatedAt": "2026-11-19T07:15:52+09:00",
+  "coverage": "2026-11-18 07:06 ~ 2026-11-19 07:06 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
   "topIssues": [
     {
-      "text": "미국이 대이란 해상봉쇄로 핵 프로그램 양보를 압박하는 가운데 이란은 미국의 선제 조치를 요구하며 오만·카타르 중재진과 접촉",
+      "text": "이란이 미국의 전날 공습 이후 쿠웨이트 내 미군 기지와 바레인으로 공격을 확대하면서 외교적 해법을 위한 협상 난도 상승",
+      "source": "AP",
+      "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94"
+    },
+    {
+      "text": "미국의 원유·연료 재고가 예상보다 큰 폭으로 늘면서 브렌트유는 배럴당 91.95달러, 서부텍사스산원유(WTI)는 83.26달러로 하락 마감",
       "source": "Reuters",
-      "url": "https://ca.marketscreener.com/news/trump-and-tehran-gamble-on-time-as-iran-war-stalemate-deepens-ce785edcda8cf722"
+      "url": "https://www.reuters.com/business/energy/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks-2026-11-18/",
+      "altUrl": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook"
     },
     {
-      "text": "걸프와 홍해 긴장 재고조로 이라크 수출 재개의 하락 압력이 상쇄되면서 브렌트유는 배럴당 93.14달러로 0.76%, WTI는 86.01달러로 0.34% 상승 마감",
-      "source": "DTN",
-      "url": "https://www.dtnpf.com/agriculture/web/AG/news/world-policy/article/2026/11/17/crude-steadies-mideast-flare-ups"
+      "text": "선전 아시아태평양경제협력체(APEC) 최고경영자회의에서 시진핑 중국 국가주석은 개방무역을 촉구하고 블라디미르 푸틴 러시아 대통령은 제재를 비판",
+      "source": "AP",
+      "url": "https://apnews.com/article/apec-china-economy-trump-putin-ai-1e3b6161b31196c9716ca02ac8c7720c"
     },
     {
-      "text": "미 상무부가 중국 기업의 해외 고성능 AI 반도체 원격 이용과 싱가포르 등 제3국을 통한 칩 확보를 제한하는 새 규정 발표",
-      "source": "Bloomberg",
-      "url": "https://news.bloomberglaw.com/crypto/us-chip-curbs-force-xi-to-weigh-response-before-trump-summit"
+      "text": "중국가스홀딩스가 미국 벤처글로벌과 맺은 20년 액화천연가스(LNG) 공급계약의 연간 도입량을 100만 톤으로 두 배 확대",
+      "source": "Reuters",
+      "url": "https://www.reuters.com/business/energy/china-gas-doubles-volume-20-yr-lng-deal-with-venture-global-2026-11-18/",
+      "altUrl": "https://ae.marketscreener.com/news/china-gas-doubles-volume-in-20-yr-lng-deal-with-venture-global-ce785edcd188f025"
     },
     {
-      "text": "EU가 인도·일본·대만·튀르키예·베트남산 일부 냉연 판재류에 확정 반덤핑 관세를 부과하고 11월 17일부터 적용",
-      "source": "Business Standard",
-      "url": "https://www.business-standard.com/amp/economy/news/eu-imposes-anti-dumping-duty-on-steel-imports-from-india-4-other-nations-126111700316_1.html"
-    },
-    {
-      "text": "마크롱 프랑스 대통령이 말레이시아와 공동 추진하는 희토류 사업의 2027년 초 가동 계획 발표",
-      "source": "Associated Press",
-      "url": "https://apnews.com/article/malaysia-france-rare-earths-5ceeae4468f34b70e4f6c49f9440c1a7"
+      "text": "미국 행정부가 니켈·코발트 등 핵심광물 확보를 위해 미국령 사모아와 북마리아나제도 인근 해저 광물 탐사·개발을 위한 임대권 경매 추진",
+      "source": "AP",
+      "url": "https://apnews.com/article/trump-deepsea-mining-oceans-environment-american-samoa-northern-marianas-d317c25ce85316b632b0369c9cce97a4"
     }
   ],
   "departments": [
@@ -36,84 +38,123 @@
       "issues": [
         {
           "countries": [
+            "러시아"
+          ],
+          "category": "국제·외교",
+          "title": "러시아, 선전 APEC 계기 한·러 정상 간 약식 대화 가능성 언급",
+          "bullets": [
+            {
+              "text": "크렘린궁은 블라디미르 푸틴 대통령의 APEC 공식 일정에 이재명 대통령과의 별도 양자회담이 포함되지 않았다고 설명",
+              "source": "Kommersant",
+              "url": "https://www.kommersant.ru/doc/9111293"
+            },
+            {
+              "text": "드미트리 페스코프 크렘린궁 대변인은 두 정상이 행사장에서 만나 필요하다고 판단하면 짧게 대화할 수 있다고 언급",
+              "source": "한겨레",
+              "url": "https://english.hani.co.kr/arti/english_edition/e_international/1287859.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "러시아",
+            "중국"
+          ],
+          "category": "국제·외교",
+          "title": "러·중 정상, 선전에서 교역·투자 협력 논의",
+          "bullets": [
+            {
+              "text": "푸틴 대통령은 러·중 교역액이 수년간 2,000억 달러를 웃돌았다며 2026년에도 증가할 것으로 전망",
+              "source": "RBC",
+              "url": "https://www.rbc.ru/politics/18/11/2026/6afdb3cee396645a4dbd3b70?from=my_rbc"
+            },
+            {
+              "text": "중국 외교부에 따르면 시진핑 주석은 양국 기업의 권익을 보호하고 상호 투자에 안정적이고 예측 가능한 환경을 조성할 것을 촉구",
+              "source": "RBC",
+              "url": "https://www.rbc.ru/politics/18/11/2026/6afdb3cee396645a4dbd3b70?from=my_rbc"
+            },
+            {
+              "text": "유리 우샤코프 러시아 대통령 보좌관은 회담에 앞서 아시아태평양 협력, 우크라이나, 한반도 정세를 정상 간 논의 의제로 제시",
+              "source": "RBC",
+              "url": "https://www.rbc.ru/politics/18/11/2026/6afdb3cee396645a4dbd3b70?from=my_rbc"
+            }
+          ]
+        },
+        {
+          "countries": [
             "러시아",
             "우크라이나"
           ],
-          "category": "국제·외교",
-          "title": "케르치 교량 통행 중단과 우크라이나 전력 차질",
+          "category": "산업동향",
+          "title": "우크라이나, 러시아 남부 정유시설 두 곳 타격 발표",
           "bullets": [
             {
-              "text": "우크라이나가 러시아 본토와 크림반도를 잇는 케르치 교량을 공격한 뒤 차량과 철도 통행이 중단됐으며, 러시아 임명 크림 행정수반은 철도 통행이 당일 오후 복구됐다고 발표",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/russia-ukraine-war-bridge-crimea-drones-missiles-df4b867cf8f70e88843d8fefea5d643c"
+              "text": "우크라이나 총참모부는 러시아 크라스노다르 지역 정유시설 두 곳을 타격했으며 두 시설의 합산 원유 처리능력은 연간 약 9,500만 배럴이라고 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/russia-ukraine-war-weapons-kerch-bridge-crimea-3c37f13d278c1312d795f108a7a91904"
             },
             {
-              "text": "젤렌스키 우크라이나 대통령은 러시아의 전력망 공격이 이어지는 가운데 우크라이나 3개 지역에서 큰 정전이 발생했다고 발표",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/russia-ukraine-war-bridge-crimea-drones-missiles-df4b867cf8f70e88843d8fefea5d643c"
+              "text": "러시아 당국은 크라스노다르 지역 산업시설 두 곳이 공격받았다고 발표했으나 시설의 구체적 정보는 미공개",
+              "source": "AP",
+              "url": "https://apnews.com/article/russia-ukraine-war-weapons-kerch-bridge-crimea-3c37f13d278c1312d795f108a7a91904"
             }
           ]
         },
         {
           "countries": [
-            "러시아"
+            "우크라이나"
           ],
-          "category": "대외교역",
-          "title": "한국의 10월 러시아산 LNG 수입, 2021년 11월 이후 최대",
+          "category": "정책·규제",
+          "title": "EU 집행위, 우크라이나에 450억 유로 추가 대출 제안",
           "bullets": [
             {
-              "text": "한국이 10월 러시아산 LNG 32만8천 톤을 2억3천800만 달러에 수입해 2021년 11월 이후 월간 최대 물량 기록",
-              "source": "Kommersant",
-              "url": "https://www.kommersant.ru/doc/9110150"
+              "text": "EU 집행위는 2027년 우크라이나 지원용으로 자본시장에서 450억 유로를 조달해 경제 지원에 200억 유로, 군사 지원에 250억 유로를 배정하는 방안 제시",
+              "source": "AP",
+              "url": "https://apnews.com/article/europe-ukraine-loan-russia-summit-8c1baf00b55973a3534096aae2cc73a2"
             },
             {
-              "text": "1~10월 누적 러시아산 LNG 수입량은 175만 톤으로 전년 동기 대비 7.3% 감소",
-              "source": "Kommersant",
-              "url": "https://www.kommersant.ru/doc/9110150"
+              "text": "EU 제재로 동결된 러시아 자산에서 발생하는 이자를 대출 재원에 활용하고, 우크라이나는 러시아가 전쟁 배상금을 지급한 뒤 상환하는 구조",
+              "source": "AP",
+              "url": "https://apnews.com/article/europe-ukraine-loan-russia-summit-8c1baf00b55973a3534096aae2cc73a2"
             }
           ]
         },
         {
           "countries": [
-            "러시아"
-          ],
-          "category": "국제·외교",
-          "title": "크렘린궁, 선전 APEC 계기 한·러 정상 접촉 가능성 언급",
-          "bullets": [
-            {
-              "text": "페스코프 크렘린궁 대변인은 푸틴 대통령이 선전 APEC 정상회의 기간에 어떤 형태로든 이재명 대통령을 만날 것이라고 발언",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/amp/view/AKR20261117140800109"
-            },
-            {
-              "text": "크렘린궁은 별도 양자회담 일정은 없으며 양측이 필요하다고 판단할 경우 짧은 대화가 가능하다고 설명",
-              "source": "뉴스1",
-              "url": "https://www.news1.kr/world/europe/6357088"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "우즈베키스탄",
-            "오만"
+            "투르크메니스탄",
+            "파키스탄"
           ],
           "category": "산업동향",
-          "title": "우즈베키스탄·오만, 전력설비·물류 투자 협력",
+          "title": "투르크메니스탄·파키스탄, 가스관과 송전 연계 논의",
           "bullets": [
             {
-              "text": "미르지요예프 우즈베키스탄 대통령은 오만 방문 기간 50억 달러 규모의 공동사업 목록을 마련했다고 밝히고 소하르항 물류 인프라와 통합 무역·물류 플랫폼 개발 제안",
-              "source": "UzA",
-              "url": "https://uza.uz/en/posts/uzbekistan-and-oman-identify-new-promising-areas-of-economic-cooperation_939594"
-            },
-            {
-              "text": "우즈베키스탄 누라 일렉트릭과 오만 볼트앰프 에너지 등이 연간 5천 MVA 규모의 고압 변압기 생산시설 설립에 합의",
+              "text": "양국 외교장관이 이슬라마바드 경제협력 공동위원회에서 투르크메니스탄·아프가니스탄·파키스탄·인도 가스관(TAPI) 추진과 투르크메니스탄·아프가니스탄·파키스탄 송전 협력 논의",
               "source": "Trend News Agency",
-              "url": "https://www.trend.az/casia/uzbekistan/4247253.html"
+              "url": "https://www.trend.az/casia/turkmenistan/4247700.html"
             },
             {
-              "text": "오만 볼트앰프 에너지와 우즈베키스탄 UET 컨스트럭션이 페르가나주 500MW 태양광발전소 공동개발 협약 체결",
-              "source": "UzDaily",
-              "url": "https://www.uzdaily.uz/ru/v-ferganskoi-oblasti-postroiat-solnechnuiu-stantsiiu-na-500-mvt/"
+              "text": "공동위원회는 교역·투자 확대와 산업 협력을 논의하고 기존 합의의 이행 체계 개선 방안도 검토",
+              "source": "Trend News Agency",
+              "url": "https://www.trend.az/casia/turkmenistan/4247700.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "카자흐스탄"
+          ],
+          "category": "산업동향",
+          "title": "카자흐스탄·IAEA, 원전 건설 추진 계기 원자력 협력 논의",
+          "bullets": [
+            {
+              "text": "카자흐스탄과 국제원자력기구(IAEA)는 원자력 발전·의학, 원자력 기술 활용 및 카자흐스탄 전문인력 양성 분야에서 협력 확대 논의",
+              "source": "Trend News Agency",
+              "url": "https://www.trend.az/casia/kazakhstan/4247968.html"
+            },
+            {
+              "text": "카자흐스탄 측은 원전 건설 계획을 추진하는 상황에서 IAEA 활동 참여를 외교정책 우선순위로 제시",
+              "source": "Trend News Agency",
+              "url": "https://www.trend.az/casia/kazakhstan/4247968.html"
             }
           ]
         }
@@ -125,78 +166,82 @@
       "issues": [
         {
           "countries": [
-            "중국",
-            "캐나다"
-          ],
-          "category": "대외교역",
-          "title": "중국·캐나다, 추가 관세 완화와 통화스와프 점검 합의",
-          "bullets": [
-            {
-              "text": "시진핑 중국 국가주석과 마크 카니 캐나다 총리가 선전에서 만나 농산물과 철강 수출에 대한 추가 관세 완화에 합의",
-              "source": "Bloomberg",
-              "url": "https://news.bloomberglaw.com/antitrust/china-and-canada-expand-tariff-relief-as-xi-meets-carney-1"
-            },
-            {
-              "text": "중국 재정부는 양국 중앙은행이 9년간 가동하지 않았던 통화스와프의 운영 점검을 재개할 예정이라고 발표",
-              "source": "South China Morning Post",
-              "url": "https://www.scmp.com/economy/article/3374743/china-and-canada-revive-bilateral-currency-swap-after-nine-years"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "일본"
-          ],
-          "category": "국제·외교",
-          "title": "한·일 정상, 공급망·에너지 안보 협력 강화 합의",
-          "bullets": [
-            {
-              "text": "이재명 대통령과 다카이치 사나에 일본 총리는 마닐라 정상회담에서 중동발 에너지 위기에 대응해 공급망·에너지 안보 협력을 강화하기로 합의",
-              "source": "헤럴드경제",
-              "url": "https://biz.heraldcorp.com/article/10940340"
-            },
-            {
-              "text": "이 대통령은 다카이치 총리의 초청에 따라 내년 1월 일본을 방문하겠다는 뜻을 표명",
-              "source": "연합뉴스",
-              "url": "https://en.yna.co.kr/view/AEN20261117010051315?section=national/politics"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "일본"
-          ],
-          "category": "정책·규제",
-          "title": "일본, 아시아 에너지 협력 기구와 공동 비축 제안",
-          "bullets": [
-            {
-              "text": "다카이치 일본 총리는 마닐라에서 역내 에너지 위기 대응을 위한 국제에너지기구와 유사한 아시아 협력 체계 구상 제시",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/asean-energy-oil-war-takaichi-iea-asean-3d7df3b2038c83441874c8c4be09eda5"
-            },
-            {
-              "text": "동남아 공동 석유비축 체계 구축과 일본 유휴 저장시설 활용 방안 제안",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/asean-energy-oil-war-takaichi-iea-asean-3d7df3b2038c83441874c8c4be09eda5"
-            }
-          ]
-        },
-        {
-          "countries": [
             "중국"
           ],
-          "category": "국제·외교",
-          "title": "이재명 대통령, 선전 APEC 참석과 역내 위기 대응 협력 제안",
+          "category": "대외교역",
+          "title": "한·중 정상, FTA 서비스·투자 후속협상 실질 타결 선언",
           "bullets": [
             {
-              "text": "이재명 대통령은 마닐라 아세안 일정을 마치고 APEC 정상회의가 열리는 중국 선전에 도착",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261117162800001?section=politics/all"
+              "text": "이재명 대통령과 시진핑 주석은 선전 정상회담에서 한·중 FTA 서비스·투자 후속협상의 실질 타결을 선언하고 콘텐츠·관광·법률 등 서비스 시장 개방 확대에 합의",
+              "source": "매일경제",
+              "url": "https://www.mk.co.kr/news/world/12212514"
             },
             {
-              "text": "이 대통령은 아세안+3 정상회의에서 복합 위기에 대한 대응·회복 역량을 높이고 한·중·일과 아세안의 협력을 강화할 필요성 강조",
+              "text": "중국 상무부는 전통의학·문화·인터넷 서비스 분야 협력 실행계획 마련을 발표했으며, 한국 정부는 온라인게임·영화 사전심사에 최혜국대우와 비차별 원칙이 적용된다고 설명",
               "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/amp/view/AKR20261117035951001"
+              "url": "https://www.yna.co.kr/amp/view/AKR20261119001600083"
+            },
+            {
+              "text": "청와대에 따르면 이 대통령은 한반도 문제 해결을 위한 중국의 건설적 역할을 요청했고 시 주석은 북·미 대화 재개 등 긴장 완화 노력에 대한 지지 표명",
+              "source": "연합뉴스",
+              "url": "https://en.yna.co.kr/view/AEN20261118003454315"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "일본"
+          ],
+          "category": "국제·외교",
+          "title": "한·일 정상, 에너지 안보와 공급망 협력 강화 합의",
+          "bullets": [
+            {
+              "text": "이재명 대통령과 다카이치 사나에 일본 총리는 마닐라 회담에서 중동 불안에 공동 대응하고 공급망·에너지 안보 협력을 강화하기로 합의",
+              "source": "헤럴드경제",
+              "url": "https://biz.heraldcorp.com/article/10940925"
+            },
+            {
+              "text": "양국 정상은 동북아 평화와 안정을 둘러싼 주요국 간 논의가 활발해지는 상황에서 전략적 소통을 강화할 필요성에 공감",
+              "source": "헤럴드경제",
+              "url": "https://biz.heraldcorp.com/article/10940925"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "일본"
+          ],
+          "category": "대외교역",
+          "title": "일본, 에너지 수입비용 상승에 무역적자 지속",
+          "bullets": [
+            {
+              "text": "일본의 10월 수입액은 전년 동월 대비 21.6% 증가한 12조 2,500억 엔, 수출액은 20.5% 증가한 11조 7,700억 엔으로 무역수지 4,765억 엔 적자",
+              "source": "AP",
+              "url": "https://apnews.com/article/japan-trade-oil-war-imports-exports-17623689c3248c926283044cd5ff3484"
+            },
+            {
+              "text": "이란 전쟁 이후 원유 수입비용이 상승한 가운데 일본은 호르무즈해협을 거치는 중동산 원유의 대체 공급원을 찾으면서 미국산 원유 수입 확대",
+              "source": "AP",
+              "url": "https://apnews.com/article/japan-trade-oil-war-imports-exports-17623689c3248c926283044cd5ff3484"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "대만"
+          ],
+          "category": "산업동향",
+          "title": "대만, 폴란드에 유럽 제조 공급망 거점 조성 추진",
+          "bullets": [
+            {
+              "text": "대만 경제부는 EU 집행위와 산업정책 협의를 통해 첨단 제조·인공지능 인프라·반도체 협력을 심화하기로 합의했다고 발표",
+              "source": "Focus Taiwan",
+              "url": "https://focustaiwan.tw/business/202611180019"
+            },
+            {
+              "text": "대만 경제부장은 폴란드 과학단지 조성과 바르샤바 무역투자서비스센터, 정부 간 경제협의를 통해 대만 기업의 유럽 진출 기반 확대 구상 설명",
+              "source": "Focus Taiwan",
+              "url": "https://focustaiwan.tw/business/202611180019"
             }
           ]
         }
@@ -211,17 +256,17 @@
             "인도"
           ],
           "category": "대외교역",
-          "title": "EU, 인도산 냉연강판에 9.5% 반덤핑 관세",
+          "title": "인도·미국 무역협상 막바지, 서명은 미국 관세체계 발표 이후",
           "bullets": [
             {
-              "text": "EU 집행위원회는 인도의 정부 조치가 냉연강판의 원재료인 국내 철광석 가격에 영향을 미쳤다고 조사 결과에 명시",
-              "source": "Business Standard",
-              "url": "https://www.business-standard.com/amp/economy/news/eu-imposes-anti-dumping-duty-on-steel-imports-from-india-4-other-nations-126111700316_1.html"
+              "text": "라제시 아그라왈 인도 상무차관은 미국과의 무역협상 대부분이 마무리됐으나 협정 서명에 앞서 미국 무역법 301조 조사 결과 등 적용 관세 확인이 필요하다고 설명",
+              "source": "Bloomberg",
+              "url": "https://news.bloomberglaw.com/international-trade/india-says-us-trade-deal-nearly-ready-signing-may-take-time"
             },
             {
-              "text": "JSW스틸의 자얀트 아차리야 최고경영자는 9.5% 확정 반덤핑 관세로 인도 철강업계의 수출 여건이 더 제약된다고 언급",
+              "text": "인도 상무차관은 미국 연방대법원 판결 이후 새 관세체계가 마련되는 과정에서 경쟁국과의 상대적 관세 조건도 달라질 수 있다고 설명",
               "source": "Moneycontrol",
-              "url": "https://www.moneycontrol.com/news/business/eu-s-9-5-anti-dumping-duty-adds-to-trade-barriers-for-indian-steelmakers-jsw-steel-ceo-jayant-acharya-14082573.html"
+              "url": "https://www.moneycontrol.com/news/business/india-us-trade-deal-negotiations-nearly-finalised-signing-delayed-till-new-us-tariff-framework-takes-shape-commerce-secretary-rajesh-agrawal-14083658.html"
             }
           ]
         },
@@ -229,18 +274,39 @@
           "countries": [
             "인도"
           ],
-          "category": "국제·외교",
-          "title": "인도 참여 쿼드, 핵심광물 수출 제한과 공급망 다변화 논의",
+          "category": "대외교역",
+          "title": "인도, EU와의 FTA를 제조업 투자 유치에 활용",
           "bullets": [
             {
-              "text": "미국·일본·인도·호주 정상은 마닐라 쿼드 회의 공동성명에서 자의적 수출 제한을 통한 경제적 강압에 우려 표명",
-              "source": "연합뉴스",
-              "url": "https://www.yna.co.kr/view/AKR20261117160751084"
+              "text": "인도 상무차관은 유럽의 자본과 기술이 인도 제조업 투자에 기여할 수 있다며 EU와의 FTA를 외국인직접투자 확대 수단으로 제시",
+              "source": "The Financial Express",
+              "url": "https://www.financialexpress.com/policy/economy-us-trade-deal-awaits-tariff-clarity-india-eu-fta-seen-boosting-fdi-4387901/"
             },
             {
-              "text": "트럼프 미국 대통령은 공급망을 확보하고 단일 해외 공급원에 대한 의존을 낮추기 위해 쿼드 내 핵심광물 관련 신규 합의가 이뤄졌다고 발표",
-              "source": "Reuters",
-              "url": "https://uk.marketscreener.com/news/trump-says-quad-country-mineral-deals-guarantee-safety-ce785edcdb88f32c"
+              "text": "인도 정부는 협정에 따른 시장 접근 개선과 국내 규제개혁을 통해 유럽 기업의 투자 의향이 실제 사업으로 이어질 것으로 기대",
+              "source": "The Financial Express",
+              "url": "https://www.financialexpress.com/policy/economy-us-trade-deal-awaits-tariff-clarity-india-eu-fta-seen-boosting-fdi-4387901/"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "방글라데시"
+          ],
+          "category": "산업동향",
+          "title": "방글라데시 의류 최저임금 시위 확산과 공장 가동 중단",
+          "bullets": [
+            {
+              "text": "방글라데시 의류 노동자들이 물가 상승에 따른 구매력 저하를 이유로 월 최저임금을 1만 2,500타카에서 3만 타카로 인상할 것을 요구",
+              "source": "AP",
+              "url": "https://apnews.com/article/bangladesh-garment-workers-unrest-textiles-98c4faa993c5f310685375bfc442cd24",
+              "altUrl": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349"
+            },
+            {
+              "text": "수도 다카 인근 사바르·아슐리아·가지푸르에서 시위와 도로 봉쇄가 이어졌으며, 현지 경찰에 따르면 아슐리아 내 공장 약 25곳이 가동 중단",
+              "source": "AP",
+              "url": "https://apnews.com/article/bangladesh-garment-workers-unrest-textiles-98c4faa993c5f310685375bfc442cd24",
+              "altUrl": "https://abcnews.com/International/wireStory/police-bangladesh-clash-garment-workers-demanding-higher-minimum-138243349"
             }
           ]
         }
@@ -252,39 +318,20 @@
       "issues": [
         {
           "countries": [
-            "말레이시아"
+            "필리핀"
           ],
-          "category": "산업동향",
-          "title": "말레이시아·프랑스, 희토류 현지 가공과 프랑스 정제 추진",
+          "category": "대외교역",
+          "title": "미국 대통령, 필리핀과 무역 합의 발표",
           "bullets": [
             {
-              "text": "프랑스 카레스테르와 말레이시아 말라코 마이닝의 협력으로 말레이시아에서 희토류를 채굴·가공하고 프랑스는 일부 생산분을 확보해 자국에서 정제할 계획",
-              "source": "Bernama",
-              "url": "https://web27.bernama.com/bernamabiz/news.php?id=2635664"
+              "text": "트럼프 대통령이 마닐라 정상회담을 계기로 무역 합의 타결을 발표한 가운데 필리핀 대통령실은 경제협력 분야에서 양국이 공감대를 이뤘고 무역 당국이 후속 사업을 구체화할 예정이라고 설명",
+              "source": "Reuters",
+              "url": "https://www.investing.com/news/world-news/trump-says-us-has-concluded-very-big-trade-deal-with-philippines-5034780"
             },
             {
-              "text": "안와르 말레이시아 총리는 프랑스가 현지 가공에 협력하는 조건으로 희토류 원광 수출 제한에 예외를 적용했다고 설명",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/malaysia-france-rare-earths-5ceeae4468f34b70e4f6c49f9440c1a7"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "싱가포르"
-          ],
-          "category": "정책·규제",
-          "title": "싱가포르, 미국 AI 반도체 수출허가 조치 대응",
-          "bullets": [
-            {
-              "text": "싱가포르 정부는 미국의 첨단 반도체 수출허가 제도가 현지 기업에 미칠 영향을 파악하고 미국 측과 협의 추진",
-              "source": "South China Morning Post",
-              "url": "https://www.scmp.com/week-asia/economics/article/3374665/singapore-seeks-us-talks-ai-chip-export-rules-amid-nvidia-fallout-megaspeed-probe"
-            },
-            {
-              "text": "조세핀 테오 디지털개발정보부 장관은 규제 이행 방식과 합법적 기업의 AI 인프라 접근 보장을 두고 미국 측과 협의 중이라고 설명",
-              "source": "CNA",
-              "url": "https://www.channelnewsasia.com/singapore/us-ai-infrastructure-chips-restrictions-josephine-teo-6557771"
+              "text": "필리핀 수출품에 7월 24일부터 적용 중인 미국의 강제노동 관련 추가 관세율은 12.5%이며, 양국은 이번 방문 중 미국 주도의 핵심기술·광물 공급망 구상인 팍스 실리카 관련 협정은 체결하지 않을 예정이라고 확인",
+              "source": "Philstar.com",
+              "url": "https://www.philstar.com/headlines/2026/11/18/2570994/trump-says-us-philippines-sealed-biggest-trade-deal/amp/"
             }
           ]
         },
@@ -292,18 +339,38 @@
           "countries": [
             "인도네시아"
           ],
-          "category": "국제·외교",
-          "title": "인도네시아, 한·아세안 핵심광물 가공과 에너지 협력 제안",
+          "category": "정책·규제",
+          "title": "인도네시아 광업계, 국가 몫 확대 지시의 산정 기준 확인 요구",
           "bullets": [
             {
-              "text": "프라보워 인도네시아 대통령은 한·아세안 정상회의에서 RCEP을 통한 경제통합을 강조하고 반도체 공급망 협력을 위한 핵심광물 공동 가공 제안",
-              "source": "The Jakarta Post",
-              "url": "https://www.thejakartapost.com/business/2026/11/17/prabowo-pushes-for-stronger-asean-south-korea-semiconductor-ties"
+              "text": "프라보워 수비안토 대통령은 모든 광업 허가에서 발생하는 편익의 최소 70%를 국가가 확보하도록 지시했으며, 업계는 편익의 범위와 산정 방식에 대한 정부 설명을 대기",
+              "source": "Reuters",
+              "url": "https://ca.marketscreener.com/news/indonesian-miners-scramble-for-clarity-as-prabowo-seeks-greater-state-share-ce785edcd18fff24"
             },
             {
-              "text": "프라보워 대통령은 한국과 아세안 간 에너지 안보 및 해양 분야 협력 확대 제안",
-              "source": "ANTARA News",
-              "url": "https://en.antaranews.com/amp/news/443139/prabowo-encourages-stronger-asean-rok-energy-maritime-cooperation"
+              "text": "미래에셋증권 인도네시아 애널리스트는 기준의 불확실성이 신규 투자 결정을 늦출 수 있으며 니켈 가공사업의 해외 파트너가 수익성을 재검토할 가능성을 언급",
+              "source": "Reuters",
+              "url": "https://ca.marketscreener.com/news/indonesian-miners-scramble-for-clarity-as-prabowo-seeks-greater-state-share-ce785edcd18fff24"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "싱가포르",
+            "말레이시아"
+          ],
+          "category": "정책·규제",
+          "title": "싱가포르·말레이시아, 미국 첨단 AI 반도체 수출통제에 대응",
+          "bullets": [
+            {
+              "text": "싱가포르와 미국은 미국산 첨단기술에 대한 싱가포르 기업의 접근을 유지하기 위한 실무 협의를 이어가기로 합의",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/singapore/singapore-us-semiconductor-mddi-josephine-teo-6560761"
+            },
+            {
+              "text": "말레이시아 통상장관은 데이터센터 운영사에 미국 규정 준수를 요구하고, 허가 요건과 제3자 데이터센터 서비스 적용 범위에 대한 설명을 미국에 요청할 방침",
+              "source": "Reuters",
+              "url": "https://www.investing.com/news/economy-news/malaysia-says-data-centres-must-comply-with-us-ai-chip-rules-5035746"
             }
           ]
         },
@@ -312,64 +379,37 @@
             "태국"
           ],
           "category": "대외교역",
-          "title": "미국·태국, 상호무역협정 주요 협상 마무리",
+          "title": "태국, 대미 상호무역협정 주요 조건 합의 후 추가 관세 인하 추진",
           "bullets": [
             {
-              "text": "트럼프 미국 대통령과 아누틴 태국 총리는 마닐라에서 협상이 실질적으로 마무리됐다는 공동성명에 서명하고 정식 협정 서명에 앞서 국내 절차를 진행할 예정",
-              "source": "Bloomberg",
-              "url": "https://news.bloomberglaw.com/international-trade/us-thailand-reach-substantial-conclusion-of-trade-deal"
+              "text": "수파지 수툼푼 태국 상무장관은 미국과 상호무역협정의 주요 조건에 합의한 뒤 강제노동 관련 미국 무역법 301조 관세를 12.5%에서 10%로 낮추도록 요청할 방침이라고 발표",
+              "source": "Reuters",
+              "url": "https://au.marketscreener.com/news/thailand-to-seek-us-tariff-cut-after-reaching-key-terms-of-trade-deal-minister-says-ce785edcde8ef123"
             },
             {
-              "text": "태국은 대부분의 미국산 상품에 대한 관세와 미국산 자동차·식품·의약품 수입 장벽을 철폐할 방침이며, 트럼프 대통령은 태국의 26억 달러 규모 미국산 농산물 구매 계획 언급",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/trump-asia-manila-asean-xi-putin-c94386cd092482d94dca38fc8b8d51a7"
+              "text": "태국 정부는 협정 문안 확정에 약 두 달이 걸릴 것으로 보고 내각 심의와 공청회·의회 심사를 거칠 예정",
+              "source": "Reuters",
+              "url": "https://au.marketscreener.com/news/thailand-to-seek-us-tariff-cut-after-reaching-key-terms-of-trade-deal-minister-says-ce785edcde8ef123"
             }
           ]
         },
         {
           "countries": [
             "베트남",
-            "라오스",
-            "캄보디아",
-            "태국",
-            "미얀마"
+            "중국"
           ],
-          "category": "국제·외교",
-          "title": "베트남, 아세안 연결 인프라와 메콩·일본 협력 강화 제안",
+          "category": "산업동향",
+          "title": "베트남 재무부·중국 공상은행, 철도 및 인프라 사업 자금조달 논의",
           "bullets": [
             {
-              "text": "레민흥 베트남 총리는 아세안 기업·투자 정상회의에서 국경 간 교통·물류, 에너지, 디지털 연결, 제도·정책 조율을 인프라 협력의 네 가지 우선 분야로 제시",
-              "source": "Vietnam News Agency",
-              "url": "https://en.vietnamplus.vn/pm-concludes-working-trip-to-philippines-following-49th-asean-summit-post355646.vnp"
+              "text": "응오반뚜언 베트남 재무장관은 중국 공상은행에 양국을 연결하는 철도·교통 사업에 적합한 금융 방안을 베트남 관계기관과 검토할 것을 요청",
+              "source": "Vietnam News",
+              "url": "https://bizhub.vietnamnews.vn/vietnamese-ministry-chinese-bank-discuss-cooperation-in-capital-mobilisation-project-financing-post418981.html"
             },
             {
-              "text": "레민흥 총리는 제13차 메콩·일본 정상회의를 공동 주재하고 역내 연결성과 공급망 회복력 강화를 위한 협력 방안 논의",
-              "source": "베트남 정부신문",
-              "url": "https://en.baochinhphu.vn/prime-minister-le-minh-hung-co-chairs-13th-mekong-japan-summit-111261117163835391.htm"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "필리핀"
-          ],
-          "category": "국제·외교",
-          "title": "필리핀, 한국과 산업 협력 확대 및 미국과 투자 협의",
-          "bullets": [
-            {
-              "text": "이재명 대통령과 마르코스 필리핀 대통령은 마닐라 정상회담에서 조선·원전·인공지능·인프라·방산 등 협력 확대에 합의",
-              "source": "Aju Press",
-              "url": "https://www.ajupress.com/view/20261117092614127"
-            },
-            {
-              "text": "트럼프 대통령은 필리핀 방문 중 항공·방산·에너지·기술 분야의 상업 계약과 투자를 발표할 예정",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/trump-asia-manila-asean-xi-putin-c94386cd092482d94dca38fc8b8d51a7"
-            },
-            {
-              "text": "트럼프 대통령은 마닐라 아세안 정상 만찬에서 한국 투자를 근거로 알래스카 LNG 가스관 사업을 승인했다고 밝혔으며, 한국 정부는 사업성을 검토해 참여 여부를 결정한다는 입장",
-              "source": "연합뉴스",
-              "url": "https://en.yna.co.kr/view/AEN20261117010700315"
+              "text": "양측은 국제 채권 발행과 프로젝트 금융을 통한 자금조달을 논의했으며 베트남 측은 자금 비용, 대출 만기와 공공부채 위험을 고려해야 한다고 설명",
+              "source": "Vietnam News",
+              "url": "https://bizhub.vietnamnews.vn/vietnamese-ministry-chinese-bank-discuss-cooperation-in-capital-mobilisation-project-financing-post418981.html"
             }
           ]
         }
@@ -382,111 +422,86 @@
         {
           "countries": [
             "이란",
-            "바레인",
+            "오만",
             "카타르",
-            "오만"
+            "UAE"
           ],
           "category": "중동정세",
-          "title": "미·이란 교전 재개와 걸프 중재 접촉",
+          "title": "오만·카타르 중재 접촉과 호르무즈해협 원유 수송 차질",
           "bullets": [
             {
-              "text": "이란이 바레인 내 미군 레이더 시설을 공격한 뒤 미국이 이란에 보복 타격을 했으며, 트럼프 대통령은 밴스 부통령에게 현시점에 대화가 필요하지 않다는 뜻을 전달",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/iran-trump-israel-bahrain-attacks-582e0b5d51be06f0ed630fac24f39b72"
-            },
-            {
-              "text": "이란은 미국의 압박에 물러서지 않겠다는 입장과 함께 외교적 해법에는 열려 있다는 입장을 표명",
+              "text": "미국과 이란의 교전이 이어지는 가운데 이란과 중재국 오만·카타르 간 협의도 지속",
               "source": "Reuters",
-              "url": "https://ca.marketscreener.com/news/trump-and-tehran-gamble-on-time-as-iran-war-stalemate-deepens-ce785edcda8cf722"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "이란",
-            "UAE",
-            "이라크",
-            "튀르키예",
-            "사우디",
-            "바레인"
-          ],
-          "category": "중동정세",
-          "title": "호르무즈 통항 감소와 중동 에너지 공급 경로 변화",
-          "bullets": [
-            {
-              "text": "케이플러 집계에서 호르무즈 해협을 통과한 상품 운반선이 직전 주말 31척에서 지난 주말 5척으로 감소했으며 UAE는 아부다비국영석유회사 운용 선박 3척이 통항 중 공격받았다고 발표",
-              "source": "Reuters",
-              "url": "https://www.gulf-times.com/article/731298/business/shipping-slows-through-strait-of-hormuz-after-tanker-attacks"
+              "url": "https://www.reuters.com/business/energy/oil-prices-fall-higher-us-crude-stocks-temper-supply-risks-2026-11-18/",
+              "altUrl": "https://live.euronext.com/en/financial-news/oil-prices-settle-lower-traders-weigh-surplus-supply-outlook"
             },
             {
-              "text": "이라크가 튀르키예 지중해 항구로 연결되는 송유관을 통해 원유 수송을 시작했으며 사우디 지원 예멘 정부군은 아덴 인근 방어 병력 보강",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/mideast-news-israel-gaza-iran-houthis-november-17-2026-36dc900f45aa414a1b8544dce7de53fc"
+              "text": "해운정보업체 케이플러는 16일까지의 잠정 집계에서 호르무즈해협을 통한 원유 수송량이 하루 850만 배럴로, 11월 초 회복했던 전쟁 전 수준의 절반이라고 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/mideast-news-iran-bahrain-us-november-18-2026-b71b1d25f3cff987b4b125196ecb4c3a"
             },
             {
-              "text": "바레인 내 미군 시설에 대한 이란의 공격과 유럽의 한파 예보가 겹치면서 유럽 천연가스 기준 선물 가격이 장 초반 한때 2.1% 상승",
-              "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-17/europe-gas-edges-higher-on-middle-east-tensions-weather-outlook",
-              "altUrl": "https://snslive.uk/article/2919263"
+              "text": "아부다비국영석유회사(ADNOC)는 호르무즈해협에서 자사 유조선이 공격받아 선원 1명이 실종되고 11명이 다쳤다고 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/iran-us-kuwait-gulf-attacks-bahrain-b1f0b530cffe951e6fcc1e27b2e1af94"
             }
           ]
         },
         {
           "countries": [
             "사우디",
-            "이라크"
+            "예멘"
           ],
           "category": "중동정세",
-          "title": "OPEC+, 2027년 할당 기준 마련을 위한 생산능력 평가 완료",
+          "title": "사우디, 예멘 후티와의 충돌 장기화 대비",
           "bullets": [
             {
-              "text": "OPEC+ 회원국의 최대 지속가능 생산능력에 대한 독립 평가가 완료됐으며 평가 결과를 2027년 산유량 할당 기준으로 활용할 예정",
-              "source": "Interfax",
-              "url": "https://interfax.com/newsroom/top-stories/119928/"
+              "text": "사우디의 설명을 들은 서방 당국자 2명에 따르면 사우디는 예멘 후티와의 충돌이 2027년까지 이어지는 상황에 대비 중",
+              "source": "Reuters",
+              "url": "https://www.investing.com/news/commodities-news/exclusivesaudis-preparing-for-yemen-campaign-to-last-well-into-2027-5035986"
             },
             {
-              "text": "OPEC+는 일부 회원국의 기존 할당량에 대한 이의 제기로 생산능력 평가를 추진했으며 11월 29일 전체 회의에서 차년도 할당량 논의 예정",
-              "source": "Interfax",
-              "url": "https://interfax.com/newsroom/top-stories/119928/"
+              "text": "사우디 주도 연합군이 예멘 후티에 대한 공습에 나선 뒤 후티가 리야드를 겨냥해 미사일을 발사했으며, 사우디군은 이를 요격했다고 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/mideast-news-iran-bahrain-us-november-18-2026-b71b1d25f3cff987b4b125196ecb4c3a"
             }
           ]
         },
         {
           "countries": [
-            "이스라엘",
-            "팔레스타인"
+            "사우디"
           ],
           "category": "중동정세",
-          "title": "가자 휴전 이행 지연과 영국의 서안 정착촌 제재",
+          "title": "OPEC+ 원유 생산, 사우디 증산 주도로 두 달 연속 증가",
           "bullets": [
             {
-              "text": "가자 평화위원회는 유엔에 제출한 보고서에서 과도 행정기구와 국제안정화군 배치 지연이 계속되면 휴전이 무너질 수 있다고 경고",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/board-of-peace-us-israel-gaza-hamas-189d58d05fa984cc9573f98ec7d638be"
+              "text": "ING 집계에 따르면 10월 OPEC+ 원유 생산량은 하루 3,560만 배럴로 전월보다 170만 배럴 증가했으며 사우디 증산이 증가세 주도",
+              "source": "FXStreet",
+              "url": "https://www.fxstreet.com/news/oil-recovering-supply-caps-price-rebound-ing-202611181443"
             },
             {
-              "text": "영국은 서안 정착촌 개발·건설에 관여한 이스라엘 기업 8곳과 가자 구호물자 수송을 막아온 단체 차브 9의 자산을 동결하고 관련자의 영국 기업 이사직 취임 제한",
-              "source": "Associated Press",
-              "url": "https://apnews.com/article/britain-israel-sanctions-west-bank-construction-8e4de81ef0b6fdbf0fd5f687e95de163"
+              "text": "ING는 OPEC+ 증산과 러시아 원유 수출 지속, 미국 원유 재고 증가가 지정학적 위험에도 유가 반등을 제한하는 요인이라고 분석",
+              "source": "FXStreet",
+              "url": "https://www.fxstreet.com/news/oil-recovering-supply-caps-price-rebound-ing-202611181443"
             }
           ]
         },
         {
           "countries": [
-            "아프리카"
+            "카타르"
           ],
-          "category": "국제·외교",
-          "title": "한·아프리카, 자원 공급과 에너지·물류 인프라 협력 논의",
+          "category": "대외교역",
+          "title": "카타르에너지·폴란드 오를렌, 장기 LNG 공급계약 재협상",
           "bullets": [
             {
-              "text": "한·아프리카 통상산업협력 포럼에서 원유·천연가스·핵심광물 공급과 로비토 회랑 등 에너지·물류 인프라 협력 논의",
-              "source": "산업통상부",
-              "url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac4474b478535ec51eac0219b7908a2a"
+              "text": "관계자 3명에 따르면 폴란드 오를렌은 기존 장기 계약을 종료한 뒤 카타르에너지와 대체 LNG 공급계약 협상에 착수",
+              "source": "Reuters",
+              "url": "https://live.euronext.com/en/financial-news/exclusive-orlen-qatarenergy-talks-new-lng-deal-days-after-contract-termination"
             },
             {
-              "text": "김영만 산업통상부 차관보 직무대리는 아프리카 국가들과 포괄적경제동반자협정 등 통상 네트워크 구축을 지속 추진할 방침 표명",
-              "source": "산업통상부",
-              "url": "https://www.motir.go.kr/attach/down/095a2dda9c864e1d90d751f7668a1117/ac4474b478535ec51eac0219b7908a2a"
+              "text": "한 관계자에 따르면 논의된 공급 규모는 기존 계약과 비슷한 연간 약 100만 톤이며 기간·가격·공급원은 미합의",
+              "source": "Reuters",
+              "url": "https://live.euronext.com/en/financial-news/exclusive-orlen-qatarenergy-talks-new-lng-deal-days-after-contract-termination"
             }
           ]
         }
@@ -507,9 +522,13 @@
     }
   ],
   "notes": [
-    "원문 URL 미확인: (Reuters·Trump and Tehran gamble on time as Iran war stalemate deepens)",
-    "원문 URL 미확인: (Reuters·Trump says Quad country mineral deals 'guarantee safety')",
-    "원문 URL 미확인: (Reuters·Shipping slows through Strait of Hormuz after tanker attacks)",
-    "Bloomberg 유럽 천연가스 기사 원문 주소는 재게재 페이지에서 확인, 기사 내용은 공개 요약으로 확인"
+    "원문 URL 미확인: (Reuters·Trump says US wraps up ‘very big trade deal’ with Philippines)",
+    "원문 URL 미확인: (Reuters·Indonesian miners scramble for clarity as Prabowo seeks greater state share)",
+    "원문 URL 미확인: (Reuters·Malaysia says data centres must comply with US AI chip rules)",
+    "원문 URL 미확인: (Reuters·Thailand to seek US tariff cut after reaching key terms of trade deal, minister says)",
+    "원문 URL 미확인: (Reuters·Saudis preparing for Yemen campaign to last well into 2027)",
+    "원문 URL 미확인: (Reuters·Exclusive-Orlen, QatarEnergy in talks on new LNG deal days after contract termination, sources say)",
+    "Reuters 유가·중국가스 기사 원문은 기사 링크를 확인했으며 본문과 게시 시각은 재게재본에서 대조",
+    "수은 해외경제연구소·KOTRA 일부 발간 페이지 접근 제한"
   ]
 }
