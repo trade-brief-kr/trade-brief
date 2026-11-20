@@ -49,10 +49,44 @@ DEPTS = [('cis', '통상협력총괄과'), ('neasia', '동북아통상과'), ('i
 RU_48H_HOSTS = ('kommersant.ru', 'rbc.ru')
 UA = ('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
       '(KHTML, like Gecko) Chrome/130.0 Safari/537.36')
-OUTLET_HOSTS = {'reuters': 'reuters.com', 'bloomberg': 'bloomberg.com', 'financial times': 'ft.com',
-                'wall street journal': 'wsj.com', 'wsj': 'wsj.com', 'nikkei': 'nikkei.com', 'cnbc': 'cnbc.com',
-                'associated press': 'apnews.com', 'ap': 'apnews.com', 'al jazeera': 'aljazeera.com',
-                'kommersant': 'kommersant.ru', 'rbc': 'rbc.ru'}
+OUTLET_HOSTS = {
+    'reuters': ('reuters.com',),
+    'bloomberg': ('bloomberg.com',),
+    'financial times': ('ft.com',),
+    'wall street journal': ('wsj.com',),
+    'wsj': ('wsj.com',),
+    'nikkei': ('nikkei.com',),
+    'cnbc': ('cnbc.com',),
+    'associated press': ('apnews.com',),
+    'ap': ('apnews.com',),
+    'al jazeera': ('aljazeera.com',),
+    'kommersant': ('kommersant.ru',),
+    'rbc': ('rbc.ru',),
+    '연합뉴스': ('yna.co.kr', 'yonhapnews.co.kr'),
+    '연합뉴스 영문': ('yna.co.kr', 'yonhapnews.co.kr'),
+    'yonhap': ('yna.co.kr', 'yonhapnews.co.kr'),
+    '뉴시스': ('newsis.com',),
+    '뉴스1': ('news1.kr',),
+    '아주경제': ('ajunews.com',),
+    'ajunews': ('ajunews.com',),
+    '매일경제': ('mk.co.kr',),
+    '한국경제': ('hankyung.com',),
+    '서울경제': ('sedaily.com',),
+    '머니투데이': ('mt.co.kr',),
+    '이데일리': ('edaily.co.kr',),
+    '조선일보': ('chosun.com',),
+    '중앙일보': ('joongang.co.kr', 'joongang.com'),
+    '동아일보': ('donga.com',),
+    '한겨레': ('hani.co.kr',),
+    '경향신문': ('khan.co.kr',),
+    'kbs': ('kbs.co.kr',),
+    'mbc': ('mbc.co.kr', 'imbc.com'),
+    'sbs': ('sbs.co.kr',),
+    '정책브리핑': ('korea.kr',),
+    '산업통상부': ('motie.go.kr',),
+    '산업부': ('motie.go.kr',),
+    '외교부': ('mofa.go.kr',),
+}
 BLOCKED = {401, 402, 403, 429, 451}
 META_DATE = [
     r'<meta[^>]+(?:property|name|itemprop)=["\'](?:article:published_time|og:article:published_time|'
@@ -219,7 +253,7 @@ def main(argv):
             return f'URL 날짜가 기간 밖 {ud}'
         src = b['source'].strip().lower()
         expected = OUTLET_HOSTS.get(src)
-        if expected and not (host == expected or host.endswith('.' + expected)):
+        if expected and not any(host == domain or host.endswith('.' + domain) for domain in expected):
             log.setdefault('warnings', []).append(f'{where}: source "{b["source"]}" 와 URL 도메인 {host} 불일치')
         keep, status, page_ts = checker.link_verdict(url)
         log['links'][url] = status

@@ -91,6 +91,11 @@ cat <<HDR
 9. 확인 못 한 부분은 notes 배열에 짧게 적는다(선택).
 10. source/url은 원 발행 매체 도메인을 우선한다 (reuters.com, bloomberg.com, ft.com, wsj.com, apnews.com,
     nikkei.com, cnbc.com, aljazeera.com, kommersant.ru, rbc.ru 등).
+    한국 관련 최중요 사안의 보충 출처로 국내 주요 언론·공식 발행처 도메인도 허용한다
+    (yna.co.kr, newsis.com, news1.kr, ajunews.com, mk.co.kr, hankyung.com, sedaily.com, mt.co.kr, edaily.co.kr,
+    chosun.com, joongang.co.kr, donga.com, hani.co.kr, khan.co.kr, kbs.co.kr, mbc.co.kr, imbc.com, sbs.co.kr,
+    korea.kr, motie.go.kr, mofa.go.kr). 한국 측 동향이 중심인 경우 해당 bullet의 source/url로 쓰거나,
+    같은 이슈의 후속 bullet에 별도 source/url로 추가한다. altUrl은 재게재 링크에만 사용한다.
     재게재·요약 사이트(MarketScreener, StreetInsider, Investing.com, Yahoo Finance, swissinfo 등)에서
     원문을 확인했으면: url=원문 URL, source=원 매체명(예: "Reuters"), altUrl=재게재 URL을 함께 넣는다.
     "(… 재게재)" 표기는 source에 쓰지 않는다(화면이 url 옆 「재게재」 링크로 altUrl을 표시).
@@ -104,7 +109,10 @@ cat <<HDR
 - 소관과·국가별로 최소 1회 이상씩 검색: 러시아·우크라이나·카자흐스탄·우즈베키스탄 등 CIS·몽골 / 중국·일본·대만·홍콩 /
   인도·파키스탄·방글라데시 등 서남아 / 베트남·인도네시아·필리핀·말레이시아·싱가포르·태국 등 아세안 /
   사우디·UAE·이란·이스라엘·이집트·카타르·튀르키예·아프리카.
-- 각 국가와 한국의 정상회담·장관급 회담·대통령 발언 등 한국 관련 고위급 교류 기사 검색 (연합뉴스 영문, Korea Herald, Korea JoongAng Daily 등 한국 영문 매체 사용 가능).
+- 각 국가와 한국 간 외교·정상회담·고위급 회담 및 발언·인선, 양국 협력·투자·프로젝트, 한국에 영향을 주는 통상 조치를 검색한다.
+  외신을 기본으로 국내 주요 언론의 한국어 보도와 산업통상부·외교부 보도자료도 검색한다.
+  연합뉴스 영문, Korea Herald, Korea JoongAng Daily 등도 사용할 수 있으며, 한국 측 최중요 사안은 확인된 한국어 보도가 있으면 함께 반영한다.
+  국내 보도는 보충에 한하며 브리프의 중심이 되거나 건수에서 다수를 차지하지 않도록 한다.
 - Kommersant·RBC에서 한국(Корея, Южная Корея) 관련 48시간 내 기사 검색.
 - 대상 경제단체 보고서 사이트(KITA, 수은 해외경제연구소, 현대경제연구원, 대한상의 SGI, KOTRA, KIEP)의 최근 3~4일 발간 보고서 확인.
 - 목표 분량: Top Issues 5개 + 일일보도동향 이슈 12~25개(각 이슈 bullet 2~3개). 각 소관과마다 확인된 이슈가 있으면 최소 1개 이상.
