@@ -1,32 +1,32 @@
 window.REPORT_DATA = {
-  "date": "2026-11-27",
-  "generatedAt": "2026-11-27T07:20:32+09:00",
-  "coverage": "2026-11-26 07:10 ~ 2026-11-27 07:10 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
+  "date": "2026-11-28",
+  "generatedAt": "2026-11-28T07:20:49+09:00",
+  "coverage": "2026-11-27 07:09 ~ 2026-11-28 07:09 KST 보도 기준 (최근 24시간, 러시아 한국 관련 이슈 48시간)",
   "topIssues": [
     {
-      "text": "미국의 14개 교역상대국 대상 새 관세안에 중국·일본·EU 등 반발",
+      "text": "파키스탄과 카타르가 미국과 이란에 종전을 위한 협상 재개를 촉구하는 가운데 사우디·튀르키예·파키스탄이 이슬라마바드 회의에서 역내 긴장 완화를 위한 외교적 노력 지지",
       "source": "AP",
-      "url": "https://apnews.com/article/us-tariffs-china-japan-singapore-b94a693004ad8f9b5e78f7aafb196a71"
+      "url": "https://apnews.com/article/pakistan-saudi-turkey-meeting-trilateral-alliance-6c17e4827e5aef3e69f78cdb01d597dc"
     },
     {
-      "text": "이란 외무장관, 미·이란 분쟁 해결을 위한 카타르·파키스탄 중재자들의 제안 전달 지속 공개",
-      "source": "Interfax",
-      "url": "https://m.interfax.ru/1131688"
-    },
-    {
-      "text": "후티의 사우디 정유시설 공격 주장과 이란의 호르무즈 기뢰 피해 발표 속 브렌트유 상승",
+      "text": "호르무즈해협 유조선과 사우디 에너지 시설에 대한 공격으로 공급 차질 우려가 커지면서 브렌트유와 서부텍사스산원유(WTI)가 11월 첫 주간 상승세",
       "source": "Reuters",
-      "url": "https://sa.marketscreener.com/index.php/news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-ce7851d8dc8af021"
+      "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
     },
     {
-      "text": "미국의 해외 데이터센터 연산 접근 제한과 모델 증류 차단으로 중국 AI 모델 개발 지연",
+      "text": "포괄적·점진적 환태평양경제동반자협정(CPTPP) 회원국이 하노이 회의에서 UAE·인도네시아·필리핀의 가입 협상 개시에 합의",
       "source": "Reuters",
-      "url": "https://www.aol.com/articles/exclusive-us-chip-curbs-distillation-071923000.html"
+      "url": "https://ca.marketscreener.com/news/cptpp-to-start-talks-on-accession-of-uae-indonesia-philippines-ce7851d9dd8af120"
     },
     {
-      "text": "젤렌스키, 러시아의 우크라이나 전력망·물류시설 대규모 추가 공격 준비 경고",
+      "text": "미국 중간선거 이후 일부 공화당 의원이 트럼프 행정부의 관세 재검토 가능성을 열어두면서 민주당과 캐나다 관세 철회를 논의할 여지 확대",
       "source": "AP",
-      "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-power-122f7f187eea20d4d2b659692b4c4f1e"
+      "url": "https://apnews.com/article/trump-tariffs-republicans-congress-a438d0649e3b905804eafb63e9803bb3"
+    },
+    {
+      "text": "콩고민주공화국의 코발트 수출 중단 조치로 공급 차질 우려가 커지면서 코발트 중간재 평가 가격이 파운드당 15.5~16.5달러로 상승",
+      "source": "Shanghai Metals Market",
+      "url": "https://news.metal.com/newscontent/GYOJH7AABDIDNU23O233FBNNEOWAATOPEUAE3IY-smm-cobalt-morning-meeting-summary-export-ban-drives-cobalt-prices-to-surge-downstream-demand-remains-weak"
     }
   ],
   "departments": [
@@ -36,45 +36,108 @@ window.REPORT_DATA = {
       "issues": [
         {
           "countries": [
-            "카자흐스탄"
+            "우크라이나",
+            "러시아"
           ],
-          "category": "산업동향",
-          "title": "중국과 쉼켄트 정유공장 증설·재생에너지 사업 확대 협의",
+          "category": "국제·외교",
+          "title": "EU 우크라이나 신규 대출 논의 12월로 연기",
           "bullets": [
             {
-              "text": "양국 에너지 당국, 쉼켄트 정유공장 연간 처리능력을 600만 톤에서 1,200만 톤으로 확대하는 사업의 타당성조사 완료 및 기본설계 단계 전환 논의",
-              "source": "Qazinform",
-              "url": "https://qazinform.com/news/kazakhstan-china-discuss-expanding-energy-partnership-with-1-gw-in-new-green-projects-ab7074"
+              "text": "EU 정상들이 2028~2034년 예산 규모와 배분에 합의하지 못해 우크라이나의 내년 경제·군사 소요를 지원할 450억 유로 규모 대출 결정도 연기",
+              "source": "AP",
+              "url": "https://apnews.com/article/fd025046850b824b2e62def18408c6b6"
             },
             {
-              "text": "총 1.8GW 규모 태양광·풍력 사업 이행 상황과 추가 1GW 규모 공동 청정에너지 사업 확대 가능성 검토",
-              "source": "Qazinform",
-              "url": "https://qazinform.com/news/kazakhstan-china-discuss-expanding-energy-partnership-with-1-gw-in-new-green-projects-ab7074"
+              "text": "안토니우 코스타 유럽이사회 상임의장에 따르면 회원국 27개국 중 24개국이 대출안을 지지했으며 다음 정상회의는 12월 17~18일 예정",
+              "source": "AP",
+              "url": "https://apnews.com/article/fd025046850b824b2e62def18408c6b6"
             },
             {
-              "text": "아타수–알라산커우 송유관의 올해 1~10월 원유 수송량 950만 톤, 장기협정에 따른 대중국 수송·통과 물량 확보 기간 2034년까지",
-              "source": "Qazinform",
-              "url": "https://qazinform.com/news/kazakhstan-china-discuss-expanding-energy-partnership-with-1-gw-in-new-green-projects-ab7074"
+              "text": "젤렌스키 대통령은 미국에 러시아 압박을 촉구했으며 우크라이나 총리는 러시아의 공습으로 9개 지역에서 철도 및 에너지 시설 등이 피해를 입었다고 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/d891149b4cbd6521b83096a32bd5e53d"
             }
           ]
         },
         {
           "countries": [
-            "우크라이나",
             "러시아"
           ],
-          "category": "국제·외교",
-          "title": "전력망 공격 경계와 에너지·물류시설 방어 강화",
+          "category": "대외교역",
+          "title": "러시아, 칼리닌그라드 연결 철도 페리 건조 예산 배정",
           "bullets": [
             {
-              "text": "젤렌스키, 러시아군이 변전소·송전선 등 전력망을 계속 겨냥하고 있다며 미국산 패트리엇 요격탄을 포함한 방공 지원 확대 요청",
-              "source": "AP",
-              "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-power-122f7f187eea20d4d2b659692b4c4f1e"
+              "text": "러시아 정부가 본토와 칼리닌그라드를 잇는 철도 페리 2척 건조에 약 470억 루블을 배정했으며 2030년 운항 개시 목표",
+              "source": "TIME",
+              "url": "https://time.com/article/2026/11/27/russian-exclave-kaliningrad-threat-nato-tensions-ukraine-war/"
             },
             {
-              "text": "우크라이나 총참모부, 러시아 군용 비행장과 원유 펌핑시설을 겨냥한 야간 공격 실시 발표",
-              "source": "AP",
-              "url": "https://apnews.com/article/russia-ukraine-war-zelenskyy-power-122f7f187eea20d4d2b659692b4c4f1e"
+              "text": "리투아니아는 2022년부터 EU 제재에 따라 러시아 일부 화물의 통과를 제한했으며 러시아 총리는 필수품과 원자재 공급 유지를 페리 사업의 목적으로 제시",
+              "source": "TIME",
+              "url": "https://time.com/article/2026/11/27/russian-exclave-kaliningrad-threat-nato-tensions-ukraine-war/"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "우즈베키스탄",
+            "한국"
+          ],
+          "category": "국제·외교",
+          "title": "한·우즈베키스탄, 교역 확대와 핵심광물 사업 발굴 협의",
+          "bullets": [
+            {
+              "text": "라지즈 쿠드라토프 우즈베키스탄 투자산업통상장관과 원도연 주우즈베키스탄 한국대사가 9월 고위급 방문 합의의 이행 상황을 점검하고 양국 교역 50억 달러 목표를 재확인",
+              "source": "Bright Uzbekistan",
+              "url": "https://buzb.uz/en/news/uzbekistan-expands-trade-and-investment-cooperation-with-south-korea-and-the-edb"
+            },
+            {
+              "text": "양측은 자유무역협정 주요 조항 조율 마무리와 한국 기업 전용 산업단지 조성을 논의하고 핵심광물 공동사업 목록을 마련하기로 합의",
+              "source": "Bright Uzbekistan",
+              "url": "https://buzb.uz/en/news/uzbekistan-expands-trade-and-investment-cooperation-with-south-korea-and-the-edb"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "우즈베키스탄"
+          ],
+          "category": "산업동향",
+          "title": "유라시아개발은행, 우즈베키스탄 철도 물류에 최대 6천만 달러 지원",
+          "bullets": [
+            {
+              "text": "유라시아개발은행과 센트룸 글로벌 로지스틱스가 석유제품 운송용 철도 탱크 차량 2,683대 도입을 위한 금융협력 양해각서를 체결했으며 지원 한도는 6천만 달러",
+              "source": "Daryo",
+              "url": "https://daryo.uz/en/2026/11/27/edb-to-invest-up-to-60mn-in-uzbekistans-rail-tank-car-fleet-and-railway-logistics/"
+            },
+            {
+              "text": "도입 차량은 우즈베키스탄 국내외 노선에서 항공유 등 석유제품을 운송할 예정이며 금융은 이슬람 금융 방식인 상품 무라바하로 제공",
+              "source": "Daryo",
+              "url": "https://daryo.uz/en/2026/11/27/edb-to-invest-up-to-60mn-in-uzbekistans-rail-tank-car-fleet-and-railway-logistics/"
+            },
+            {
+              "text": "유라시아개발은행은 올해 우즈베키스탄 민간 부문 지원 계약 2억 달러를 체결했으며 연말까지 3억 달러로 확대할 계획",
+              "source": "Trend",
+              "url": "https://www.trend.az/casia/uzbekistan/4251432.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "아제르바이잔"
+          ],
+          "category": "정책·규제",
+          "title": "아제르바이잔, 카스피해 압셰론 해상광구 생산물분배협정 개정 승인",
+          "bullets": [
+            {
+              "text": "일함 알리예프 대통령이 아제르바이잔 국영석유회사(SOCAR), 토탈에너지스 계열사와 아부다비국영석유회사(ADNOC) 계열사 등이 참여하는 압셰론 광구 탐사·개발·생산물분배협정의 개정안을 승인",
+              "source": "Trend",
+              "url": "https://www.trend.az/azerbaijan/4251495.html"
+            },
+            {
+              "text": "기존 정부 보증은 효력을 유지하며 개정 협정과 부속서 발효 후 계약 당사자에게 계약 구역 내 석유·가스 사업의 독점 권한 부여",
+              "source": "Trend",
+              "url": "https://www.trend.az/azerbaijan/4251495.html"
             }
           ]
         }
@@ -86,20 +149,48 @@ window.REPORT_DATA = {
       "issues": [
         {
           "countries": [
-            "중국"
+            "중국",
+            "일본",
+            "대만",
+            "한국"
           ],
           "category": "정책·규제",
-          "title": "미국의 해외 연산자원 통제로 중국 AI 개발 일정 압박",
+          "title": "미국 과잉생산 관세안, 중국산 중간재와 한국 반도체 정책 지목",
           "bullets": [
             {
-              "text": "11월 19일 발효된 미국 상무부 규칙, 해외 데이터센터의 첨단 미국산 반도체 연산자원에 대한 중국 기업 접근에 허가요건 부과",
-              "source": "Reuters",
-              "url": "https://www.aol.com/articles/exclusive-us-chip-curbs-distillation-071923000.html"
+              "text": "한국일보가 미국 무역대표부 조사보고서를 비교한 결과 중국을 제외한 13개 경제권 모두 비시장경제 국가로부터의 수입이 과잉생산으로 이어졌다는 지적을 받았으며 한국 보고서에는 한중 FTA와 새만금 한중산업협력단지가 포함",
+              "source": "한국일보",
+              "url": "https://www.hankookilbo.com/news/article/amp/A2026112713510005688"
             },
             {
-              "text": "소식통들에 따르면 Z.AI의 차기 주력 모델 출시가 지연된 상태이며, Moonshot은 해외 연산 접근이 전면 차단될 경우 주요 모델 출시 간격이 6개월에서 12개월 이상으로 늘어날 가능성 예상",
-              "source": "Reuters",
-              "url": "https://www.aol.com/articles/exclusive-us-chip-curbs-distillation-071923000.html"
+              "text": "미국 무역대표부(USTR)는 한국·일본·대만·EU 등을 포함한 14개 경제권에 제조업 과잉생산 관련 관세를 제안했으며 한국산 상품에는 기존 관세를 포함한 최대 15% 제시",
+              "source": "한겨레",
+              "url": "https://english.hani.co.kr/arti/english_edition/e_international/1289431.html"
+            },
+            {
+              "text": "USTR 조사 보고서는 한국의 반도체·자동차·석유화학을 과잉생산 사례로 지목했으며 한국 정부는 해당 판단을 반박",
+              "source": "한겨레",
+              "url": "https://english.hani.co.kr/arti/english_edition/e_international/1289431.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "중국",
+            "미국"
+          ],
+          "category": "정책·규제",
+          "title": "미 상원, 중국산 부품 사용 차량 판매 제한 법안 연내 처리 추진",
+          "bullets": [
+            {
+              "text": "공화당 버니 모레노 의원과 민주당 얼리사 슬롯킨 의원이 중국·러시아 등 적대국 부품을 사용한 자동차의 미국 내 판매를 금지하는 커넥티드 차량 보안법의 12월 상원 본회의 처리를 추진",
+              "source": "연합뉴스",
+              "url": "https://www.yna.co.kr/view/AKR20261127010700071"
+            },
+            {
+              "text": "의원들은 업계 의견을 반영해 중국 측 지분율 관련 제한을 완화하고 차량 수입 금지 조항에는 일몰 규정을 두기로 합의",
+              "source": "연합뉴스",
+              "url": "https://www.yna.co.kr/view/AKR20261127010700071"
             }
           ]
         },
@@ -107,18 +198,18 @@ window.REPORT_DATA = {
           "countries": [
             "일본"
           ],
-          "category": "정책·규제",
-          "title": "일본은행 다무라 위원, 물가 상방위험에 신속한 금리 인상 대응 강조",
+          "category": "경제동향",
+          "title": "도쿄 근원물가 2.9% 상승과 일본은행 12월 금리 결정",
           "bullets": [
             {
-              "text": "다무라 나오키 일본은행 심의위원, 금융여건이 완화적인 만큼 정책금리를 중립 수준으로 신속히 높일 필요성 제기",
+              "text": "신선식품을 제외한 11월 도쿄 소비자물가지수는 전년 동월보다 2.9% 상승해 16개월 만에 가장 높은 상승률을 기록했으며 일본은행의 2% 목표를 3개월 연속 상회",
               "source": "Reuters",
-              "url": "https://in.marketscreener.com/news/boj-s-tamura-signals-chance-of-faster-pace-interest-rate-hikes-ce7851d8dd81ff25"
+              "url": "https://uk.marketscreener.com/news/tokyo-core-inflation-at-16-month-high-bolsters-case-for-boj-hike-ce7851d9d88ff42d"
             },
             {
-              "text": "중동 정세·엔화 움직임·AI 관련 수요를 물가 상방위험으로 지목하고, 물가의 목표 이탈 조짐에 금리 인상 속도를 높이는 방안 포함 대응 촉구",
+              "text": "공공요금 보조금 종료와 식품·생활필수품 가격 상승이 물가를 끌어올렸으며 일본은행은 12월 18일 종료되는 통화정책회의에서 금리 인상 여부를 결정할 예정",
               "source": "Reuters",
-              "url": "https://in.marketscreener.com/news/boj-s-tamura-signals-chance-of-faster-pace-interest-rate-hikes-ce7851d8dd81ff25"
+              "url": "https://uk.marketscreener.com/news/tokyo-core-inflation-at-16-month-high-bolsters-case-for-boj-hike-ce7851d9d88ff42d"
             }
           ]
         },
@@ -126,76 +217,18 @@ window.REPORT_DATA = {
           "countries": [
             "대만"
           ],
-          "category": "정책·규제",
-          "title": "반도체 관세 우대와 미국 투자기업 지원 방안 설명",
+          "category": "경제동향",
+          "title": "대만, AI 수요에 2026년 성장률 전망 13.28%로 상향",
           "bullets": [
             {
-              "text": "정리쥔 부행정원장, 미국의 무역확장법 232조 반도체 관세에 대해 합의된 물량 내 면제 및 물량 초과분의 비누적 세율 최대 15% 우대 확보 설명",
-              "source": "Focus Taiwan",
-              "url": "https://focustaiwan.tw/politics/202611260010"
-            },
-            {
-              "text": "미 상무부 기준, 승인된 미국 공장 건설 기간에는 계획 생산능력의 2.5배까지, 완공 뒤에는 신규 생산능력의 1.5배까지 반도체 수입 관세 면제",
-              "source": "Focus Taiwan",
-              "url": "https://focustaiwan.tw/politics/202611260010"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "중국",
-            "일본"
-          ],
-          "category": "정책·규제",
-          "title": "한·중·일·아세안, 국경 간 디지털 결제 협의 착수",
-          "bullets": [
-            {
-              "text": "교토에서 열린 아세안+3 재무차관·중앙은행 부총재 회의, 결제시스템 연계와 디지털자산 규제 조율을 위한 전담 작업반 구성 합의",
+              "text": "대만 주계총처가 2026년 실질 국내총생산 성장률 전망을 8월의 11.05%에서 13.28%로 상향했으며 실현 시 1978년 이후 최고",
               "source": "Reuters",
-              "url": "https://new.streetinsider.com/Reuters/China%2C%2BJapan%2C%2BSouth%2BKorea%2Band%2BASEAN%2Blaunch%2Btalks%2Bon%2Bdigital%2Bpayments%2Bacross%2Bborders/27404167.html"
+              "url": "https://new.streetinsider.com/Reuters/Taiwans%2Beconomy%2Bexpected%2Bto%2Bgrow%2Bat%2Bits%2Bfastest%2Brate%2Bin%2Bnearly%2B50%2Byears%2Bdue%2Bto%2BAI%2Bdemand/27405573.html"
             },
             {
-              "text": "역내 2,400억 달러 규모 치앙마이 이니셔티브 통화스와프 안전망 개편에 따라 이달 발효된 자연재해·감염병 등 충격 대응 긴급대출 장치 논의",
+              "text": "인공지능 반도체와 관련 제품 수요가 성장세를 뒷받침한 가운데 2027년 성장률 전망도 6.04%에서 6.51%로 상향",
               "source": "Reuters",
-              "url": "https://new.streetinsider.com/Reuters/China%2C%2BJapan%2C%2BSouth%2BKorea%2Band%2BASEAN%2Blaunch%2Btalks%2Bon%2Bdigital%2Bpayments%2Bacross%2Bborders/27404167.html"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "일본"
-          ],
-          "category": "산업동향",
-          "title": "한·일 홋카이도 포럼, 반도체·AI 협력 범위 확대",
-          "bullets": [
-            {
-              "text": "산업통상부와 일본 경제산업성 홋카이도경제산업국, 삿포로에서 양국 정부·기업·연구기관 관계자 약 90명이 참석한 미래성장산업 포럼 개최",
-              "source": "산업통상부",
-              "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172458/view"
-            },
-            {
-              "text": "반도체 공급망·AI 인프라 및 서비스·AI와 로봇 자동화 협력 방안 논의, 후속 포럼 정례화를 통한 기업 간 협력 기회 발굴 합의",
-              "source": "산업통상부",
-              "url": "https://www.motir.go.kr/kor/article/ATCL3f49a5a8c/172458/view"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "중국"
-          ],
-          "category": "정책·규제",
-          "title": "한국 무역위원회, 중국산 수지·석도강판 잠정 반덤핑관세 건의",
-          "bullets": [
-            {
-              "text": "중국산 폴리염화비닐 서스펜션 수지 덤핑조사 예비판정에서 23.47~26.02% 잠정덤핑방지관세 부과 건의 의결",
-              "source": "뉴스1",
-              "url": "https://www.news1.kr/economy/idustry-trade/6366805"
-            },
-            {
-              "text": "중국산 석도강판에 대해서도 8.05~8.36% 잠정덤핑방지관세 부과 건의",
-              "source": "뉴스1",
-              "url": "https://www.news1.kr/economy/idustry-trade/6366805"
+              "url": "https://new.streetinsider.com/Reuters/Taiwans%2Beconomy%2Bexpected%2Bto%2Bgrow%2Bat%2Bits%2Bfastest%2Brate%2Bin%2Bnearly%2B50%2Byears%2Bdue%2Bto%2BAI%2Bdemand/27405573.html"
             }
           ]
         }
@@ -209,18 +242,38 @@ window.REPORT_DATA = {
           "countries": [
             "인도"
           ],
-          "category": "정책·규제",
-          "title": "미국 관세안 25%, 무역합의 체결 시 17% 적용 제안",
+          "category": "대외교역",
+          "title": "인도 상공장관, 미국과 무역협정 협상 마무리 단계 발표",
           "bullets": [
             {
-              "text": "미국, 인도산 수입품에 25% 관세를 제안하되 양자 무역합의 체결 시 17%로 낮추는 방안 제시",
+              "text": "피유시 고얄 인도 상공장관은 양국이 인도산 수입품에 대한 미국의 추가 관세 인상을 피하기 위한 무역협정의 마무리 단계에 있다고 발표",
               "source": "Reuters",
-              "url": "https://in.marketscreener.com/news/how-trump-s-proposed-tariffs-for-india-compare-with-rival-nations-ce7851d8df80fe26"
+              "url": "https://in.marketscreener.com/news/india-us-trade-deal-is-nearing-completion-minister-says-ce7851d9db8ef621"
             },
             {
-              "text": "인도 상무부, 미국 통상당국 공고 검토에 착수하고 조사 과정에서 인도의 어느 부문에도 구조적 과잉생산능력이 없다는 입장을 전달했다고 설명",
-              "source": "Reuters",
-              "url": "https://in.marketscreener.com/news/how-trump-s-proposed-tariffs-for-india-compare-with-rival-nations-ce7851d8df80fe26"
+              "text": "미국은 인도와의 무역협정이 체결될 경우 인도산 수입품 관세를 17%로 제한하는 방안을 제시",
+              "source": "Hindustan Times",
+              "url": "https://www.hindustantimes.com/business/india-us-trade-deal-is-close-to-culmination-piyush-goyal-101795773715461.html"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "방글라데시",
+            "독일"
+          ],
+          "category": "국제·외교",
+          "title": "방글라데시·독일, 교역·투자 확대와 기후금융 협력 논의",
+          "bullets": [
+            {
+              "text": "샤마 오바에드 이슬람 방글라데시 외교 국무장관과 니콜라스 치펠리우스 독일 연방의회 의원이 베를린에서 기업 간 교류와 수출 다변화, 에너지 안보 및 재생에너지 협력 방안을 논의",
+              "source": "The Business Standard",
+              "url": "https://www.tbsnews.net/foreign-policy/bangladesh-germany-seek-strengthen-economic-cooperation-expand-trade-and-investment"
+            },
+            {
+              "text": "이슬람 국무장관은 요한 자트호프 독일 경제협력개발부 의회차관과 개발협력 및 기후금융을 논의했으며 양측은 정부 간 개발협력 협상 타결을 평가",
+              "source": "The Business Standard",
+              "url": "https://www.tbsnews.net/foreign-policy/bangladesh-germany-discuss-development-cooperation-climate-finance-berlin-1615841"
             }
           ]
         }
@@ -232,20 +285,48 @@ window.REPORT_DATA = {
       "issues": [
         {
           "countries": [
-            "싱가포르"
+            "베트남",
+            "인도네시아",
+            "필리핀",
+            "UAE"
           ],
-          "category": "정책·규제",
-          "title": "미국의 최대 20% 관세안 재고 요구",
+          "category": "대외교역",
+          "title": "하노이 CPTPP 각료회의, 신규 가입과 협정 개정 협상 추진",
           "bullets": [
             {
-              "text": "싱가포르 에너지통상산업부, 미국의 과잉생산능력 조사 결론이 자국 경제구조를 반영하지 못했다며 반대 입장 표명",
-              "source": "CNA",
-              "url": "https://www.channelnewsasia.com/singapore/singapore-us-tariffs-meti-trump-6583911"
+              "text": "르엉 호앙 타이 베트남 산업무역부 차관은 회원국들이 하노이 회의에서 CPTPP 협정 개정 협상도 진전시키기로 합의했다고 발표",
+              "source": "Reuters",
+              "url": "https://ca.marketscreener.com/news/cptpp-to-start-talks-on-accession-of-uae-indonesia-philippines-ce7851d9dd8af120"
             },
             {
-              "text": "미국 관세안은 최대 20%를 제시하되 협상 결과에 따라 10%로 조정 가능, 싱가포르 정부는 재고 요청과 추가 의견서 제출 방침",
-              "source": "CNA",
-              "url": "https://www.channelnewsasia.com/singapore/singapore-us-tariffs-meti-trump-6583911"
+              "text": "회원국들은 서비스·전자상거래·통관 및 무역 원활화 분야 협상 계획을 마련하고 CPTPP 지원사무소를 일본에 임시 설치하기로 합의",
+              "source": "베트남 정부신문",
+              "url": "https://baochinhphu.vn/cptpp-se-dam-phan-ve-viec-gia-nhap-cua-uae-indonesia-va-philippines-102261127172652896.htm"
+            },
+            {
+              "text": "신규 가입 협상 개시 결정과 함께 이미 진행 중인 우루과이 가입 협상의 조기 타결을 추진하기로 합의",
+              "source": "베트남 정부신문",
+              "url": "https://baochinhphu.vn/cptpp-se-dam-phan-ve-viec-gia-nhap-cua-uae-indonesia-va-philippines-102261127172652896.htm"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "베트남",
+            "한국"
+          ],
+          "category": "국제·외교",
+          "title": "한·베트남 고위급 면담에서 원전·반도체·FTA 개정 협의",
+          "bullets": [
+            {
+              "text": "김정관 산업통상부 장관은 응우옌 타잉 응이 베트남 당 중앙정책전략위원장과 원전·반도체 협력, 제조 인공지능 정책 공유 및 한·베트남 자유무역협정 개정 방안을 논의",
+              "source": "연합뉴스",
+              "url": "https://www.yna.co.kr/amp/view/AKR20261127041800003"
+            },
+            {
+              "text": "한성숙 국무총리와 응이 위원장도 양국 협력 확대를 논의했으며 응이 위원장은 FTA 개선을 통한 2030년 교역 1,500억 달러 목표 달성을 제안",
+              "source": "연합뉴스",
+              "url": "https://www.yna.co.kr/view/AKR20261127158900001"
             }
           ]
         },
@@ -254,44 +335,100 @@ window.REPORT_DATA = {
             "베트남"
           ],
           "category": "대외교역",
-          "title": "미국과 무역합의 조기 마무리 추진",
+          "title": "베트남 총리, 미국과 상호무역협정 서명 전 세부 조율",
           "bullets": [
             {
-              "text": "베트남 산업무역부, 미국의 새 관세안 발표 뒤 양국 무역합의를 가능한 한 빨리 완료하기 위해 협의 중이라고 발표",
-              "source": "Reuters",
-              "url": "https://uk.marketscreener.com/news/vietnam-says-it-is-working-with-us-to-complete-trade-deal-as-soon-as-possible-ce7851d8dd8ef020"
+              "text": "레 밍 흥 총리는 미국과의 상호무역협정 협상이 사실상 마무리 단계라고 밝혔으며 그간 협상의 주요 쟁점은 환적과 비관세장벽",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-27/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit",
+              "altUrl": "https://www.straitstimes.com/asia/se-asia/vietnam-expects-to-sign-us-trade-deal-to-limit-tariff-hit"
             },
             {
-              "text": "미 무역대표부 조사 후속 절차의 공청회 참석·의견 진술·질의 답변에 참여하고, 예비 조사결과와 부정확한 주장에 대한 반박 의견서 준비",
-              "source": "Reuters",
-              "url": "https://uk.marketscreener.com/news/vietnam-says-it-is-working-with-us-to-complete-trade-deal-as-soon-as-possible-ce7851d8dd8ef020"
+              "text": "베트남 총리는 양측이 서명에 앞서 기술적 세부사항을 조율하고 있으며 적용세율은 미국이 최근 발표한 최고세율보다 대폭 낮을 것이라고 언급",
+              "source": "DTiNews",
+              "url": "https://dtinews.dantri.com.vn/vietnam-today/vietnam-us-largely-conclude-reciprocal-trade-deal-talks-pm-says-20261127125445786.htm"
             }
           ]
         },
         {
           "countries": [
-            "베트남"
+            "싱가포르",
+            "말레이시아",
+            "태국",
+            "인도네시아"
           ],
-          "category": "산업동향",
-          "title": "원전 가동 시점 연기와 LNG·해상풍력 계획 조정 검토",
+          "category": "정책·규제",
+          "title": "싱가포르, 미국과 첨단 반도체 접근 유지를 위한 협의",
           "bullets": [
             {
-              "text": "산업무역부 전력개발계획 수정 초안, 닌투언 1 원전 가동 시점을 2037~2038년, 닌투언 2를 2039~2040년으로 제안",
+              "text": "간킴용 싱가포르 부총리는 미국이 첨단 인공지능 반도체 수출통제를 강화한 가운데 싱가포르 기업의 반도체 접근을 유지하기 위해 미국과 협의 중이라고 설명",
               "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-26/vietnam-weighs-delaying-nuclear-power-plants-beyond-2035-target",
-              "altUrl": "https://www.theedgesingapore.com/news/news/vietnam-weighs-delaying-nuclear-power-plants-beyond-2035-target"
+              "url": "https://www.bloomberg.com/news/articles/2026-11-27/singapore-talking-to-us-to-keep-ai-chip-access-deputy-pm-says",
+              "altUrl": "https://news.bloomberglaw.com/mergers-and-acquisitions/singapore-talking-to-us-to-keep-ai-chip-access-deputy-pm-says"
             },
             {
-              "text": "페트로베트남과 한국 측 협력사가 추진하는 닌투언 2의 신속 추진 일정은 2035~2036년, 산업무역부의 최종 결정 시점은 미제시",
-              "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-26/vietnam-weighs-delaying-nuclear-power-plants-beyond-2035-target",
-              "altUrl": "https://www.theedgesingapore.com/news/news/vietnam-weighs-delaying-nuclear-power-plants-beyond-2035-target"
+              "text": "싱가포르 정부는 엔비디아가 싱가포르·말레이시아·태국·인도네시아로의 서버 출하를 중단했다는 보도에 대해 확인된 내용이 없다고 밝힘",
+              "source": "CNA",
+              "url": "https://www.channelnewsasia.com/singapore/economic-nationalism-asean-partnership-nvidia-chips-dpm-gan-6585321"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "말레이시아"
+          ],
+          "category": "대외교역",
+          "title": "말레이시아, 기존 대미 관세 총 19% 상한 유지 협의",
+          "bullets": [
+            {
+              "text": "조하리 압둘 가니 투자통상산업장관은 미국이 18~25%의 관세 범위를 제시한 가운데 기존 상호무역협정에서 합의한 총관세 19% 상한을 유지해야 한다는 입장",
+              "source": "New Straits Times",
+              "url": "https://www.nst.com.my/business/economy/2026/11/1586695/malaysia-continue-negotiating-us-19pct-tariff-ceiling-watch",
+              "altUrl": "https://www.klsescreener.com/v2/news/view/1836367/malaysia-to-continue-negotiating-with-us-on-19pct-tariff-ceiling"
             },
             {
-              "text": "수정 계획상 2030년 LNG 발전설비 약 4.3GW로 기존 계획의 절반 미만 전망, 같은 해까지 해상풍력 약 6GW 추가 계획 삭제",
+              "text": "말레이시아는 미국이 최종 관세율을 결정할 2027년 1분기까지 협의를 이어갈 계획",
+              "source": "New Straits Times",
+              "url": "https://www.nst.com.my/business/economy/2026/11/1586695/malaysia-continue-negotiating-us-19pct-tariff-ceiling-watch",
+              "altUrl": "https://www.klsescreener.com/v2/news/view/1836367/malaysia-to-continue-negotiating-with-us-on-19pct-tariff-ceiling"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "태국"
+          ],
+          "category": "대외교역",
+          "title": "태국, AI 관련 전자제품 수요 확대 속 무역적자 123억 달러",
+          "bullets": [
+            {
+              "text": "태국의 10월 통관 기준 수출은 전년 동월보다 27.5% 늘어 5년여 만에 가장 높은 증가율을 기록했으며 수입 증가로 무역적자는 123억 4천만 달러",
+              "source": "Reuters",
+              "url": "https://uk.marketscreener.com/news/thailand-s-october-exports-rise-27-5-on-year-highest-in-5-years-ce7851d9db8cf120"
+            },
+            {
+              "text": "태국 무역정책전략실은 인공지능 관련 전자제품 수요에 힘입어 올해 수출이 19% 넘게 늘고 전자제품 호조 지속 시 20~21% 증가할 수 있다고 전망",
               "source": "Bloomberg",
-              "url": "https://www.bloomberg.com/news/articles/2026-11-26/vietnam-weighs-delaying-nuclear-power-plants-beyond-2035-target",
-              "altUrl": "https://www.theedgesingapore.com/news/news/vietnam-weighs-delaying-nuclear-power-plants-beyond-2035-target"
+              "url": "https://news.bloomberglaw.com/international-trade/thai-exports-surge-as-imports-drive-trade-deficit-to-record-high"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "필리핀"
+          ],
+          "category": "대외교역",
+          "title": "필리핀, 전자제품 수출입 동반 급증과 무역적자 확대",
+          "bullets": [
+            {
+              "text": "필리핀의 10월 수출은 105억 7천만 달러, 수입은 175억 2천만 달러로 각각 집계 이래 최고였으며 무역적자도 69억 5천만 달러로 사상 최대",
+              "source": "Reuters",
+              "url": "https://www.marketscreener.com/news/philippines-trade-deficit-widens-to-a-record-6-9-billion-in-october-ce7851d9db88f121"
+            },
+            {
+              "text": "전자제품 수출은 전년 동월보다 76.5% 늘었고 전자제품 수입은 147.4% 증가했으며 최대 수출시장은 미국, 최대 수입 상대국은 중국",
+              "source": "Reuters",
+              "url": "https://www.marketscreener.com/news/philippines-trade-deficit-widens-to-a-record-6-9-billion-in-october-ce7851d9db88f121"
             }
           ]
         },
@@ -300,55 +437,17 @@ window.REPORT_DATA = {
             "인도네시아"
           ],
           "category": "정책·규제",
-          "title": "팜유 수출 검증 수수료 신설 추진",
+          "title": "인도네시아, 석탄·팜유·합금철 수출 관리 플랫폼 도입 준비",
           "bullets": [
             {
-              "text": "팜유협회 GAPKI 관계자에 따르면 국영 DSI가 수출계약 등록 건당 250만 루피아와 수출 판매액의 0.5%에 해당하는 검증 수수료 부과 제안",
-              "source": "Reuters",
-              "url": "https://www.businesstimes.com.sg/international/asean/indonesia-plans-0-5-fee-palm-oil-exports-association-says"
+              "text": "인도네시아 국영기업 DSI는 2027년 1월 수출 데이터 플랫폼 NADI 가동에 앞서 석탄·팜유·합금철 수출업체 대상 시범 운영을 두 차례 실시",
+              "source": "ANTARA",
+              "url": "https://en.antaranews.com/news/445819/export-data-platform-nadi-on-track-for-january-launch-dsi"
             },
             {
-              "text": "수수료 징수 개시 예정일은 2027년 1월 1일, DSI는 12월 디지털 플랫폼을 도입해 팜유·석탄·합금철 수출거래 검증 추진",
-              "source": "Reuters",
-              "url": "https://www.businesstimes.com.sg/international/asean/indonesia-plans-0-5-fee-palm-oil-exports-association-says"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "인도네시아"
-          ],
-          "category": "산업동향",
-          "title": "광업연구소, 니켈·보크사이트 잔재물의 희토류 조사 촉구",
-          "bullets": [
-            {
-              "text": "인도네시아 광업연구소 IMI, 니켈·보크사이트 가공 잔재물의 희토류 함유량을 체계적으로 파악할 것을 정부에 촉구",
-              "source": "The Jakarta Post",
-              "url": "https://www.thejakartapost.com/business/2026/11/26/govt-urged-to-unlock-rare-earth-potential-in-nickel-bauxite-tin-waste"
-            },
-            {
-              "text": "이르완디 아리프 IMI 회장, 에너지광물자원부 특별보좌관 재직 당시 희토류 전문 외국기업 6곳이 광미 연구 협력을 타진했으나 협정 체결로 이어지지 않았다고 설명",
-              "source": "The Jakarta Post",
-              "url": "https://www.thejakartapost.com/business/2026/11/26/govt-urged-to-unlock-rare-earth-potential-in-nickel-bauxite-tin-waste"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "태국"
-          ],
-          "category": "산업동향",
-          "title": "방짝 방콕 정유공장 화재로 전 생산설비 가동 중단",
-          "bullets": [
-            {
-              "text": "방짝, 26일 화재 발생 뒤 방콕 프라카농 정유공장의 전 생산설비 가동 중단 발표, 해당 시설 최대 정제능력 하루 12만 배럴",
-              "source": "Reuters",
-              "url": "https://www.marketscreener.com/news/thailand-s-bangchak-shuts-all-units-at-bangkok-refinery-after-fire-says-9-workers-injured-ce7851d8d180f322"
-            },
-            {
-              "text": "회사 예비조사상 화재 발생 지점은 수소화분해설비, 인명 피해는 부상 9명이며 화재 원인 조사 진행",
-              "source": "Reuters",
-              "url": "https://www.marketscreener.com/news/thailand-s-bangchak-shuts-all-units-at-bangkok-refinery-after-fire-says-9-workers-injured-ce7851d8d180f322"
+              "text": "해당 품목 수출업체 약 550곳 중 약 110곳이 시범 운영에 등록했으며 세관과의 연계 시험을 거쳐 12월 15일 수출업체 등록을 개시할 예정",
+              "source": "ANTARA",
+              "url": "https://en.antaranews.com/news/445819/export-data-platform-nadi-on-track-for-january-launch-dsi"
             }
           ]
         }
@@ -361,117 +460,116 @@ window.REPORT_DATA = {
         {
           "countries": [
             "이란",
-            "카타르"
+            "사우디",
+            "카타르",
+            "튀르키예",
+            "파키스탄"
           ],
           "category": "중동정세",
-          "title": "이란 외무장관, 카타르·파키스탄의 중재 활동 설명",
+          "title": "이슬라마바드 회의서 사우디 지원 재확인과 중동 외교 해법 논의",
           "bullets": [
             {
-              "text": "아라그치 이란 외무장관, 텔레그램에서 카타르·파키스탄 중재자들이 협상 과정에 계속 참여하며 아이디어와 제안을 전달 중이라고 설명",
-              "source": "Interfax",
-              "url": "https://m.interfax.ru/1131688"
+              "text": "사우디·파키스탄·튀르키예 대표단은 메카 공동방위협정에 따른 이슬라마바드 회의에서 사우디 민간 기반시설에 대한 후티 공격을 규탄하고 사우디 지원을 재확인",
+              "source": "AP",
+              "url": "https://apnews.com/article/pakistan-saudi-turkey-meeting-trilateral-alliance-6c17e4827e5aef3e69f78cdb01d597dc"
             },
             {
-              "text": "베선트 미 재무장관은 이달 들어 이란이 미국이 수용할 수 있는 분쟁 종식 합의에 동의할 때까지 경제적 압박을 지속하겠다는 입장 표명",
-              "source": "Interfax",
-              "url": "https://m.interfax.ru/1131688"
+              "text": "미 중부사령부는 이란 항만 봉쇄를 통과하려던 상선 한 척을 오만만에서 운항 불능 상태로 만들었다고 발표",
+              "source": "AP",
+              "url": "https://apnews.com/article/iran-naval-blockade-us-military-disabled-ship-800620518a351282f098faa9381b3375"
             }
           ]
         },
         {
           "countries": [
             "사우디",
-            "이란"
-          ],
-          "category": "중동정세",
-          "title": "중동 공급 차질 우려 속 유가·미국 재고 동향",
-          "bullets": [
-            {
-              "text": "26일 12:11 GMT 기준 브렌트 선물 배럴당 94.96달러, WTI 선물 84.44달러 기록, 미국 추수감사절 휴장으로 WTI 공식 정산 부재",
-              "source": "Reuters",
-              "url": "https://sa.marketscreener.com/index.php/news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-ce7851d8dc8af021"
-            },
-            {
-              "text": "미 에너지정보청 집계상 11월 20일 종료 주간 원유재고는 110만 배럴 늘어난 4억1,890만 배럴, 시장 예상 증가폭 150만 배럴 하회",
-              "source": "Reuters",
-              "url": "https://sa.marketscreener.com/index.php/news/oil-rises-on-supply-concerns-as-iran-claims-mine-strikes-on-ships-ce7851d8dc8af021"
-            }
-          ]
-        },
-        {
-          "countries": [
-            "사우디"
-          ],
-          "category": "중동정세",
-          "title": "OPEC+, 현행 생산쿼터 유지 방안 검토",
-          "bullets": [
-            {
-              "text": "블룸버그, 대표단 관계자 2명을 인용해 OPEC+가 이란 전쟁 등의 불확실성 속 현행 원유 생산쿼터를 1월까지 유지하는 방안 검토 중이라고 보도",
-              "source": "Bloomberg",
-              "url": "https://ca.finance.yahoo.com/news/opec-considers-sticking-current-oil-110926979.html"
-            },
-            {
-              "text": "사우디 주도 산유국 연합, 29일 온라인 회의에서 2027년 신규 생산목표 논의 예정",
-              "source": "Bloomberg",
-              "url": "https://ca.finance.yahoo.com/news/opec-considers-sticking-current-oil-110926979.html"
-            }
-          ]
-        },
-        {
-          "countries": [
             "이란",
-            "UAE",
-            "사우디"
+            "이라크",
+            "러시아"
           ],
           "category": "중동정세",
-          "title": "호르무즈 상선 피해와 사우디 정유시설 공격 보고",
+          "title": "브렌트·WTI 장중 엇갈림과 OPEC+ 1분기 생산 목표 논의",
           "bullets": [
             {
-              "text": "영국 해사무역기구 UKMTO, 오만 동쪽과 두바이 서쪽 해역에서 유조선 2척이 발사체에 맞았으며 두 선박 승무원은 모두 안전하다고 발표",
-              "source": "AP",
-              "url": "https://apnews.com/article/gaza-iran-israel-uae-hormuz-november-26-2026-522676f17532b878878ff7a4347d0e31"
+              "text": "미 동부시간 27일 오전 10시 16분 브렌트 선물은 1.42달러 하락한 배럴당 95.20달러, WTI 선물은 추수감사절 휴장 전 수요일 종가 대비 0.05달러 오른 83.74달러",
+              "source": "Reuters",
+              "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
             },
             {
-              "text": "사우디 에너지부, 남서부 정유시설 공격으로 네팔인 근로자 1명 사망 발표, 이란 혁명수비대의 유조선 기뢰 피해 주장은 AP의 독립 검증 미완료",
-              "source": "AP",
-              "url": "https://apnews.com/article/gaza-iran-israel-uae-hormuz-november-26-2026-522676f17532b878878ff7a4347d0e31"
+              "text": "Reuters가 인용한 관계자 3명에 따르면 OPEC+는 11월 29일 회의에서 2027년 1분기 생산 목표를 유지할 방침이며 이라크는 생산 상한 상향을 협의 중",
+              "source": "Reuters",
+              "url": "https://live.euronext.com/en/financial-news/oil-track-first-weekly-gain-november-supply-fears"
             }
           ]
         },
         {
           "countries": [
-            "사우디"
+            "카타르",
+            "방글라데시",
+            "파키스탄"
           ],
           "category": "중동정세",
-          "title": "한·사우디, 원유 공동비축 물량·시설 확대 협의",
+          "title": "카타르 LNG 수출 전쟁 이전의 절반 수준으로 회복",
           "bullets": [
             {
-              "text": "박동일 산업통상부 차관과 무함마드 알이브라힘 사우디 에너지부 차관, 26일 서울에서 6월 체결한 원유·가스 협력 양해각서 후속 방안 논의",
-              "source": "한국경제",
-              "url": "https://www.hankyung.com/article/2026112631501"
+              "text": "선박 추적업체 케이플러에 따르면 카타르의 11월 LNG 수출은 전쟁 이전의 절반 수준으로 늘었으며 호르무즈해협 통항도 최근 한 주간 증가",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-27/qatar-s-lng-export-push-provides-lifeline-to-south-asian-buyers",
+              "altUrl": "https://theedgemalaysia.com/node/827658"
             },
             {
-              "text": "한국석유공사·아람코 간 국제 공동비축 물량 확대와 비축시설 증설을 위한 실무협의 지속 합의",
-              "source": "한국경제",
-              "url": "https://www.hankyung.com/article/2026112631501"
+              "text": "방글라데시의 11월 카타르산 LNG 수입은 20만 톤을 넘어 현물 구매 부담이 줄었으며 파키스탄은 11월 들어 두 번째 카타르산 LNG 화물을 받을 예정",
+              "source": "Bloomberg",
+              "url": "https://www.bloomberg.com/news/articles/2026-11-27/qatar-s-lng-export-push-provides-lifeline-to-south-asian-buyers",
+              "altUrl": "https://theedgemalaysia.com/node/827658"
+            }
+          ]
+        },
+        {
+          "countries": [
+            "콩고민주공화국"
+          ],
+          "category": "정책·규제",
+          "title": "콩고민주공화국 코발트 수출 중단 조치에 배터리 원료 가격 상승",
+          "bullets": [
+            {
+              "text": "코발트 수출 중단 소식 이후 광산업체들이 중간재 가격 제시를 대체로 중단했으며 황산코발트는 톤당 7만~7만 5천 위안에 소량 거래",
+              "source": "Shanghai Metals Market",
+              "url": "https://news.metal.com/newscontent/GYOJH7AABDIDNU23O233FBNNEOWAATOPEUAE3IY-smm-cobalt-morning-meeting-summary-export-ban-drives-cobalt-prices-to-surge-downstream-demand-remains-weak"
+            },
+            {
+              "text": "삼원계 양극재 전구체 가격은 반등했으나 전체 주문은 약한 상태였으며 최종 수요는 원료 가격 상승에 상응하는 회복세가 나타나지 않은 상황",
+              "source": "Shanghai Metals Market",
+              "url": "https://news.metal.com/newscontent/GYOJH7AABDIDNU23O233FBNNEOWAATOPEUAE3IY-smm-cobalt-morning-meeting-summary-export-ban-drives-cobalt-prices-to-surge-downstream-demand-remains-weak"
             }
           ]
         }
       ]
     }
   ],
-  "reports": [],
+  "reports": [
+    {
+      "org": "대외경제정책연구원",
+      "title": "공급망 재편을 통한 인도의 대한국 무역적자 완화",
+      "date": "2026-11-27",
+      "department": "india",
+      "countries": [
+        "인도",
+        "한국"
+      ],
+      "url": "https://www.kiep.go.kr/galleryDownload.es?bid=0031&list_no=12713&seq=1"
+    }
+  ],
   "notes": [
-    "원문 URL 미확인: Reuters·중국 AI 모델 개발에 대한 미국 반도체 통제 영향",
-    "원문 URL 미확인: Reuters·일본은행 다무라 위원의 금리 인상 발언",
-    "원문 URL 미확인: Reuters·한·중·일·아세안 국경 간 디지털 결제 협의",
-    "원문 URL 미확인: Reuters·인도 관세안과 경쟁국 비교",
-    "원문 URL 미확인: Reuters·베트남의 미국 무역합의 조기 완료 추진",
-    "원문 URL 미확인: Reuters·인도네시아 팜유 수출 수수료",
-    "원문 URL 미확인: Reuters·태국 방짝 정유공장 화재",
-    "원문 URL 미확인: Reuters·호르무즈 기뢰 피해 보도와 유가 동향",
-    "원문 URL 미확인: Bloomberg·OPEC+ 현행 생산쿼터 유지 검토",
-    "Kommersant·RBC 한국 관련 48시간 검색: 통상 관련 기사 중 기간·게시 시각 동시 확인 자료 미확보",
-    "보고서 제외: KITA 11월 25일 보고서와 KOTRA 11월 24일 인도네시아 FAQ의 공식 PDF 주소·원문 미확인, 수은·현대경제연구원 접근 제한, SGI·KIEP 기간 내 발간일·PDF 동시 확인 자료 미확보"
+    "원문 URL 미확인: (Reuters·Oil on track for first weekly gain in November on supply fears)",
+    "원문 URL 미확인: (Reuters·CPTPP to start talks on accession of UAE, Indonesia, Philippines)",
+    "원문 URL 미확인: (Reuters·Tokyo core inflation at 16-month high, bolsters case for BOJ hike)",
+    "원문 URL 미확인: (Reuters·Taiwan's economy expected to grow at its fastest rate in nearly 50 years due to AI demand)",
+    "원문 URL 미확인: (Reuters·India-US trade deal is nearing completion, minister says)",
+    "원문 URL 미확인: (Reuters·Thailand's October exports rise 27.5% on year, highest in 5 years)",
+    "원문 URL 미확인: (Reuters·Philippines' trade deficit widens to a record $6.9 billion in October)",
+    "원문 URL 미확인: (Bloomberg·Thai Exports Surge as Imports Drive Trade Deficit to Record High)",
+    "Kommersant·RBC의 한국 관련 통상 보도는 48시간 내 게시 시각 확인분 미확보",
+    "한국무역협회 트레이드 브리프 11월 25일·27일 발간분의 기관 공식 PDF 주소 미확인"
   ]
 };
